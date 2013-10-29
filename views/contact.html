@@ -1,0 +1,19 @@
+<div class="span12">
+    <p>&nbsp;</p>
+    <h2>Contact us</h2>
+    <p>If you have any questions you can contact us via our <a href="{{google_plus_link}}" class="btn btn-danger btn-tiny"><i class="icon-share-alt"></i> Google+ Site</a> or directly via <a href="mailto:{{email}}?Subject=Question%20from%20website" class="btn btn-tiny"><i class="icon-envelope"></i> e-mail</a></p>
+    <br><br><br>
+
+    <h2>The Team</h2>
+    <p>If you feel more comfortable talking to a team member directly you can check if you know any of the following people:</p>
+
+    <ul class="thumbnails teammembers">
+        <li class="span2"  ng-repeat="member in team" style="text-align: center;">
+            <a href="{{member.url}}" title="Google+ profile of {{member.displayName}}">
+                <img ng-src="{{member.image.url}}" class="img-circle" alt="{{member.displayName}}">
+                <p>{{member.displayName}}</p>
+            </a>
+        </li>
+    </ul>
+
+</div>

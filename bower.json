@@ -1,0 +1,7 @@
+{
+  "name": "devfest-berlin",
+  "version": "0.0.0",
+  "dependencies": {
+    "showup": "~0.0.2"
+  }
+}

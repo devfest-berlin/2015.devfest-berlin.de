@@ -1,0 +1,14 @@
+<div class="span12">
+    <p>&nbsp;</p>
+    <div class="gdg_loading" ng-show="loading"></div>
+    <div ng-repeat="(title, photoStack) in photos">
+        <h2>{{title}}</h2>
+        <ul class="thumbnails">
+            <li class="span3" ng-repeat="photo in photoStack">
+                <a ng-href="{{photo.link}}" class="thumbnail" target="_blank">
+                    <img ng-src="{{photo.src}}?sz=260" alt="{{photo.alt}}" title="{{photo.title}}">
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
