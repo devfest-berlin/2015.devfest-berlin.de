@@ -139,3 +139,8 @@ body {
     -o-filter: blur(0px) brightness(1.0);
     -ms-filter: blur(0px) brightness(1.0);
 }
+
+.footer {
+    text-align: center;
+    font-size: 0.7em;
+}
