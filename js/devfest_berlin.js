@@ -1,4 +1,4 @@
-var boomerang = angular.module('gdgBoomerang', ['ngSanitize','ui.bootstrap'])
+var devfest = angular.module('gdgBoomerang', ['ngSanitize','ui.bootstrap'])
     .config(function($routeProvider) {
          $routeProvider.
              when("/about",  {templateUrl:'views/about.html', controller:"AboutControl"}).
@@ -9,17 +9,16 @@ var boomerang = angular.module('gdgBoomerang', ['ngSanitize','ui.bootstrap'])
              otherwise({ redirectTo: '/about' });
     });
 
-boomerang.factory('Config',function(){
+devfest.factory('Config',function(){
     return {
-        //modify these
         'name'          : 'DevFest Berlin',
         'id'            : '116495772997450383126',
         'event_id'      : 'csc1rob3gekqalff7919h0e4qrk', //must be public
         'google_api'    : 'AIzaSyBs64m_HUrQE864HfvEP87y6aqPaOYvmiQ',
+        //picasa web album id, must belong to google+ id above
         'pwa_id'        : { "DevFest Berlin 2012": "5940164247434937905",
                             "DevFest Berlin 2013": "5940170057320370689"
-
-        }, //picasa web album id, must belong to google+ id above
+        },
         'cover' : {
             title : 'DevFest Berlin',
             subtitle : 'November 1st - 3rd, 2013',
@@ -39,19 +38,18 @@ boomerang.factory('Config',function(){
             "108253608683408979021", //michael
             "111333123856542807695", //stevie
             "110615325729051596989" //jerome
-
         ] //must be Google+ profile ids
     }
 });
 
-boomerang.controller('MainControl', function($scope, Config) {
+devfest.controller('MainControl', function($scope, Config) {
     $scope.chapter_name = Config.name;
     $scope.google_plus_link = 'https://plus.google.com/' + Config.id;
     $scope.google_plus_event_link = 'https://plus.google.com/events/' + Config.event_id;
     $scope.isNavCollapsed = true;
 });
 
-boomerang.controller('AboutControl', function( $scope, $http, $location, Config ) {
+devfest.controller('AboutControl', function( $scope, $http, $location, Config ) {
     $scope.loading = true;
     $scope.$parent.activeTab = "about";
     $scope.cover = Config.cover;
@@ -65,7 +63,7 @@ boomerang.controller('AboutControl', function( $scope, $http, $location, Config 
         });
 });
 
-boomerang.controller("NewsControl", function($scope, $http, $timeout, Config) {
+devfest.controller("NewsControl", function($scope, $http, $timeout, Config) {
     $scope.loading = true;
     $scope.$parent.activeTab = "news";
     $http.
@@ -156,7 +154,7 @@ boomerang.controller("NewsControl", function($scope, $http, $timeout, Config) {
 
 });
 
-boomerang.controller("EventsControl", function( $scope, $http, Config ) {
+devfest.controller("EventsControl", function( $scope, $http, Config ) {
     $scope.loading = true;
     $scope.$parent.activeTab = "events";
 
@@ -180,7 +178,7 @@ boomerang.controller("EventsControl", function( $scope, $http, Config ) {
         });
 });
 
-boomerang.controller("PhotosControl", function( $scope, $http, Config ) {
+devfest.controller("PhotosControl", function( $scope, $http, Config ) {
     $scope.loading = true;
     $scope.$parent.activeTab = "photos";
     $scope.photos = {};
@@ -210,7 +208,7 @@ boomerang.controller("PhotosControl", function( $scope, $http, Config ) {
     });
 });
 
-boomerang.controller('ContactControl', function($scope, $http, $timeout, Config) {
+devfest.controller('ContactControl', function($scope, $http, $timeout, Config) {
     $scope.$parent.activeTab = "contact";
 
     $scope.email = Config.email;

@@ -53,7 +53,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('server', ['build', 'connect:livereload', 'open', 'watch']);
 
-  grunt.registerTask('build', 'Build boomerang.', function () {
+  grunt.registerTask('build', 'Build DevFest Berlin.', function () {
     var unslug = function (slug) {
       return slug.replace(/(-(\w))/g, function () { return ' ' + arguments[2].toUpperCase(); });
     };
