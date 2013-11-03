@@ -15,40 +15,48 @@
         <hr>
         <p class="span12" ng-bind-html-unsafe="desc"></p>
     </div>
-    <h2>Agenda</h2>
+</div>
+<div class="overview">
+    <div class="span4">
+        <h3>Workshops <small>{{dates.workshops | date:'EEEE, MMM d'}}</small></h3>
+        <p class="image">
+            <img src="../images/document_gear.png" alt="Workshop icon" class="img-circle" />
+        </p>
+        <p>
+            Learning something new is always good for a developer. In our workshops for different levels and topics you can learn a new language, a new framework or just become a better programmer.
+        </p>
+        <p>
+            Please check the <a ng-href="#/{{year}}/agenda">Agenda</a> for more information.
+        </p>
+    </div>
+    <div class="span4">
+        <h3>Conference <small>{{dates.conference | date:'EEEE, MMM d'}}</small></h3>
+        <p class="image">
+            <img src="../images/speech_bubble.png" alt="Conference icon" class="img-circle" />
+        </p>
+        <p>
+            Today is the day. We ask the community for their talk proposals and we put together a program we are proud of.
+            We hope you find it interesting as well and join us for a full day of concentrated exchange of knowledge.
+        </p>
+        <p>
+            Please check the <a ng-href="#/{{year}}/agenda">Agenda</a> for more information.
+        </p>
+    </div>
+    <div class="span4">
+        <h3>Hackathon  <small>{{dates.hackathon | date:'EEEE, MMM d'}}</small></h3>
+        <p class="image">
+            <img src="../images/hammer.png" alt="Hackathon icon" class="img-circle" />
+        </p>
+        <p>
+            Since you (hopefully) attended both workshops and talks you are now full of news ideas.
+            Today is the best day to put your new knowledge to work and start hacking with others.
+        </p>
+        <p>
+            You can pick up a new framework and give it a spin while competing over the coolest, performant or funniest solution.
 
-    <p>We prepared 2 and a half day for you, fully packed with interesting stuff.</p>
-
-    <h3>Friday, November 1st 2013: Bootcamp <small>[2pm / 14:00 - 7pm / 19:00]</small></h3>
-
-    <p>We'll be starting with workshops for beginners to let you learn something new by trying it out.</p>
-
-    <ul>
-        <li>On the <b>Android track</b> Dirk Jäckel of the GDG Berlin Android will help you take your first steps in the
-            Android development world.&nbsp;</li>
-        <li>On the <b>Cloud track</b> Alexander Surma of the GDG Berlin Golang will kickstart you into the Go language.&nbsp;
-        </li>
-        <li>On the <b>HTML5 track</b> you have the opportunity to have a guided introduction to creating your very first AngularJS App.&nbsp;</li>
-    </ul>
-
-    <p>After we are done we are going to storm <strong>c-base space station around 8pm/20:00</strong> for a chilled get together among old and new friends.</p>
-
-    <h3>Saturday, November 2nd: Conference <small>[08:30am / 08:30 - 7pm / 19:00]</small></h3>
-
-    <iframe width="900" height="1000" frameborder='0' src='https://docs.google.com/spreadsheet/pub?key=0Aq3FtzFoCw0_dGRLSXg1NzRyNW9jTFp5bzFfTWNSMUE&single=true&gid=1&output=html&widget=true'></iframe>
-    <p>
-        <a class="btn btn-small" href="https://docs.google.com/spreadsheet/pub?key=0Aq3FtzFoCw0_dGRLSXg1NzRyNW9jTFp5bzFfTWNSMUE&single=true&gid=1&output=html"><i class="icon-calendar"></i> See this agenda in full screen</a>
-    </p>
-
-
-    <h3>Sunday, November 3rd:</h3>
-    <h4>Hackathon <small>[09:00am / 09:00 - 6.30pm / 18:30]</small></h4>
-    <p>After breakfast we'll be kicking it off at 10am with a short introduction and team building you'll have time until 5pm to finish your great idea with your 2 team mates.</p>
-    <p>More info will be available on Sunday morning. Be there, we have <a href="https://plus.google.com/116495772997450383126/posts/F6kvxcVbA92">prices for the best hack</a>.</p>
-
-    <h4>Android Workshop <small>[10:30am / 10:30 - 6.30pm / 18:30]</small></h4>
-
-    <p>This workshop is for beginners. If you are an experinced Android developer please apply as a coach to help when people are stuck with their projects. 
-    This workshop will take place in the Casino.
-    Please contact <a href="mailto:dirk.jaeckel@gmail.com">dirk.jaeckel@gmail.com</a> if you want to participate as a coach</p> 
+        </p>
+        <p>
+            Please check the <a ng-href="#/{{year}}/agenda">Agenda</a> for more information.
+        </p>
+    </div>
 </div>

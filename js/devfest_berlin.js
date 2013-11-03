@@ -1,59 +1,87 @@
-var devfest = angular.module('gdgBoomerang', ['ngSanitize','ui.bootstrap'])
+var DEFAULT_YEAR="2013";
+
+var devfest = angular.module('devfest', ['ngSanitize','ui.bootstrap'])
     .config(function($routeProvider) {
-         $routeProvider.
-             when("/about",  {templateUrl:'views/about.html', controller:"AboutControl"}).
-             when("/news", {templateUrl:'views/news.html', controller:"NewsControl"}).
-             when("/events", {templateUrl:'views/events.html', controller:"EventsControl"}).
-             when("/photos", {templateUrl:'views/photos.html', controller:"PhotosControl"}).
-             when("/contact", {templateUrl:'views/contact.html', controller:"ContactControl"}).
-             otherwise({ redirectTo: '/about' });
+        $routeProvider.
+            when("/:year/about",     {templateUrl:'views/about.html', controller:"AboutControl"}).
+            when("/:year/agenda",    {templateUrl:'views/agenda.html', controller:"AgendaControl"}).
+            when("/:year/photos",    {templateUrl:'views/photos.html', controller:"PhotosControl"}).
+            when("/:year/team",      {templateUrl:'views/team.html', controller:"TeamControl"}).
+            when("/:year/news",      {templateUrl:'views/news.html', controller:"NewsControl"}).
+            when("/contact",         {templateUrl:'views/contact.html', controller:"ContactControl"}).
+            otherwise({ redirectTo: '/'+DEFAULT_YEAR+'/about' }); //FIXME how to use the config object here?
     });
 
 devfest.factory('Config',function(){
     return {
-        'name'          : 'DevFest Berlin',
-        'id'            : '116495772997450383126',
-        'event_id'      : 'csc1rob3gekqalff7919h0e4qrk', //must be public
-        'google_api'    : 'AIzaSyBs64m_HUrQE864HfvEP87y6aqPaOYvmiQ',
-        //picasa web album id, must belong to google+ id above
-        'pwa_id'        : { "DevFest Berlin 2012": "5940164247434937905",
-                            "DevFest Berlin 2013": "5940170057320370689"
+        'name'                  : 'DevFest Berlin',
+        'google_plus_page_id'   : '116495772997450383126',
+        'google_api'            : 'AIzaSyBs64m_HUrQE864HfvEP87y6aqPaOYvmiQ',
+        'default_year'          : DEFAULT_YEAR, //picks from the years object if none is defined in the url
+        "email"                 : 'team@devfest-berlin.de',
+        'pwa_id'                : {
+            "DevFest Berlin 2012": "5940164247434937905",
+            "DevFest Berlin 2013": "5940170057320370689"
         },
-        'cover' : {
-            title : 'DevFest Berlin',
-            subtitle : 'November 1st - 3rd, 2013',
-            button : {
-                text : 'Get your ticket now',
-                url : 'https://berlin.ticketbud.com/devfest-berlin-2013'
+        'years': {
+            '2013': {
+                'dates': {
+                    'workshops'     : '2013-11-01',
+                    'conference'    : '2013-11-02',
+                    'hackathon'     : '2013-11-03'
+                },
+                'google_plus_event_id'  : 'csc1rob3gekqalff7919h0e4qrk', //must be public
+                'picasa_album_id'       : "5940170057320370689", //picasa web album id, must belong to google+ page id above
+                'cover' : {
+                    title : 'DevFest Berlin',
+                    subtitle : 'November 1st - 3rd, 2013',
+                    button : {
+                        text : 'Get your ticket now',
+                        url : 'https://berlin.ticketbud.com/devfest-berlin-2013'
+                    }
+                },
+                "team_ids" : [ //must be Google+ profile ids
+                    "117509657298845443204", //ben
+                    "111820256548303113275", //surma
+                    "110214177917096895451", //cketti
+                    "111119798064513732293", //david
+                    "110167958764078863962", //dirk
+                    "109673287110815740267", //hasan
+                    "108253608683408979021", //michael
+                    "111333123856542807695", //stevie
+                    "110615325729051596989" //jerome
+                ],
+                "sponsor_contacts" : [
+                    "117509657298845443204", //ben
+                    "111119798064513732293", //david
+                    "111333123856542807695" //stevie
+                ]
             }
-        },
-        "email"    : 'team@devfest-berlin.de',
-        "team_ids" : [
-            "117509657298845443204", //ben
-            "111820256548303113275", //surma
-            "110214177917096895451", //cketti
-            "111119798064513732293", //david
-            "110167958764078863962", //dirk
-            "109673287110815740267", //hasan
-            "108253608683408979021", //michael
-            "111333123856542807695", //stevie
-            "110615325729051596989" //jerome
-        ] //must be Google+ profile ids
+        }
     }
 });
 
 devfest.controller('MainControl', function($scope, Config) {
-    $scope.chapter_name = Config.name;
-    $scope.google_plus_link = 'https://plus.google.com/' + Config.id;
-    $scope.google_plus_event_link = 'https://plus.google.com/events/' + Config.event_id;
+
+    $scope.year = Config.default_year;
+    $scope.site_name = Config.name;
+    $scope.google_plus_link = 'https://plus.google.com/' + Config.google_plus_page_id;
+    $scope.google_plus_event_link = 'https://plus.google.com/events/' + Config.years[$scope.year].google_plus_event_id;
     $scope.isNavCollapsed = true;
+    $scope.default_year = Config.default_year;
 });
 
-devfest.controller('AboutControl', function( $scope, $http, $location, Config ) {
+devfest.controller('AboutControl', function( $scope, $http, $location, $routeParams, Config ) {
+
+    var year = $routeParams.year;
+    $scope.$parent.year = year; //make sure the main controller knows about the year from the url
+
     $scope.loading = true;
     $scope.$parent.activeTab = "about";
-    $scope.cover = Config.cover;
-    $http.jsonp('https://www.googleapis.com/plus/v1/people/'+Config.id+'?callback=JSON_CALLBACK&fields=aboutMe%2Ccover%2Cimage%2CplusOneCount&key='+Config.google_api).
+    $scope.cover = Config.years[year].cover;
+    $scope.dates = Config.years[year].dates;
+
+    $http.jsonp('https://www.googleapis.com/plus/v1/people/'+Config.google_plus_page_id+'?callback=JSON_CALLBACK&fields=aboutMe%2Ccover%2Cimage%2CplusOneCount&key='+Config.google_api).
         success(function(data){
             $scope.desc = data.aboutMe;
             if(data.cover && data.cover.coverPhoto.url){
@@ -63,11 +91,15 @@ devfest.controller('AboutControl', function( $scope, $http, $location, Config ) 
         });
 });
 
-devfest.controller("NewsControl", function($scope, $http, $timeout, Config) {
+devfest.controller("NewsControl", function($scope, $routeParams, $http, $timeout, Config) {
+
     $scope.loading = true;
+
     $scope.$parent.activeTab = "news";
+    $scope.$parent.year = $routeParams.year; //make sure the main controller knows about the year from the url
+
     $http.
-        jsonp('https://www.googleapis.com/plus/v1/people/' + Config.id + '/activities/public?callback=JSON_CALLBACK&maxResults=10&key=' + Config.google_api).
+        jsonp('https://www.googleapis.com/plus/v1/people/' + Config.google_plus_page_id + '/activities/public?callback=JSON_CALLBACK&maxResults=10&key=' + Config.google_api).
         success(function(response){
             var entries = [];
             for (var i = 0; i < response.items.length; i++) {
@@ -154,65 +186,121 @@ devfest.controller("NewsControl", function($scope, $http, $timeout, Config) {
 
 });
 
-devfest.controller("EventsControl", function( $scope, $http, Config ) {
+devfest.controller("PhotosControl", function( $scope, $routeParams, $http, Config ) {
+
+    var year = $routeParams.year;
+    var picasa_album_id = Config.years[year].picasa_album_id;
+
     $scope.loading = true;
-    $scope.$parent.activeTab = "events";
+    $scope.$parent.year = year; //make sure the main controller knows about the year from the url
+    $scope.$parent.activeTab = "photos";
+    $scope.title = "Photos of DevFest Berlin "+year;
 
-    $scope.events = {past:[] ,future:[]};
-    $http.get("http://gdgfresno.com/gdgfeed.php?id="+Config.id).
-        success(function(data){
-            var now = new Date();
-            for(var i=data.length-1;i>=0;i--){
-                var start = new Date(data[i].start);
+    $scope.album_link = "http://picasaweb.google.com/user/"+Config.google_plus_page_id+"/"+picasa_album_id;
+    $scope.photos = {};
 
-                data[i].start = start;
-                data[i].end = new Date(data[i].end);
+    var pwa = 'https://picasaweb.google.com/data/feed/api/user/'+Config.google_plus_page_id+'/albumid/'+picasa_album_id+'?access=public&alt=json-in-script&kind=photo&max-results=20&fields=entry(title,link/@href,summary,content/@src)&v=2.0&callback=JSON_CALLBACK';
 
-                if (start < now){
-                    $scope.events.past.push(data[i]);
-                } else {
-                    $scope.events.future.push(data[i]);
-                }
+    $scope.photos = []
+
+    $http.jsonp(pwa).
+        success(function(d){
+            var p = d.feed.entry;
+            for(var x in p){
+                var photo = {
+                    link : p[x].link[1].href,
+                    src : p[x].content.src,
+                    alt : p[x].title.$t,
+                    title : p[x].summary.$t
+                };
+                $scope.photos.push(photo);
             }
             $scope.loading = false;
         });
 });
 
-devfest.controller("PhotosControl", function( $scope, $http, Config ) {
-    $scope.loading = true;
-    $scope.$parent.activeTab = "photos";
-    $scope.photos = {};
+devfest.controller('ContactControl', function($scope, $routeParams, $http, $timeout, Config) {
 
-
-    angular.forEach(Config.pwa_id, function(albumId, key){
-
-        var pwa = 'https://picasaweb.google.com/data/feed/api/user/'+Config.id+'/albumid/'+albumId+'?access=public&alt=json-in-script&kind=photo&max-results=20&fields=entry(title,link/@href,summary,content/@src)&v=2.0&callback=JSON_CALLBACK';
-
-        $scope.photos[key] = []
-
-        $http.jsonp(pwa).
-            success(function(d){
-                var p = d.feed.entry;
-                for(var x in p){
-                    var photo = {
-                        link : p[x].link[1].href,
-                        src : p[x].content.src,
-                        alt : p[x].title.$t,
-                        title : p[x].summary.$t
-                    };
-                    $scope.photos[key].push(photo);
-                }
-                $scope.loading = false;
-            });
-
-    });
-});
-
-devfest.controller('ContactControl', function($scope, $http, $timeout, Config) {
+    var year = $routeParams.year | Config.default_year;
+    $scope.$parent.year = year; //make sure the main controller knows about the year from the url
     $scope.$parent.activeTab = "contact";
 
     $scope.email = Config.email;
-    $scope.google_plus_link = 'https://plus.google.com/' + Config.id + '/about';
+    $scope.google_plus_link = $scope.$parent.google_plus_link;
+
+    $scope.team = [];
+    var team_ids = Config.years[year].sponsor_contacts;
+    $scope.shuffle = function(o){ //v1.0
+        for(var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+        return o;
+    };
+
+    team_ids = $scope.shuffle(team_ids);
+
+    angular.forEach(team_ids, function(teamId, index){
+
+        $timeout(function () {
+
+            var gplusUrl = "https://www.googleapis.com/plus/v1/people/"+teamId+"?callback=JSON_CALLBACK&fields=displayName%2Cid%2Cimage%2Curl&key="+Config.google_api;
+
+            $http.jsonp(gplusUrl).
+                success(function(member){
+
+                    member.image.url = member.image.url.replace('?sz=50','?sz=200');
+                    $scope.team.push(member);
+                })
+
+        }, (index + 1) * 200);
+    });
+
+    $scope.loading = false;
+    $scope.isNavCollapsed = true;
+});
+
+
+devfest.controller('TeamControl', function($scope, $routeParams, $http, $timeout, Config) {
+
+    var year = $routeParams.year;
+
+    $scope.$parent.year = year; //make sure the main controller knows about the year from the url
+    $scope.year = year; //make sure the main controller knows about the year from the url
+    $scope.$parent.activeTab = "team";
+
+    $scope.team = [];
+    var team_ids = Config.years[year].team_ids;
+    $scope.shuffle = function(o){ //v1.0
+        for(var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+        return o;
+    };
+
+    team_ids = $scope.shuffle(team_ids);
+
+    angular.forEach(team_ids, function(teamId, index){
+
+        $timeout(function () {
+
+            var gplusUrl = "https://www.googleapis.com/plus/v1/people/"+teamId+"?callback=JSON_CALLBACK&fields=displayName%2Cid%2Cimage%2Curl&key="+Config.google_api;
+
+            $http.jsonp(gplusUrl).
+                success(function(member){
+
+                    member.image.url = member.image.url.replace('?sz=50','?sz=200');
+                    $scope.team.push(member);
+                })
+
+        }, (index + 1) * 200);
+    });
+
+    $scope.loading = false;
+    $scope.isNavCollapsed = true;
+});
+
+devfest.controller('AgendaControl', function($scope, $routeParams, $http, Config) {
+
+    $scope.$parent.year = $routeParams.year; //make sure the main controller knows about the year from the url
+    $scope.$parent.activeTab = "agenda";
+
+    $scope.email = Config.email;
     $scope.team = [];
 
     angular.forEach(Config.team_ids, function(teamId, index){
@@ -224,8 +312,8 @@ devfest.controller('ContactControl', function($scope, $http, $timeout, Config) {
             $http.jsonp(gplusUrl).
                 success(function(member){
 
-                        member.image.url = member.image.url.replace('?sz=50','?sz=200');
-                        $scope.team.push(member);
+                    member.image.url = member.image.url.replace('?sz=50','?sz=200');
+                    $scope.team.push(member);
                 })
 
         }, (index + 1) * 200);
@@ -233,4 +321,5 @@ devfest.controller('ContactControl', function($scope, $http, $timeout, Config) {
 
     $scope.loading = false;
     $scope.isNavCollapsed = true;
+    $scope.google_plus_link = 'https://plus.google.com/' + Config.id + '/about';
 });

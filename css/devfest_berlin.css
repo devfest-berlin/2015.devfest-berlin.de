@@ -144,3 +144,12 @@ body {
     text-align: center;
     font-size: 0.7em;
 }
+
+.overview p.image{
+    text-align: center;
+}
+.overview img{
+    background-color: #666;
+    padding: 10%;
+    width: 25%;
+}
