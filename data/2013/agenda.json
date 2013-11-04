@@ -1,51 +1,447 @@
 {
-    "venue":{
-        "name": "ImmobilienScout 24 GmbH",
-        "address": "Andreasstr. 10, 10243 Berlin"
-    },
-    "rooms": {
-        "atrium": {
-            "name":            "Atrium",
-            "location":         "main entrance, ground floor, lobby"
-        },
-        "konfi45": {
-            "name":             "Conference rooms 4+5",
-            "location":         "main entrance, ground floor, conference rooms"
-        },
-        "konfi89": {
-            "name":             "Conference rooms 8+9",
-            "location":         "main entrance, 1st floor, conference rooms"
-        },
-        "cafe": {
-            "name":             "Scout Café",
-            "location":         "main entrance, ground floor, café"
-        },
-        "casino": {
-            "name":             "Scout Lounge / Casino",
-            "location":         "side entrance, ground floor, Scout Lounge"
-        }
-    },
-    "speakers": {
-        "stefanhoth": {
-            "name":    "Stefan Hoth",
-            "plus_id": "+StefanHoth",
-            "img":  "https://lh4.googleusercontent.com/-VfnjDrTP1Vw/AAAAAAAAAAI/AAAAAAAAZDY/zYb66YJ0xxw/photo.jpg?sz=200",
-            "description": "Stefan is living in Berlin and a developer of many traits. He has programmed everything from Backends in Java or PHP, Chrome Apps and web frontends to Android apps. As a co-organizer of the GDG Berlin he can embrace his interest in getting to know new technologies, languages and frameworks."
-        }
-    },
-    "days": {
-            "Friday": {
-                "date": "2013-11-01",
-                "slots": [
-                    {
-                        "time_start":   "14:00:00",
-                        "time_end":     "15:00:00",
-                        "title":        "Doors open, Registration, Snacks",
-                        "desc":         "Come in, get your swag and ready to code.",
-                        "room_id":      "atrium",
-                        "speaker_ids":     []
-                    }
-                ]
-            }
-    }
+	"venue" : {
+		"name" : "ImmobilienScout 24 GmbH",
+		"address" : "Andreasstr. 10, 10243 Berlin"
+	},
+	"rooms" : {
+		"atrium" : {
+			"name" : "Atrium",
+			"location" : "main entrance, ground floor, lobby"
+		},
+		"konfi45" : {
+			"name" : "Conference rooms 4+5",
+			"location" : "main entrance, ground floor, conference rooms"
+		},
+		"konfi89" : {
+			"name" : "Conference rooms 8+9",
+			"location" : "main entrance, 1st floor, conference rooms"
+		},
+		"cafe" : {
+			"name" : "Scout Café",
+			"location" : "main entrance, ground floor, café"
+		},
+		"casino" : {
+			"name" : "Scout Lounge / Casino",
+			"location" : "side entrance, ground floor, Scout Lounge"
+		}
+	},
+	"speakers" : {
+		"stefanhoth" : {
+			"name" : "Stefan Hoth",
+			"plus_id" : "+StefanHoth",
+			"img" : "https://lh4.googleusercontent.com/-VfnjDrTP1Vw/AAAAAAAAAAI/AAAAAAAAZDY/zYb66YJ0xxw/photo.jpg?sz=200",
+			"description" : "Stefan is living in Berlin and a developer of many traits. He has programmed everything from Backends in Java or PHP, Chrome Apps and web frontends to Android apps. As a co-organizer of the GDG Berlin he can embrace his interest in getting to know new technologies, languages and frameworks."
+		},
+		"matthiasfriedrich" : {
+			"name" : "Matthias Friedrich",
+			"plus_id" : "",
+			"img" : "",
+			"description" : ""
+		},
+		"mateuszherych" : {
+			"name" : "Mateusz Herych",
+			"plus_id" : "",
+			"img" : "",
+			"description" : ""
+		},
+		"davidgonzalez" : {
+			"name" : "David González",
+			"plus_id" : "",
+			"img" : "",
+			"description" : ""
+		},
+		"wiebeelsinga" : {
+			"name" : "Wiebe Elsinga",
+			"plus_id" : "",
+			"img" : "",
+			"description" : ""
+		},
+		"timmesserschmidt" : {
+			"name" : "Tim Messerschmidt",
+			"plus_id" : "",
+			"img" : "",
+			"description" : ""
+		},
+		"christianketterer" : {
+			"name" : "Christian Ketterer",
+			"plus_id" : "",
+			"img" : "",
+			"description" : ""
+		},
+		"sebastianstiehl" : {
+			"name" : "Sebastian Stiehl",
+			"plus_id" : "",
+			"img" : "",
+			"description" : ""
+		},
+		"martingoerner" : {
+			"name" : "Martin Görner",
+			"plus_id" : "",
+			"img" : "",
+			"description" : ""
+		},
+		"janmonschke" : {
+			"name" : "Jan Monschke",
+			"plus_id" : "",
+			"img" : "",
+			"description" : ""
+		},
+		"alexandersurma" : {
+			"name" : "Alexander Surma",
+			"plus_id" : "",
+			"img" : "",
+			"description" : ""
+		},
+		"michaelmahemoff" : {
+			"name" : "Michael Mahemoff",
+			"plus_id" : "",
+			"img" : "",
+			"description" : ""
+		},
+		"jenskuehlers" : {
+			"name" : "Jens Kühlers",
+			"plus_id" : "",
+			"img" : "",
+			"description" : ""
+		},
+		"benjaminweiss" : {
+			"name" : "Benjamin Weiß",
+			"plus_id" : "",
+			"img" : "",
+			"description" : ""
+		},
+		"steveliedtke" : {
+			"name" : "Steve Liedtke",
+			"plus_id" : "",
+			"img" : "",
+			"description" : ""
+		},
+		"jeromemouton" : {
+			"name" : "Jerome Mouton",
+			"plus_id" : "",
+			"img" : "",
+			"description" : ""
+		},
+		"ignaciocoloma" : {
+			"name" : "Ignacio Coloma",
+			"plus_id" : "",
+			"img" : "",
+			"description" : ""
+		},
+		"raphaelbauer" : {
+			"name" : "Raphael Bauer",
+			"plus_id" : "",
+			"img" : "",
+			"description" : ""
+		}
+	},
+	"days" : {
+		"Friday" : {
+			"date" : "2013-11-01",
+			"slots" : [
+				{
+					"time_start" : "14:00:00",
+					"time_end" : "15:00:00",
+					"title" : "Doors open, Registration, Snacks",
+					"desc" : "Come in, get your swag and ready to code.",
+					"room_id" : "atrium",
+					"speaker_ids" : [
+						
+					]
+				}
+			]
+		},
+		"Saturday" : {
+			"date" : "2013-11-02",
+			"slots" : [
+				{
+					"time_start" : "08:30:00",
+					"time_end" : "09:30:00",
+					"title" : "WELCOME! Doors open, Registration, Breakfast, Snacks",
+					"desc" : "",
+					"room_id" : "atrium",
+					"speaker_ids" : [
+						
+					]
+				},
+				{
+					"time_start" : "09:30:00",
+					"time_end" : "10:00:00",
+					"title" : "Greeting, Introduction, 180 secs of fame (Silver)",
+					"desc" : "",
+					"room_id" : "atrium",
+					"speaker_ids" : [
+						
+					]
+				},
+				{
+					"time_start" : "10:00:00",
+					"time_end" : "10:45:00",
+					"title" : "Android ruling the big screen",
+					"desc" : "",
+					"room_id" : "atrium",
+					"track" : "Android",
+					"speaker_ids" : [
+						"matthiasfriedrich"
+					]
+				},
+				{
+					"time_start" : "11:00:00",
+					"time_end" : "11:45:00",
+					"title" : "Inject with Dagger",
+					"desc" : "",
+					"room_id" : "atrium",
+					"track" : "Android",
+					"speaker_ids" : [
+						"mateuszherych"
+					]
+				},
+				{
+					"time_start" : "12:00:00",
+					"time_end" : "12:45:00",
+					"title" : "Gradle, Android Studio and the beauty of the command line",
+					"desc" : "",
+					"room_id" : "atrium",
+					"track" : "Android",
+					"speaker_ids" : [
+						"davidgonzalez"
+					]
+				},
+				{
+					"time_start" : "12:45:00",
+					"time_end" : "14:00:00",
+					"title" : "LUNCH",
+					"desc" : "",
+					"room_id" : "",
+					"track" : "Android",
+					"speaker_ids" : [
+						
+					]
+				},
+				{
+					"time_start" : "14:00:00",
+					"time_end" : "14:45:00",
+					"title" : "Prototyping your Android app, the (U)X-factor",
+					"desc" : "",
+					"room_id" : "atrium",
+					"track" : "Android",
+					"speaker_ids" : [
+						"wiebeelsinga"
+					]
+				},
+				{
+					"time_start" : "15:00:00",
+					"time_end" : "15:45:00",
+					"title" : "Authentication for Droids",
+					"desc" : "",
+					"room_id" : "atrium",
+					"track" : "Android",
+					"speaker_ids" : [
+						"timmesserschmidt"
+					]
+				},
+				{
+					"time_start" : "15:45:00",
+					"time_end" : "16:30:00",
+					"title" : "COFFEE(!) BREAK",
+					"desc" : "",
+					"room_id" : "",
+					"speaker_ids" : [
+						
+					]
+				},
+				{
+					"time_start" : "16:30:00",
+					"time_end" : "17:15:00",
+					"title" : "You are not alone on this phone",
+					"desc" : "",
+					"room_id" : "atrium",
+					"track" : "Android",
+					"speaker_ids" : [
+						"christianketterer"
+					]
+				},
+				{
+					"time_start" : "17:30:00",
+					"time_end" : "18:15:00",
+					"title" : "Fireside chat with all speakers of the Android track",
+					"desc" : "",
+					"room_id" : "atrium",
+					"track" : "Android",
+					"speaker_ids" : [
+						
+					]
+				},
+				{
+					"time_start" : "10:00:00",
+					"time_end" : "10:45:00",
+					"title" : "Cutting Edge Web Applications",
+					"desc" : "",
+					"room_id" : "konfi45",
+					"track" : "Web",
+					"speaker_ids" : [
+						"sebastianstiehl"
+					]
+				},
+				{
+					"time_start" : "11:00:00",
+					"time_end" : "11:45:00",
+					"title" : "For your Canary eyes only: CSS custom filters",
+					"desc" : "",
+					"room_id" : "konfi45",
+					"track" : "Web",
+					"speaker_ids" : [
+						"martingoerner"
+					]
+				},
+				{
+					"time_start" : "12:00:00",
+					"time_end" : "12:45:00",
+					"title" : "Making music with JavaScript and Gamepads",
+					"desc" : "",
+					"room_id" : "konfi45",
+					"track" : "Web",
+					"speaker_ids" : [
+						"janmonschke"
+					]
+				},
+				{
+					"time_start" : "14:00:00",
+					"time_end" : "14:45:00",
+					"title" : "Polymer",
+					"desc" : "",
+					"room_id" : "konfi45",
+					"track" : "Web",
+					"speaker_ids" : [
+						"alexandersurma"
+					]
+				},
+				{
+					"time_start" : "15:00:00",
+					"time_end" : "15:45:00",
+					"title" : "A RESTful Development: API Design for the Real World",
+					"desc" : "",
+					"room_id" : "konfi45",
+					"track" : "Web",
+					"speaker_ids" : [
+						"michaelmahemoff"
+					]
+				},
+				{
+					"time_start" : "16:30:00",
+					"time_end" : "17:15:00",
+					"title" : "Web development gone awesome with Angular.js",
+					"desc" : "",
+					"room_id" : "konfi45",
+					"track" : "Web",
+					"speaker_ids" : [
+						"jenskuehlers"
+					]
+				},
+				{
+					"time_start" : "17:30:00",
+					"time_end" : "18:15:00",
+					"title" : "Fireside chat with all speakers of the Web track",
+					"desc" : "",
+					"room_id" : "konfi45",
+					"track" : "Web",
+					"speaker_ids" : [
+						
+					]
+				},
+				{
+					"time_start" : "10:00:00",
+					"time_end" : "10:45:00",
+					"title" : "Intro on how Google Cloud Platform can power your startup",
+					"desc" : "",
+					"room_id" : "casino",
+					"track" : "Web",
+					"speaker_ids" : [
+						"jenskuehlers"
+					]
+				},
+				{
+					"time_start" : "11:00:00",
+					"time_end" : "11:45:00",
+					"title" : "An introduction to Open Source development",
+					"desc" : "",
+					"room_id" : "casino",
+					"track" : "Web",
+					"speaker_ids" : [
+						"benjaminweiss"
+					]
+				},
+				{
+					"time_start" : "12:00:00",
+					"time_end" : "12:45:00",
+					"title" : "Google's Push notification service to Android and Chrome clients",
+					"desc" : "",
+					"room_id" : "casino",
+					"track" : "Web",
+					"speaker_ids" : [
+						"steveliedtke"
+					]
+				},
+				{
+					"time_start" : "14:00:00",
+					"time_end" : "14:45:00",
+					"title" : "Super-charge your startup with Google AppEngine",
+					"desc" : "",
+					"room_id" : "casino",
+					"track" : "Web",
+					"speaker_ids" : [
+						"jeromemouton"
+					]
+				},
+				{
+					"time_start" : "15:00:00",
+					"time_end" : "15:45:00",
+					"title" : "Data persistance: Typical Java way vs. AppEngine way",
+					"desc" : "",
+					"room_id" : "casino",
+					"track" : "Web",
+					"speaker_ids" : [
+						"ignaciocoloma"
+					]
+				},
+				{
+					"time_start" : "16:30:00",
+					"time_end" : "17:15:00",
+					"title" : "Ninja - the best Java web framework for App Engine",
+					"desc" : "",
+					"room_id" : "casino",
+					"track" : "Web",
+					"speaker_ids" : [
+						"raphaelbauer"
+					]
+				},
+				{
+					"time_start" : "17:30:00",
+					"time_end" : "18:15:00",
+					"title" : "Fireside chat with all speakers of the Cloud track",
+					"desc" : "",
+					"room_id" : "casino",
+					"track" : "Cloud",
+					"speaker_ids" : [
+						
+					]
+				}
+			]
+		},
+		"Sunday" : {
+			"date" : "2013-11-03",
+			"slots" : [
+				{
+					"time_start" : "14:00:00",
+					"time_end" : "15:00:00",
+					"title" : "Doors open, Registration, Snacks",
+					"desc" : "Come in, get your swag and ready to code.",
+					"room_id" : "atrium",
+					"speaker_ids" : [
+						
+					]
+				}
+			]
+		}
+	}
 }
