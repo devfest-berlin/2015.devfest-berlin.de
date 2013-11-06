@@ -16,7 +16,9 @@
 
 /* stream */
 #news-feed {
-  margin: 0 0 0 3px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 #news-feed li {
     position: relative;
@@ -28,12 +30,6 @@
     background-color: #F6F6F6;
     margin-bottom: 15px;
     border-radius: 4px;
-}
-
-#news-feed li .icon {
-  position: absolute;
-  left: 8px;
-  top: 15px;
 }
 
 #news-feed li .meta {
@@ -78,20 +74,21 @@
   line-height: 16px;
 }
 
-#news-feed li .thumbnails {
-  padding-top: 6px;
+#news-feed .article div.headline{
+    min-height: 50px;
 }
 
-#news-feed li .thumbnails li {
-  display: inline-block;
-  padding-right: 6px;
-  border: 0;
-  padding: 0;
+#news-feed .article div.headline .icon,
+#news-feed .article div.thumbnails img{
+    width: auto;
 }
 
-#news-feed li .thumbnails img {
-  height: 100px;
+#news-feed .article div.thumbnails{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
 
 body {
   overflow-y: scroll;
@@ -99,21 +96,14 @@ body {
 
 #cover {
   margin-top: -300px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   color: hsl(0, 100%, 100%);
-  height: 300px;
-  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.8))); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 100%); /* IE10+ */
-  background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.8) 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000',GradientType=0 ); /* IE6-9 */
-
+  height: 200px;
 }
 #cover-content {
-  margin-top: 140px;
+  margin-top: 170px;
 }
+
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
   display: none;
 }
@@ -150,7 +140,7 @@ body {
 }
 .overview img{
     background-color: #666;
-    padding: 10%;
+    padding: 10px;
     width: 25%;
 }
 

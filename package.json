@@ -1,14 +1,17 @@
 {
-    "name": "generator-boomerang",
-    "version": "0.0.3",
-    "description": "Build out a website for your GDG by answering a few questions",
-    "private": false,
-    "keywords": ["gdg","boomerang"],
-    "homepage": "http://gdg-x.com",
+    "name": "DevfestBerlin",
+    "version": "1.0.0",
+    "description": "Website for showcasing the DevFest Berlin over the years",
+    "private": true,
+    "keywords": ["gdg","devfest"],
+    "homepage": "http://devfest-berlin.de",
     "author" :{
-        "name" : "Joshua Woodward",
-        "email" : "jw@woodwardmedia.net",
-        "url" : "http://joshuawoodward.com/"
+        "name" : "Stefan Hoth",
+        "email" : "me@stefanhoth.de",
+        "url" : "http://stefanhoth.de"
+    },
+    "dependecies":{
+
     },
     "devDependencies": {
         "grunt": "~0.4.1",

@@ -1,11 +1,11 @@
-<div class="span2"></div>
-<div class="span8">
+<div class="col-md-2"></div>
+<div class="col-md-8">
     <h2>The Team</h2>
 
     <p>These are a few of the people that made the DevFest Berlin {{year || default_year}} possible. If you want to get in touch you can find more info on their Google+ profiles linked here:</p>
 
     <ul class="thumbnails teammembers">
-        <li class="span2"  ng-repeat="member in team" style="text-align: center;">
+        <li class="col-md-4"  ng-repeat="member in team" style="text-align: center;">
             <a href="{{member.url}}" title="Google+ profile of {{member.displayName}}">
                 <img ng-src="{{member.image.url}}" class="img-circle" alt="{{member.displayName}}">
                 <p>{{member.displayName}}</p>
@@ -14,4 +14,4 @@
     </ul>
 
 </div>
-<div class="span2"></div>
+<div class="col-md-2"></div>
