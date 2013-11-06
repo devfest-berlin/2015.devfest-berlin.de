@@ -1,62 +1,80 @@
 <!doctype html>
-    <html ng-app="devfest">
-        <head>
-            <title>DevFest Berlin - A weekend of awesome!</title>
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-            <link rel="icon" type="image/png" href="favicon.png" />
-            <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,300,700' rel='stylesheet' type='text/css'>
+<html ng-app="devfest">
+<head>
+    <title>DevFest Berlin - A weekend of awesome!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="icon" type="image/png" href="favicon.png"/>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,300,700' rel='stylesheet'
+          type='text/css'>
 
-            <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
-            <link href="css/devfest_berlin.css" rel="stylesheet" media="screen">
+    <link href="css/devfest_berlin.css" rel="stylesheet" media="screen">
 
-            <script src="bower_components/angular/angular.js"></script>
-            <script src="bower_components/angular-route/angular-route.js"></script>
-            <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
-            <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
-            <script src="js/devfest_berlin.js"></script>
-            <meta name="google-site-verification" content="-ArvK1Z6viSO7jd4DpG1KujHHXxSNSedS8lvtUGL7kE" />
-        </head>
-        <body ng-controller="MainControl">
-            <!-- NAV -->
-            <div class="navbar navbar-static-top navbar-inverse">
-                <div class="navbar-inner">
-                    <div class="container">
-                        <button type="button" class="btn btn-navbar" ng-click="isNavCollapsed = !isNavCollapsed">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="brand" id="gdg_chapter_name" href="#/{{year || default_year}}/about">{{ site_name}}</a>
-                        <div class="nav-collapse" collapse="isNavCollapsed" ng-click="isNavCollapsed = true">
-                            <ul class="nav">
-                                <li ng-class="{ 'active' : activeTab=='about' }"><a href="#/{{year || default_year}}/about">About</a></li>
-                                <li ng-class="{ 'active' : activeTab=='agenda' }"><a href="#/{{year || default_year}}/agenda">Agenda</a></li>
-                                <li ng-class="{ 'active' : activeTab=='news' }"><a href="#/{{year || default_year}}/news">News</a></li>
-                                <li ng-class="{ 'active' : activeTab=='photos' }"><a href="#/{{year || default_year}}/photos">Photos</a></li>
-                                <li ng-class="{ 'active' : activeTab=='team' }"><a href="#/{{year || default_year}}/team">Team</a></li>
-                            </ul>
-                            <ul class="nav nav-pills pull-right">
-                                <li><a ng-href="{{ google_plus_link }}" target="_blank"><i class="icon-share-alt icon-white"></i> Google+ Page</a></li>
-                                <li><a ng-href="{{ google_plus_event_link }}" target="_blank"><i class="icon-share-alt icon-white"></i> Google+ Event</a></li>
-                                <li ng-class="{ 'active' : activeTab=='contact' }"><a href="#contact">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row" ng-view></div>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="js/devfest_berlin.js"></script>
+    <meta name="google-site-verification" content="-ArvK1Z6viSO7jd4DpG1KujHHXxSNSedS8lvtUGL7kE"/>
+</head>
+<body ng-controller="MainControl">
 
-                <hr>
-                <div class="footer">
-                    <p>
-                        <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" /></a> <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">DevFest Berlin</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
-                         Copyright of the photos shown on this page are belonging to their respective owners.
-                    </p>
-                </div>
-            </div>
-        </body>
-        <script type="text/javascript" src="https://apis.google.com/js/plusone.js" defer="defer"></script>
-    </html>    
+<!-- NAV -->
+<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="nav navbar-toggle" ng-click="isCollapse  = !isCollapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" id="gdg_chapter_name" ng-href="#/{{year || default_year}}/about">{{site_name}}</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" collapse="isCollapse">
+            <ul class="nav navbar-nav">
+                <li ng-class="{ 'active' : activeTab=='about' }"><a href="#/{{year || default_year}}/about">About</a></li>
+                <li ng-class="{ 'active' : activeTab=='agenda' }"><a href="#/{{year || default_year}}/agenda">Agenda</a>
+                </li>
+                <li ng-class="{ 'active' : activeTab=='news' }"><a href="#/{{year || default_year}}/news">News</a></li>
+                <li ng-class="{ 'active' : activeTab=='photos' }"><a href="#/{{year || default_year}}/photos">Photos</a>
+                </li>
+                <li ng-class="{ 'active' : activeTab=='team' }"><a href="#/{{year || default_year}}/team">Team</a></li>
+            </ul>
+            <ul class="nav navbar-nav pull-right">
+                <li><a ng-href="{{ google_plus_link }}" target="_blank"><span class="glyphicon glyphicon-share-alt"></span>
+                    Google+ Page</a></li>
+                <li><a ng-href="{{ google_plus_event_link }}" target="_blank"><span
+                        class="glyphicon glyphicon-share-alt"></span> Google+ Event</a></li>
+                <li ng-class="{ 'active' : activeTab=='contact' }"><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+
+    <div class="row" ng-view></div>
+
+    <hr>
+    <div class="footer">
+        <p>
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License"
+                                                                                        style="border-width:0"
+                                                                                        src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png"/></a>
+            <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">DevFest Berlin</span> is licensed under a
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons
+                Attribution-ShareAlike 3.0 Unported License</a>.
+            Copyright of the photos shown on this page are belonging to their respective owners.
+        </p>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js" defer="defer"></script>
+</html>

@@ -1,9 +1,9 @@
-<div class="span12">
+<div class="col-md-12">
     <p>&nbsp;</p>
     <div class="gdg_loading" ng-show="loading"></div>
     <div class="row">
-        <h3 ng-show="events.future.length" class="span12">Upcoming Events</h3>
-        <div class="media span12" ng-repeat="event in events.future">
+        <h3 ng-show="events.future.length" class="col-md-12">Upcoming Events</h3>
+        <div class="media col-md-12" ng-repeat="event in events.future">
             <a ng-show="event.iconUrl" class="pull-left" ng-href="https://developers.google.com{{event.link}}" target="_blank"><img class="media-object" ng-src="https://developers.google.com{{event.iconUrl}}"></a>
             <div class="media-body">
                 <h4 class="media-heading"><a ng-href="https://developers.google.com{{event.link}}" target="_blank">{{event.title}}</a></h4>
@@ -13,8 +13,8 @@
         </div>
     </div>
     <div class="row">
-        <h3 ng-show="events.past.length" class="span12">Past Events</h3>
-        <div class="media span12" ng-repeat="event in events.past">
+        <h3 ng-show="events.past.length" class="col-md-12">Past Events</h3>
+        <div class="media col-md-12" ng-repeat="event in events.past">
             <a ng-show="event.iconUrl" class="pull-left" ng-href="https://developers.google.com{{event.link}}" target="_blank"><img class="media-object" ng-src="https://developers.google.com{{event.iconUrl}}"></a>
             <div class="media-body">
                 <h4 class="media-heading"><a ng-href="https://developers.google.com{{event.link}}" target="_blank">{{event.title}}</a></h4>

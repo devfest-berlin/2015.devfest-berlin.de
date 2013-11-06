@@ -1,6 +1,6 @@
 var DEFAULT_YEAR="2013";
 
-var devfest = angular.module('devfest', ['ngRoute','ngSanitize','ui.bootstrap'])
+var devfest = angular.module('devfest', ['ngRoute','ngSanitize', 'ui.bootstrap'])
     .config(function($routeProvider) {
         $routeProvider.
             when("/:year/about",     {templateUrl:'views/about.html', controller:"AboutControl"}).
@@ -68,7 +68,7 @@ devfest.controller('MainControl', function($scope, Config) {
     $scope.site_name = Config.name;
     $scope.google_plus_link = 'https://plus.google.com/' + Config.google_plus_page_id;
     $scope.google_plus_event_link = 'https://plus.google.com/events/' + Config.years[$scope.year].google_plus_event_id;
-    $scope.isNavCollapsed = true;
+    $scope.isCollapse = true;
     $scope.default_year = Config.default_year;
 });
 
@@ -255,7 +255,6 @@ devfest.controller('ContactControl', function($scope, $routeParams, $http, $time
     });
 
     $scope.loading = false;
-    $scope.isNavCollapsed = true;
 });
 
 
@@ -293,7 +292,6 @@ devfest.controller('TeamControl', function($scope, $routeParams, $http, $timeout
     });
 
     $scope.loading = false;
-    $scope.isNavCollapsed = true;
 });
 
 devfest.controller('AgendaControl', function($scope, $routeParams, $http, Config) {
@@ -321,6 +319,5 @@ devfest.controller('AgendaControl', function($scope, $routeParams, $http, Config
     });
 
     $scope.loading = false;
-    $scope.isNavCollapsed = true;
     $scope.google_plus_link = 'https://plus.google.com/' + Config.id + '/about';
 });

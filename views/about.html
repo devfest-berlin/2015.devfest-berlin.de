@@ -1,23 +1,22 @@
-<div class="span12">
-    <p>&nbsp;</p>
+<div class="col-md-12">
     <div class="gdg_loading" ng-show="loading"></div>
     <div class="row">
-        <img ng-show="cover.url" class="span12" ng-src="{{cover.url}}">
-        <div class="span12 hidden-phone" id="cover" ng-show="cover.url">
+        <img class="col-md-12" ng-show="cover.url" ng-src="{{cover.url}}">
+        <div class="col-md-12 hidden-phone" id="cover" ng-show="cover.url">
             <div id="cover-content">
-                <h1 class="span12">{{cover.title}}</h1>
-                <p class="span12">{{cover.subtitle}}</p>
-                <p class="span12" ng-hide="cover.button.disabled">
+                <h1 class="col-md-12">{{cover.title}}</h1>
+                <p class="col-md-12">{{cover.subtitle}}</p>
+                <p class="col-md-12" ng-hide="cover.button.disabled">
                     <a class="btn btn-primary btn-large" ng-href="{{cover.button.url}}" target="_blank">{{cover.button.text}}</a>
                 </p>
             </div>
         </div>
         <hr>
-        <p class="span12" ng-bind-html-unsafe="desc"></p>
+        <p class="col-md-12" ng-bind-html-unsafe="desc"></p>
     </div>
 </div>
 <div class="overview">
-    <div class="span4">
+    <div class="col-md-4">
         <h3>Workshops <small>{{dates.workshops | date:'EEEE, MMM d'}}</small></h3>
         <p class="image">
             <img src="../images/document_gear.png" alt="Workshop icon" class="img-circle" />
@@ -29,7 +28,7 @@
             Please check the <a ng-href="#/{{year}}/agenda">Agenda</a> for more information.
         </p>
     </div>
-    <div class="span4">
+    <div class="col-md-4">
         <h3>Conference <small>{{dates.conference | date:'EEEE, MMM d'}}</small></h3>
         <p class="image">
             <img src="../images/speech_bubble.png" alt="Conference icon" class="img-circle" />
@@ -42,7 +41,7 @@
             Please check the <a ng-href="#/{{year}}/agenda">Agenda</a> for more information.
         </p>
     </div>
-    <div class="span4">
+    <div class="col-md-4">
         <h3>Hackathon  <small>{{dates.hackathon | date:'EEEE, MMM d'}}</small></h3>
         <p class="image">
             <img src="../images/hammer.png" alt="Hackathon icon" class="img-circle" />
