@@ -8,27 +8,31 @@
 			"name" : "Atrium",
 			"location" : "main entrance, ground floor, lobby"
 		},
+        "konfi3" : {
+            "name" : "Conference room 3",
+            "location" : "main entrance, ground floor, conference rooms"
+        },
 		"konfi45" : {
 			"name" : "Conference rooms 4+5",
 			"location" : "main entrance, ground floor, conference rooms"
-		},
-		"konfi89" : {
-			"name" : "Conference rooms 8+9",
-			"location" : "main entrance, 1st floor, conference rooms"
 		},
 		"cafe" : {
 			"name" : "Scout Café",
 			"location" : "main entrance, ground floor, café"
 		},
-		"casino" : {
-			"name" : "Scout Lounge / Casino",
-			"location" : "side entrance, ground floor, Scout Lounge"
-		}
+        "casino" : {
+            "name" : "Scout Lounge / Casino",
+            "location" : "side entrance, ground floor, Scout Lounge"
+        },
+        "cbase" : {
+            "name" : "c-base space station",
+            "location" : "Rungestr. 20, 2nd backyard, 10179 Berlin - S+U Jannowitzbrücke"
+        }
 	},
 	"speakers" : {
 		"stefanhoth" : {
 			"name" : "Stefan Hoth",
-			"plus_id" : "+StefanHoth",
+			"plus_id" : "111333123856542807695",
 			"img" : "https://lh4.googleusercontent.com/-VfnjDrTP1Vw/AAAAAAAAAAI/AAAAAAAAZDY/zYb66YJ0xxw/photo.jpg?sz=200",
 			"description" : "Stefan is living in Berlin and a developer of many traits. He has programmed everything from Backends in Java or PHP, Chrome Apps and web frontends to Android apps. As a co-organizer of the GDG Berlin he can embrace his interest in getting to know new technologies, languages and frameworks."
 		},
@@ -133,6 +137,12 @@
 			"plus_id" : "",
 			"img" : "",
 			"description" : ""
+		},
+		"dirkjaeckel" : {
+			"name" : "Dirk Jäckel",
+			"plus_id" : "",
+			"img" : "",
+			"description" : ""
 		}
 	},
 	"days" : {
@@ -141,14 +151,131 @@
 			"slots" : [
 				{
 					"time_start" : "14:00:00",
-					"time_end" : "15:00:00",
+					"time_end" : "14:45:00",
 					"title" : "Doors open, Registration, Snacks",
 					"desc" : "Come in, get your swag and ready to code.",
 					"room_id" : "atrium",
 					"speaker_ids" : [
 						
 					]
-				}
+				},
+                {
+                    "time_start" : "14:45:00",
+                    "time_end" : "15:00:00",
+                    "title" : "Welcome & Introduction",
+                    "desc" : "Learn what we have prepared for you, where the rooms are and what else is imporatant to know.",
+                    "room_id" : "atrium",
+                    "speaker_ids" : [
+                        "benjaminweiss", "stefanhoth"
+                    ]
+                },
+                {
+                    "time_start" : "15:00:00",
+                    "time_end" : "15:30:00",
+                    "title" : "Installing Android Studio and the SDK",
+                    "desc" : "",
+                    "room_id" : "casino",
+                    "track" : "Android",
+                    "speaker_ids" : [
+                        "dirkjaeckel"
+                    ]
+                },
+                {
+                    "time_start" : "15:45:00",
+                    "time_end" : "16:15:00",
+                    "title" : "Android for absolute beginners I",
+                    "desc" : "",
+                    "room_id" : "casino",
+                    "track" : "Android",
+                    "speaker_ids" : [
+                        "dirkjaeckel"
+                    ]
+                },
+                {
+                    "time_start" : "16:30:00",
+                    "time_end" : "17:30:00",
+                    "title" : "Android for absolute beginners II",
+                    "desc" : "",
+                    "room_id" : "casino",
+                    "track" : "Android",
+                    "speaker_ids" : [
+                        "dirkjaeckel"
+                    ]
+                },
+                {
+                    "time_start" : "17:30:00",
+                    "time_end" : "18:30:00",
+                    "title" : "Android for absolute beginners III",
+                    "desc" : "",
+                    "room_id" : "casino",
+                    "track" : "Android",
+                    "speaker_ids" : [
+                        "dirkjaeckel"
+                    ]
+                },
+                {
+                    "time_start" : "15:00:00",
+                    "time_end" : "15:30:00",
+                    "title" : "Syntax Speedrun I",
+                    "desc" : "",
+                    "room_id" : "konfi45",
+                    "track" : "Cloud",
+                    "speaker_ids" : [
+                        "alexandersurma"
+                    ]
+                },
+                {
+                    "time_start" : "15:45:00",
+                    "time_end" : "16:15:00",
+                    "title" : "Syntax Speedrun II",
+                    "desc" : "",
+                    "room_id" : "konfi45",
+                    "track" : "Cloud",
+                    "speaker_ids" : [
+                        "alexandersurma"
+                    ]
+                },
+                {
+                    "time_start" : "16:30:00",
+                    "time_end" : "18:30:00",
+                    "title" : "Write all the Pixels",
+                    "desc" : "",
+                    "room_id" : "konfi45",
+                    "track" : "Cloud",
+                    "speaker_ids" : [
+                        "alexandersurma"
+                    ]
+                },
+                {
+                    "time_start" : "15:00:00",
+                    "time_end" : "18:30:00",
+                    "title" : "AngularJS workshop",
+                    "desc" : "",
+                    "room_id" : "konfi3",
+                    "track" : "Web",
+                    "speaker_ids" : [
+                        "stefanhoth"
+                    ]
+                },
+                {
+                    "time_start" : "18:30:00",
+                    "time_end" : "19:00:00",
+                    "title" : "Wrap-Up",
+                    "desc" : "",
+                    "room_id" : "atrium",
+                    "speaker_ids" : [
+                        "benjaminweiss", "stefanhoth"
+                    ]
+                },
+                {
+                    "time_start" : "19:00:00",
+                    "time_end" : "23:59:00",
+                    "title" : "After hour drinks @ c-base",
+                    "desc" : "",
+                    "room_id" : "cbase",
+                    "speaker_ids" : [
+                    ]
+                }
 			]
 		},
 		"Saturday" : {
@@ -171,7 +298,7 @@
 					"desc" : "",
 					"room_id" : "atrium",
 					"speaker_ids" : [
-						
+						"benjaminweiss", "stefanhoth"
 					]
 				},
 				{
@@ -212,8 +339,7 @@
 					"time_end" : "14:00:00",
 					"title" : "LUNCH",
 					"desc" : "",
-					"room_id" : "",
-					"track" : "Android",
+					"room_id" : "cafe",
 					"speaker_ids" : [
 						
 					]
@@ -245,7 +371,7 @@
 					"time_end" : "16:30:00",
 					"title" : "COFFEE(!) BREAK",
 					"desc" : "",
-					"room_id" : "",
+					"room_id" : "cafe",
 					"speaker_ids" : [
 						
 					]
@@ -269,7 +395,7 @@
 					"room_id" : "atrium",
 					"track" : "Android",
 					"speaker_ids" : [
-						
+                        "matthiasfriedrich", "mateuszherych", "davidgonzalez", "wiebeelsinga", "christianketterer"
 					]
 				},
 				{
@@ -335,7 +461,7 @@
 					"room_id" : "konfi45",
 					"track" : "Web",
 					"speaker_ids" : [
-						"jenskuehlers"
+						"stefanhoth"
 					]
 				},
 				{
@@ -346,7 +472,7 @@
 					"room_id" : "konfi45",
 					"track" : "Web",
 					"speaker_ids" : [
-						
+                        "martingoerner", "janmonschke", "alexandersurma", "michaelmahemoff", "stefanhoth"
 					]
 				},
 				{
@@ -355,7 +481,7 @@
 					"title" : "Intro on how Google Cloud Platform can power your startup",
 					"desc" : "",
 					"room_id" : "casino",
-					"track" : "Web",
+					"track" : "Cloud",
 					"speaker_ids" : [
 						"jenskuehlers"
 					]
@@ -366,7 +492,7 @@
 					"title" : "An introduction to Open Source development",
 					"desc" : "",
 					"room_id" : "casino",
-					"track" : "Web",
+					"track" : "Cloud",
 					"speaker_ids" : [
 						"benjaminweiss"
 					]
@@ -377,7 +503,7 @@
 					"title" : "Google's Push notification service to Android and Chrome clients",
 					"desc" : "",
 					"room_id" : "casino",
-					"track" : "Web",
+					"track" : "Cloud",
 					"speaker_ids" : [
 						"steveliedtke"
 					]
@@ -388,7 +514,7 @@
 					"title" : "Super-charge your startup with Google AppEngine",
 					"desc" : "",
 					"room_id" : "casino",
-					"track" : "Web",
+					"track" : "Cloud",
 					"speaker_ids" : [
 						"jeromemouton"
 					]
@@ -399,7 +525,7 @@
 					"title" : "Data persistance: Typical Java way vs. AppEngine way",
 					"desc" : "",
 					"room_id" : "casino",
-					"track" : "Web",
+					"track" : "Cloud",
 					"speaker_ids" : [
 						"ignaciocoloma"
 					]
@@ -410,7 +536,7 @@
 					"title" : "Ninja - the best Java web framework for App Engine",
 					"desc" : "",
 					"room_id" : "casino",
-					"track" : "Web",
+					"track" : "Cloud",
 					"speaker_ids" : [
 						"raphaelbauer"
 					]
@@ -423,24 +549,84 @@
 					"room_id" : "casino",
 					"track" : "Cloud",
 					"speaker_ids" : [
-						
+					    "jenskuehlers", "benjaminweiss", "steveliedtke", "jeromemouton", "ignaciocoloma", "raphaelbauer"
 					]
-				}
+				},
+                {
+                    "time_start" : "18:30:00",
+                    "time_end" : "19:00:00",
+                    "title" : "Wrap-Up",
+                    "desc" : "",
+                    "room_id" : "atrium",
+                    "speaker_ids" : [
+                        "benjaminweiss", "stefanhoth"
+                    ]
+                },
+                {
+                    "time_start" : "19:00:00",
+                    "time_end" : "23:59:00",
+                    "title" : "Party @ c-base",
+                    "desc" : "",
+                    "room_id" : "cbase",
+                    "speaker_ids" : [
+
+                    ]
+                }
 			]
 		},
 		"Sunday" : {
 			"date" : "2013-11-03",
 			"slots" : [
 				{
-					"time_start" : "14:00:00",
-					"time_end" : "15:00:00",
+					"time_start" : "09:00:00",
+					"time_end" : "09:30:00",
 					"title" : "Doors open, Registration, Snacks",
 					"desc" : "Come in, get your swag and ready to code.",
 					"room_id" : "atrium",
 					"speaker_ids" : [
 						
 					]
-				}
+				},
+                {
+                    "time_start" : "10:00:00",
+                    "time_end" : "10:30:00",
+                    "title" : "Project idea pitching & team building",
+                    "desc" : "",
+                    "room_id" : "atrium",
+                    "speaker_ids" : [
+                        "stefanhoth"
+                    ]
+                },
+                {
+                    "time_start" : "10:30:00",
+                    "time_end" : "17:00:00",
+                    "title" : "Exterme RETRO Hacking",
+                    "desc" : "",
+                    "room_id" : "atrium",
+                    "speaker_ids" : [
+
+                    ]
+                },
+                {
+                    "time_start" : "17:00:00",
+                    "time_end" : "18:00:00",
+                    "title" : "Demo time",
+                    "desc" : "",
+                    "room_id" : "atrium",
+                    "speaker_ids" : [
+                        "stefanhoth"
+                    ]
+                },
+                {
+                    "time_start" : "18:00:00",
+                    "time_end" : "18:30:00",
+                    "title" : "Award ceremony & the long Goodbye :-(",
+                    "desc" : "",
+                    "room_id" : "atrium",
+                    "speaker_ids" : [
+                        "stefanhoth"
+                    ]
+                }
 			]
 		}
 	}
