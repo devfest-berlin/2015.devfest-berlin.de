@@ -77,7 +77,8 @@
     min-height: 50px;
 }
 
-#news-feed .article div.headline .icon{
+#news-feed .article div.headline .icon,
+#news-feed .article div.thumbnails img{
     width: auto;
 }
 
