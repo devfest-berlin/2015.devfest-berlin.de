@@ -8,7 +8,7 @@
                 <img class="icon img-rounded col-md-1" ng-src="{{ article.icon }}" />
                 <p class="col-md-10 col-xs-10 col-sm-10" ng-bind-html="article.body"></p>
             </div>
-            <div class="thumbnails">
+            <div class="thumbnails col-md-12">
                 <a ng-href="{{ tn.url }}" ng-repeat="tn in article.thumbnails">
                     <img ng-src="{{ tn.link }}" class="img-rounded" />
                 </a>
