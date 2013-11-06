@@ -2,29 +2,30 @@
     <p>&nbsp;</p>
     <div class="gdg_loading" ng-show="loading"></div>
     <ul id="news-feed">
-        <li ng-repeat="article in news">
+        <li ng-repeat="article in news" class="article">
 
-            <img class="icon" ng-src="{{ article.icon }}" />
-            <p ng-bind-html-unsafe="article.body"></p>
-
-            <ul class="thumbnails">
-                <li ng-repeat="tn in article.thumbnails">
-                    <a ng-href="{{ tn.url }}">
-                        <img ng-src="{{ tn.link }}" />
-                    </a>
-                </li>
-            </ul>
+            <div class="headline col-md-12">
+                <img class="icon img-rounded col-md-1" ng-src="{{ article.icon }}" />
+                <p class="col-md-10 col-xs-10 col-sm-10" ng-bind-html="article.body"></p>
+            </div>
+            <div class="thumbnails">
+                <a ng-href="{{ tn.url }}" ng-repeat="tn in article.thumbnails">
+                    <img ng-src="{{ tn.link }}" class="img-rounded" />
+                </a>
+            </div>
             <div class="meta">
             <span class="from">
 
             </span>
             </div>
-            <a class="btn btn-primary btn-sm"  ng-href="{{ article.via.url }}" target="_blank"><span class="glyphicon glyphicon-share-alt"></span> View</a>
-            <span class="btn btn-danger btn-sm"> {{ article.comments }} comment<span ng-show="article.comments != 1">s</span> </span>
-            <span class="btn btn-danger btn-sm"> {{ article.reshares }} share<span ng-show="article.reshares != 1">s</span> </span>
-            <span class="pull-right" style="margin-top: 5px;">
-                <span class="g-plusone" data-size="large" data-annotation="bubble" data-href="{{ article.via.url }}"></span>
-            </span>
+            <div class="col-md-12">
+                <a class="btn btn-primary btn-sm"  ng-href="{{ article.via.url }}" target="_blank"><span class="glyphicon glyphicon-share-alt"></span> View post</a>
+                <span class="btn btn-danger btn-sm disabled"> {{ article.comments }} comment<span ng-show="article.comments != 1">s</span> </span>
+                <span class="btn btn-danger btn-sm disabled"> {{ article.reshares }} share<span ng-show="article.reshares != 1">s</span> </span>
+                <span class="pull-right" style="margin-top: 5px;">
+                    <span class="g-plusone" data-size="large" data-annotation="bubble" data-href="{{ article.via.url }}"></span>
+                </span>
+            </div>
         </li>
     </ul>
 </div>

@@ -17,6 +17,7 @@
 /* stream */
 #news-feed {
   margin: 0 0 0 3px;
+  list-style: none;
 }
 #news-feed li {
     position: relative;
@@ -28,12 +29,6 @@
     background-color: #F6F6F6;
     margin-bottom: 15px;
     border-radius: 4px;
-}
-
-#news-feed li .icon {
-  position: absolute;
-  left: 8px;
-  top: 15px;
 }
 
 #news-feed li .meta {
@@ -78,20 +73,20 @@
   line-height: 16px;
 }
 
-#news-feed li .thumbnails {
-  padding-top: 6px;
+#news-feed .article div.headline{
+    min-height: 50px;
 }
 
-#news-feed li .thumbnails li {
-  display: inline-block;
-  padding-right: 6px;
-  border: 0;
-  padding: 0;
+#news-feed .article div.headline .icon{
+    width: auto;
 }
 
-#news-feed li .thumbnails img {
-  height: 100px;
+#news-feed .article div.thumbnails{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
 
 body {
   overflow-y: scroll;

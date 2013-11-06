@@ -124,22 +124,24 @@ devfest.controller("NewsControl", function($scope, $routeParams, $http, $timeout
                             var upper = attachment.thumbnails.length > 7 ? 7 : attachment.thumbnails.length;
                             html.push('<ul class="thumbnails">');
                             for(var k=1; k<upper; k++){
-                                html.push('<li class="span2"><img src="' + attachment.thumbnails[k].image.url + '" /></li>');
+                                html.push('<li class="col-md-2"><img src="' + attachment.thumbnails[k].image.url + '" /></li>');
                             }
                             html.push('</ul>');
                             break;
                         case 'photo':
+                            console.log(attachment);
                             thumbnails.push({
-                                url: attachment.image.url,
-                                link: attachment.fullImage.url
+                                url: attachment.url,
+                                link: attachment.image.url
                             });
                             break;
 
                         case 'video':
                             thumbnails.push({
-                                url: attachment.image.url,
-                                link: attachment.url
+                                url: attachment.url,
+                                link: attachment.image.url
                             });
+                            html.push(attachment.displayName);
                             break;
 
                         case 'article':
@@ -160,7 +162,7 @@ devfest.controller("NewsControl", function($scope, $routeParams, $http, $timeout
                 html = html.join('');
 
                 var actor_image = actor.image.url;
-                actor_image = actor_image.substr(0,actor_image.length-2)+'16';
+                actor_image = actor_image.substr(0,actor_image.length-2)+'50';
 
                 var entry = {
                     via: {
@@ -176,6 +178,7 @@ devfest.controller("NewsControl", function($scope, $routeParams, $http, $timeout
                     icon: actor_image
                 };
 
+                console.log(entry);
                 entries.push(entry);
             }
             $scope.news = entries;
