@@ -36,8 +36,9 @@ devfest.factory('Config',function(){
                     title : 'DevFest Berlin',
                     subtitle : 'November 1st - 3rd, 2013',
                     button : {
-                        text : 'Get your ticket now',
-                        url : 'https://berlin.ticketbud.com/devfest-berlin-2013'
+                        text : 'Event is over',
+                        url : 'https://berlin.ticketbud.com/devfest-berlin-2013',
+                        disabled: true
                     }
                 },
                 "team_ids" : [ //must be Google+ profile ids

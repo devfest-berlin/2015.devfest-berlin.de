@@ -7,7 +7,7 @@
             <div id="cover-content">
                 <h1 class="span12">{{cover.title}}</h1>
                 <p class="span12">{{cover.subtitle}}</p>
-                <p class="span12">
+                <p class="span12" ng-hide="cover.button.disabled">
                     <a class="btn btn-primary btn-large" ng-href="{{cover.button.url}}" target="_blank">{{cover.button.text}}</a>
                 </p>
             </div>
