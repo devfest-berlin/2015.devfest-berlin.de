@@ -1,6 +1,6 @@
 var DEFAULT_YEAR="2013";
 
-var devfest = angular.module('devfest', ['ngSanitize','ui.bootstrap'])
+var devfest = angular.module('devfest', ['ngRoute','ngSanitize','ui.bootstrap'])
     .config(function($routeProvider) {
         $routeProvider.
             when("/:year/about",     {templateUrl:'views/about.html', controller:"AboutControl"}).
