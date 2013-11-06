@@ -16,7 +16,8 @@
 
 /* stream */
 #news-feed {
-  margin: 0 0 0 3px;
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 #news-feed li {
