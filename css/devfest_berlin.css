@@ -104,8 +104,9 @@ body {
   height: 200px;
 }
 #cover-content {
-  margin-top: 140px;
+  margin-top: 170px;
 }
+
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
   display: none;
 }
