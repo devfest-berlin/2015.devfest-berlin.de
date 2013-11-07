@@ -1,9 +1,25 @@
 <div class="col-md-12">
     <h2>Agenda</h2>
 
+    <ul class="cbp_tmtimeline" ng-repeat="day in days">
 
-    <ul class="cbp_tmtimeline">
-    <h2 class="day">Субота, 26 жовтня</h2>
+        <h3 class="day">{{day.label}} <small>{{day.date | date:'EEEE, MMM d'}}</small></h3>
+
+        <li ng-repeat="slot in day.slots">
+                <div class="cbp_tmlabel">
+                <h3>{{  slot[0].time_start | date:'HH:mm'}} - {{slot[0].time_end | date:'HH:mm'}}</h3>
+                <div class="stream-{{parallelSlot.track.toLowerCase() || '0' }}" ng-repeat="parallelSlot in slot">
+                    <h2>{{parallelSlot.title}}</h2>
+                    <p class="speaker">
+                        <span ng-repeat="(index, speaker) in parallelSlot.speakers">{{ speaker.name }}<span ng-show="parallelSlot.speakers.length > 1 && index < parallelSlot.speakers.length-1">, </span></span> </span>
+                    </p>
+                    <p class="room" title="{{rooms[parallelSlot.room_id].location}}">{{ rooms[parallelSlot.room_id].name}}</p>
+                    <!--<a href="/hackathon#android">Деталі...</a>-->
+                </div>
+            </div>
+        </li>
+    </ul>
+    <!--
     <li>
 
         <div class="cbp_tmlabel">
@@ -407,5 +423,5 @@
     </li>
     </ul>
 
-
+-->
 </div>

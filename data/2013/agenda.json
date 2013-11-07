@@ -148,6 +148,7 @@
 	"days" : {
 		"Friday" : {
 			"date" : "2013-11-01",
+            "label": "workshops",
 			"slots" : [
 				{
 					"time_start" : "14:00:00",
@@ -216,6 +217,50 @@
                 {
                     "time_start" : "15:00:00",
                     "time_end" : "15:30:00",
+                    "title" : "AngularJS workshop",
+                    "desc" : "",
+                    "room_id" : "konfi3",
+                    "track" : "Web",
+                    "speaker_ids" : [
+                        "stefanhoth"
+                    ]
+                },
+                {
+                    "time_start" : "15:45:00",
+                    "time_end" : "16:15:00",
+                    "title" : "AngularJS workshop",
+                    "desc" : "",
+                    "room_id" : "konfi3",
+                    "track" : "Web",
+                    "speaker_ids" : [
+                        "stefanhoth"
+                    ]
+                },
+                {
+                    "time_start" : "16:30:00",
+                    "time_end" : "17:30:00",
+                    "title" : "AngularJS workshop",
+                    "desc" : "",
+                    "room_id" : "konfi3",
+                    "track" : "Web",
+                    "speaker_ids" : [
+                        "stefanhoth"
+                    ]
+                },
+                {
+                    "time_start" : "17:30:00",
+                    "time_end" : "18:30:00",
+                    "title" : "AngularJS workshop",
+                    "desc" : "",
+                    "room_id" : "konfi3",
+                    "track" : "Web",
+                    "speaker_ids" : [
+                        "stefanhoth"
+                    ]
+                },
+                {
+                    "time_start" : "15:00:00",
+                    "time_end" : "15:30:00",
                     "title" : "Syntax Speedrun I",
                     "desc" : "",
                     "room_id" : "konfi45",
@@ -237,7 +282,7 @@
                 },
                 {
                     "time_start" : "16:30:00",
-                    "time_end" : "18:30:00",
+                    "time_end" : "17:30:00",
                     "title" : "Write all the Pixels",
                     "desc" : "",
                     "room_id" : "konfi45",
@@ -247,14 +292,14 @@
                     ]
                 },
                 {
-                    "time_start" : "15:00:00",
+                    "time_start" : "17:30:00",
                     "time_end" : "18:30:00",
-                    "title" : "AngularJS workshop",
+                    "title" : "Write all the Pixels",
                     "desc" : "",
-                    "room_id" : "konfi3",
-                    "track" : "Web",
+                    "room_id" : "konfi45",
+                    "track" : "Cloud",
                     "speaker_ids" : [
-                        "stefanhoth"
+                        "alexandersurma"
                     ]
                 },
                 {
@@ -280,6 +325,7 @@
 		},
 		"Saturday" : {
 			"date" : "2013-11-02",
+            "label": "conference",
 			"slots" : [
 				{
 					"time_start" : "08:30:00",
@@ -576,6 +622,7 @@
 		},
 		"Sunday" : {
 			"date" : "2013-11-03",
+            "label": "hackathon",
 			"slots" : [
 				{
 					"time_start" : "09:00:00",

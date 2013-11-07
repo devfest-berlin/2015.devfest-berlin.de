@@ -299,28 +299,48 @@ devfest.controller('TeamControl', function($scope, $routeParams, $http, $timeout
 
 devfest.controller('AgendaControl', function($scope, $routeParams, $http, Config) {
 
-    $scope.$parent.year = $routeParams.year; //make sure the main controller knows about the year from the url
+    var year = $routeParams.year;
+
+    $scope.$parent.year = year; //make sure the main controller knows about the year from the url
     $scope.$parent.activeTab = "agenda";
 
-    $scope.email = Config.email;
-    $scope.team = [];
+    $http.get('/data/'+year+'/agenda.json').then(
+        function(result){
+            var agenda = result.data;
 
-    angular.forEach(Config.team_ids, function(teamId, index){
+            angular.forEach(agenda.days, function(day){
 
-        $timeout(function () {
+                var slots ={};
 
-            var gplusUrl = "https://www.googleapis.com/plus/v1/people/"+teamId+"?callback=JSON_CALLBACK&fields=displayName%2Cid%2Cimage%2Curl&key="+Config.google_api;
+                angular.forEach(day.slots, function(slot){
+                    slot.time_start = new Date(day.date + ' ' + slot.time_start);
+                    slot.time_end = new Date(day.date + ' ' + slot.time_end);
 
-            $http.jsonp(gplusUrl).
-                success(function(member){
+                    if(! slots.hasOwnProperty(slot.time_start.toString())){
+                        slots[slot.time_start.toString()] = [];
+                    }
 
-                    member.image.url = member.image.url.replace('?sz=50','?sz=200');
-                    $scope.team.push(member);
-                })
+                    slots[slot.time_start.toString()].push(slot);
 
-        }, (index + 1) * 200);
-    });
+                    var speakers = [];
+                    angular.forEach(slot.speaker_ids, function(id){
+                        speakers.push(agenda.speakers[id]);
+                    });
 
-    $scope.loading = false;
-    $scope.google_plus_link = 'https://plus.google.com/' + Config.id + '/about';
+                    slot.speakers = speakers;
+                });
+
+                day.slots = slots;
+            });
+            $scope.days = agenda.days;
+            $scope.rooms = agenda.rooms;
+
+            $scope.loading = false;
+        },
+        function(error){
+            console.log(error);
+        }
+    );
+
+
 });

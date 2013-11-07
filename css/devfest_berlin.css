@@ -427,15 +427,16 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 /* AGENDA SECTION
 -------------------------------------------------- */
-h2.day {
+h3.day {
     font-weight: 600;
     font-size: 3em;
     border-bottom: 1px dotted #DBDBDB;
     padding-bottom: 10px;
     margin-bottom: 30px;
     margin-top: 80px;
+    text-transform: capitalize;
 }
-h2.day:nth-child(1) {
+h3.day:nth-child(1) {
     margin-top: 20px;
 }
 
@@ -465,7 +466,7 @@ h2.day:nth-child(1) {
     margin-top: 0px;
 
     padding: 0 0 5px 0;
-
+    min-height: 75px;
 }
 
 [class^="stream"] {
@@ -483,6 +484,17 @@ h2.day:nth-child(1) {
     box-shadow: 0 1px 2px #aaa;
     /*	border-radius: 3px;*/
 }
+
+[class^="stream"] p.speaker {
+    font-weight: bold;
+}
+[class^="stream"] p.room {
+    font-style: italic;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+
 
 .cbp_tmtimeline > li .alternate {
     border:none;
@@ -511,11 +523,8 @@ h2.day:nth-child(1) {
     text-decoration: none;
 }
 
-[class^="stream"] span {
-    font-size: 0.5em;
-    font-style: italic;
-    display: block;
-    margin-top: 5px;
+[class^="stream"] p.speaker{
+
 }
 
 .en:after, .ukr:after, .rus:after {
@@ -574,17 +583,17 @@ h2.day:nth-child(1) {
 }
 
 /* Android */
-.stream-1 {
+.stream-android {
     border-top: 7px solid #99cc00;
 }
 
 /* Web */
-.stream-2 {
+.stream-cloud {
     border-top: 7px solid #3366cc;
 }
 
 /* GDG[x] */
-.stream-3 {
+.stream-web {
     border-top: 7px solid #ff8800;
 }
 
