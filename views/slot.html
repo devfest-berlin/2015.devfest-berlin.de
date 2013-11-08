@@ -1,0 +1,14 @@
+<div class="col-md-12">
+    <h2>{{slot.title}}</h2>
+    <p class="time">{{slot.time_start | date:'EEEE, MMM d'}}, {{slot.time_start | date:'HH:mm'}} - {{slot.time_end | date:'HH:mm'}}</p>
+    <div ng-show="slot.speakers">
+        <p>Speaker<span ng-show="slot.speakers.length > 1">s</span>:</p>
+        <ul>
+            <li ng-repeat="speaker in slot.speakers">
+                <p>
+                    {{speaker.name}}
+                </p>
+            </li>
+        </ul>
+    </div>
+</div>
