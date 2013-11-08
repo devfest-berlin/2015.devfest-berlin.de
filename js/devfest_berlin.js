@@ -5,6 +5,7 @@ var devfest = angular.module('devfest', ['ngRoute','ngSanitize', 'ui.bootstrap']
         $routeProvider.
             when("/:year/about",     {templateUrl:'views/about.html', controller:"AboutControl"}).
             when("/:year/agenda",    {templateUrl:'views/agenda.html', controller:"AgendaControl"}).
+            when("/:year/agenda/slot/:slotId",    {templateUrl:'views/slot.html', controller:"SlotControl"}).
             when("/:year/photos",    {templateUrl:'views/photos.html', controller:"PhotosControl"}).
             when("/:year/team",      {templateUrl:'views/team.html', controller:"TeamControl"}).
             when("/:year/news",      {templateUrl:'views/news.html', controller:"NewsControl"}).
@@ -61,6 +62,87 @@ devfest.factory('Config',function(){
         }
     }
 });
+
+devfest.service('AgendaService', ['$http', function($http){
+
+    function _getAgenda(year) {
+
+        var promise = $http.get('/data/'+year+'/agenda.json').then(
+            function(result){
+                var agenda = result.data;
+
+                angular.forEach(agenda.days, function(day){
+
+                    var slots ={};
+
+                    angular.forEach(day.slots, function(slot){
+                        slot.time_start = new Date(day.date + ' ' + slot.time_start);
+                        slot.time_end = new Date(day.date + ' ' + slot.time_end);
+
+                        if(! slots.hasOwnProperty(slot.time_start.toString())){
+                            slots[slot.time_start.toString()] = [];
+                        }
+
+                        slots[slot.time_start.toString()].push(slot);
+
+                        var speakers = [];
+                        angular.forEach(slot.speaker_ids, function(id){
+                            speakers.push(agenda.speakers[id]);
+                        });
+
+                        slot.speakers = speakers;
+                        slot.room = agenda.rooms[slot.room_id];
+                        slot.id = slot.time_start.getTime()+'_'+slot.room_id;
+                    });
+
+                    day.slots = slots;
+                });
+
+                return agenda;
+            },
+            function(error){
+                console.log(error);
+            }
+        );
+
+        return promise;
+    }
+
+    this.getFullAgenda = function(year){
+        var promise = _getAgenda(year).then(function(agenda){
+            return agenda;
+        });
+
+        return promise;
+    }
+
+    this.getSingleSlot = function(year, slotId){
+
+        var promise = _getAgenda(year).then(function(agenda){
+
+            var foundSlot = 0;
+
+            angular.forEach(agenda.days, function(day){
+
+                if(foundSlot === 0){ //Angular forEach has no break
+                    angular.forEach(day.slots, function(slotArray){
+                        angular.forEach(slotArray, function(slot){
+                            if(slot.id == slotId){
+                                foundSlot = slot;
+                                return;
+                            }
+                        });
+                    });
+                }
+            });
+
+            return foundSlot;
+        });
+
+        return promise;
+    }
+}]);
+
 
 devfest.controller('MainControl', function($scope, Config) {
 
@@ -297,50 +379,27 @@ devfest.controller('TeamControl', function($scope, $routeParams, $http, $timeout
     $scope.loading = false;
 });
 
-devfest.controller('AgendaControl', function($scope, $routeParams, $http, Config) {
+devfest.controller('AgendaControl', function($scope, $routeParams, AgendaService) {
 
     var year = $routeParams.year;
-
     $scope.$parent.year = year; //make sure the main controller knows about the year from the url
     $scope.$parent.activeTab = "agenda";
 
-    $http.get('/data/'+year+'/agenda.json').then(
-        function(result){
-            var agenda = result.data;
+    var agenda = AgendaService.getFullAgenda(year).then(function(agenda){
+        $scope.days = agenda.days;
+    });
+});
 
-            angular.forEach(agenda.days, function(day){
+devfest.controller('SlotControl', function($scope, $routeParams, AgendaService){
 
-                var slots ={};
+    var year = $routeParams.year;
+    $scope.$parent.year = year; //make sure the main controller knows about the year from the url
+    $scope.$parent.activeTab = "agenda";
 
-                angular.forEach(day.slots, function(slot){
-                    slot.time_start = new Date(day.date + ' ' + slot.time_start);
-                    slot.time_end = new Date(day.date + ' ' + slot.time_end);
-
-                    if(! slots.hasOwnProperty(slot.time_start.toString())){
-                        slots[slot.time_start.toString()] = [];
-                    }
-
-                    slots[slot.time_start.toString()].push(slot);
-
-                    var speakers = [];
-                    angular.forEach(slot.speaker_ids, function(id){
-                        speakers.push(agenda.speakers[id]);
-                    });
-
-                    slot.speakers = speakers;
-                    slot.room = agenda.rooms[slot.room_id];
-                });
-
-                day.slots = slots;
-            });
-            $scope.days = agenda.days;
-
-            $scope.loading = false;
-        },
-        function(error){
-            console.log(error);
-        }
-    );
+    var agenda = AgendaService.getSingleSlot(year, $routeParams.slotId).then(function(slot){
+        console.log(slot);
+        $scope.slot = slot;
+    });
 
 
 });
