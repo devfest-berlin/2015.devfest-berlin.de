@@ -328,12 +328,12 @@ devfest.controller('AgendaControl', function($scope, $routeParams, $http, Config
                     });
 
                     slot.speakers = speakers;
+                    slot.room = agenda.rooms[slot.room_id];
                 });
 
                 day.slots = slots;
             });
             $scope.days = agenda.days;
-            $scope.rooms = agenda.rooms;
 
             $scope.loading = false;
         },

@@ -1,6 +1,29 @@
 <div class="col-md-12">
     <h2>Agenda</h2>
 
+    <ul class="cbp_tmtimeline">
+        <li>
+            <div class="cbp_tmlabel alternate">
+                <h2 style="color: #5a5a5a">Our Tracks</h2>
+                <div class="stream-android">
+                    <h2>
+                        Android
+                    </h2>
+                </div>
+                <div class="stream-web">
+                    <h2>
+                        Web
+                    </h2>
+                </div>
+                <div class="stream-cloud">
+                    <h2>
+                        Cloud
+                    </h2>
+                </div>
+            </div>
+        </li>
+    </ul>
+
     <ul class="cbp_tmtimeline" ng-repeat="day in days">
 
         <h3 class="day">{{day.label}} <small>{{day.date | date:'EEEE, MMM d'}}</small></h3>
@@ -13,8 +36,8 @@
                     <p class="speaker">
                         <span ng-repeat="(index, speaker) in parallelSlot.speakers">{{ speaker.name }}<span ng-show="parallelSlot.speakers.length > 1 && index < parallelSlot.speakers.length-1">, </span></span> </span>
                     </p>
-                    <p class="room" title="{{rooms[parallelSlot.room_id].location}}">{{ rooms[parallelSlot.room_id].name}}</p>
-                    <!--<a href="/hackathon#android">Деталі...</a>-->
+                    <p class="room" title="{{parallelSlot.room.location}}">room: {{ parallelSlot.room.name}}</p>
+                    <!--<a href="/hackathon#android">??????...</a>-->
                 </div>
             </div>
         </li>

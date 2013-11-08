@@ -566,7 +566,7 @@ h3.day:nth-child(1) {
     background: none;
 
     -webkit-transform-origin: 0 0;
-    -moz-transform-origin:    0 0;
+   -moz-transform-origin:    0 0;
     -ms-transform-origin:     0 0;
     -o-transform-origin:      0 0;
 
