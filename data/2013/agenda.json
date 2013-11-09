@@ -38,20 +38,20 @@
 		},
 		"matthiasfriedrich" : {
 			"name" : "Matthias Friedrich",
-			"plus_id" : "",
-			"img" : "",
+			"plus_id" : "http://google.com/+MatthiasFriedrich",
+			"img" : "/images/speakers/matthiasfriedrich.png",
 			"description" : ""
 		},
 		"mateuszherych" : {
 			"name" : "Mateusz Herych",
-			"plus_id" : "",
-			"img" : "",
-			"description" : ""
+			"plus_id" : "https://plus.google.com/u/1/108555637824110226040/",
+			"img" : "/images/speakers/mateuszherych.jpg",
+			"description" : "Mateusz works as an Android Developer at Base CRM, where he tries to make enterprise software users 10x more productive. In his free time he's fighting <a href=\"http://github.com/partition\">http://github.com/partition</a> Android data layer boilerplate. He is GDG Kraków co-organizer and every December you can find him organizing <a href=\"http://krakdroid.pl\">KrakDroid</a>."
 		},
 		"davidgonzalez" : {
 			"name" : "David González",
-			"plus_id" : "",
-			"img" : "",
+			"plus_id" : "https://plus.google.com/102945547798504771972",
+			"img" : "/images/speakers/davidgonzalez.jpg",
 			"description" : ""
 		},
 		"wiebeelsinga" : {
@@ -62,9 +62,9 @@
 		},
 		"timmesserschmidt" : {
 			"name" : "Tim Messerschmidt",
-			"plus_id" : "",
-			"img" : "",
-			"description" : ""
+			"plus_id" : "https://www.google.com/+TimMesserschmidt",
+			"img" : "/images/speakers/timmesserschmidt.png",
+			"description" : "As a long time mobile and web developer specializing in Android, Tim channels his knowledge and experience as a Developer Evangelist across Europe for PayPal’s Developer Network. Tim is very passionate about startups, and serves as a mentor of Seedcamp, Wayra, Startup Wise Guys & Rockstart. In his spare time, he leads and creates training classes in all sorts of Android related topics, and is the author of the Android chapter of the Mobile Developer's Guide to the Galaxy, as well as numerous articles published in magazines like Web&Mobile Developer. His ongoing work on this topic and having an app in Google's Play Store with more than 300,000 downloads makes him a great resource for mobile related questions."
 		},
 		"christianketterer" : {
 			"name" : "Christian Ketterer",
@@ -74,14 +74,14 @@
 		},
 		"sebastianstiehl" : {
 			"name" : "Sebastian Stiehl",
-			"plus_id" : "",
+			"plus_id" : "https://plus.google.com/+SebastianStiehl",
 			"img" : "",
-			"description" : ""
+			"description" : "Name: Sebastian Stiehl<br/>From: Berlin, Germany<br/>Working: Dynamic Frontend Expert @ immobilienscout24.de<br/>Homepage: stiehl.io<br/>Twitter: @5oc"
 		},
 		"martingoerner" : {
 			"name" : "Martin Görner",
-			"plus_id" : "",
-			"img" : "",
+			"plus_id" : "https://plus.google.com/+MartinGorner",
+			"img" : "/images/speakers/martingoerner.jpg",
 			"description" : ""
 		},
 		"janmonschke" : {
@@ -92,8 +92,8 @@
 		},
 		"alexandersurma" : {
 			"name" : "Alexander Surma",
-			"plus_id" : "",
-			"img" : "",
+			"plus_id" : "http://plus.google.com/+AlexanderSurma",
+			"img" : "/images/speakers/alexandersurma.jpg",
 			"description" : ""
 		},
 		"michaelmahemoff" : {
@@ -104,8 +104,8 @@
 		},
 		"jenskuehlers" : {
 			"name" : "Jens Kühlers",
-			"plus_id" : "",
-			"img" : "",
+			"plus_id" : "https://www.google.com/+JensKuehlers",
+			"img" : "/images/speakers/jenskuehlers.jpg",
 			"description" : ""
 		},
 		"benjaminweiss" : {
@@ -116,8 +116,8 @@
 		},
 		"steveliedtke" : {
 			"name" : "Steve Liedtke",
-			"plus_id" : "",
-			"img" : "",
+			"plus_id" : "https://plus.google.com/+SteveLiedtke",
+			"img" : "/images/speakers/steveliedtke.jpg",
 			"description" : ""
 		},
 		"jeromemouton" : {
@@ -128,8 +128,8 @@
 		},
 		"ignaciocoloma" : {
 			"name" : "Ignacio Coloma",
-			"plus_id" : "",
-			"img" : "",
+			"plus_id" : "https://plus.google.com/+NachoColoma",
+			"img" : "/images/speakers/ignaciocoloma.jpg",
 			"description" : ""
 		},
 		"raphaelbauer" : {
@@ -177,6 +177,7 @@
                     "desc" : "",
                     "room_id" : "casino",
                     "track" : "Android",
+                    "slide":"",
                     "speaker_ids" : [
                         "dirkjaeckel"
                     ]
@@ -188,6 +189,7 @@
                     "desc" : "",
                     "room_id" : "casino",
                     "track" : "Android",
+                    "slide":"",
                     "speaker_ids" : [
                         "dirkjaeckel"
                     ]
@@ -199,6 +201,7 @@
                     "desc" : "",
                     "room_id" : "casino",
                     "track" : "Android",
+                    "slide":"",
                     "speaker_ids" : [
                         "dirkjaeckel"
                     ]
@@ -210,6 +213,7 @@
                     "desc" : "",
                     "room_id" : "casino",
                     "track" : "Android",
+                    "slide":"",
                     "speaker_ids" : [
                         "dirkjaeckel"
                     ]
@@ -221,6 +225,7 @@
                     "desc" : "",
                     "room_id" : "konfi3",
                     "track" : "Web",
+                    "slide":"",
                     "speaker_ids" : [
                         "stefanhoth"
                     ]
@@ -232,6 +237,7 @@
                     "desc" : "",
                     "room_id" : "konfi3",
                     "track" : "Web",
+                    "slide":"",
                     "speaker_ids" : [
                         "stefanhoth"
                     ]
@@ -243,6 +249,7 @@
                     "desc" : "",
                     "room_id" : "konfi3",
                     "track" : "Web",
+                    "slide":"",
                     "speaker_ids" : [
                         "stefanhoth"
                     ]
@@ -254,6 +261,7 @@
                     "desc" : "",
                     "room_id" : "konfi3",
                     "track" : "Web",
+                    "slide":"",
                     "speaker_ids" : [
                         "stefanhoth"
                     ]
@@ -262,9 +270,10 @@
                     "time_start" : "15:00:00",
                     "time_end" : "15:30:00",
                     "title" : "Syntax Speedrun I",
-                    "desc" : "",
+                    "desc" : "Go has been getting more and more attention over the last few years.<br/>If it has peaked your interest as well, here's your chance to learn<br/>the basics and write your first Go program.",
                     "room_id" : "konfi45",
                     "track" : "Cloud",
+                    "slide":"http://surma-slides.github.com/pixelpixel",
                     "speaker_ids" : [
                         "alexandersurma"
                     ]
@@ -273,9 +282,10 @@
                     "time_start" : "15:45:00",
                     "time_end" : "16:15:00",
                     "title" : "Syntax Speedrun II",
-                    "desc" : "",
+                    "desc" : "Go has been getting more and more attention over the last few years.<br/>If it has peaked your interest as well, here's your chance to learn<br/>the basics and write your first Go program.",
                     "room_id" : "konfi45",
                     "track" : "Cloud",
+                    "slide":"http://surma-slides.github.com/pixelpixel",
                     "speaker_ids" : [
                         "alexandersurma"
                     ]
@@ -284,9 +294,10 @@
                     "time_start" : "16:30:00",
                     "time_end" : "17:30:00",
                     "title" : "Write all the Pixels",
-                    "desc" : "",
+                    "desc" : "Go has been getting more and more attention over the last few years.<br/>If it has peaked your interest as well, here's your chance to learn<br/>the basics and write your first Go program.",
                     "room_id" : "konfi45",
                     "track" : "Cloud",
+                    "slide":"http://surma-slides.github.com/pixelpixel",
                     "speaker_ids" : [
                         "alexandersurma"
                     ]
@@ -295,9 +306,10 @@
                     "time_start" : "17:30:00",
                     "time_end" : "18:30:00",
                     "title" : "Write all the Pixels",
-                    "desc" : "",
+                    "desc" : "Go has been getting more and more attention over the last few years.<br/>If it has peaked your interest as well, here's your chance to learn<br/>the basics and write your first Go program.",
                     "room_id" : "konfi45",
                     "track" : "Cloud",
+                    "slide":"http://surma-slides.github.com/pixelpixel",
                     "speaker_ids" : [
                         "alexandersurma"
                     ]
@@ -354,6 +366,7 @@
 					"desc" : "",
 					"room_id" : "atrium",
 					"track" : "Android",
+                    "slide":"https://googledrive.com/host/0B5fLjsud2Jw0ODktc2NXWTBldUU/",
 					"speaker_ids" : [
 						"matthiasfriedrich"
 					]
@@ -362,9 +375,10 @@
 					"time_start" : "11:00:00",
 					"time_end" : "11:45:00",
 					"title" : "Inject with Dagger",
-					"desc" : "",
+					"desc" : "Inject with Dagger - Dependency Injection on Android is nothing new.<br/>Guice-based RoboGuice was the first developers' choice for years.<br/>Unfortunately, since it's reflection based it's source of performance issues, visible especially on older devices. Dagger and its codegen-based injection seems like a better solution but is it mature enough to fight with well-known RoboGuice?",
 					"room_id" : "atrium",
 					"track" : "Android",
+                    "slide":"/data/2013/slides/DevFest_berlin_2013-inject_with_dagger.pdf",
 					"speaker_ids" : [
 						"mateuszherych"
 					]
@@ -376,6 +390,7 @@
 					"desc" : "",
 					"room_id" : "atrium",
 					"track" : "Android",
+                    "slide":"",
 					"speaker_ids" : [
 						"davidgonzalez"
 					]
@@ -397,6 +412,7 @@
 					"desc" : "",
 					"room_id" : "atrium",
 					"track" : "Android",
+                    "slide":"",
 					"speaker_ids" : [
 						"wiebeelsinga"
 					]
@@ -408,6 +424,7 @@
 					"desc" : "",
 					"room_id" : "atrium",
 					"track" : "Android",
+                    "slide" : "data/2013/slides/DevFest_berlin_2013-Authentication_for_Droids.pptx",
 					"speaker_ids" : [
 						"timmesserschmidt"
 					]
@@ -429,6 +446,7 @@
 					"desc" : "",
 					"room_id" : "atrium",
 					"track" : "Android",
+                    "slide":"",
 					"speaker_ids" : [
 						"christianketterer"
 					]
@@ -451,6 +469,7 @@
 					"desc" : "",
 					"room_id" : "konfi45",
 					"track" : "Web",
+                    "slide":"http://stiehl.io/is-slides/edge.html",
 					"speaker_ids" : [
 						"sebastianstiehl"
 					]
@@ -459,9 +478,10 @@
 					"time_start" : "11:00:00",
 					"time_end" : "11:45:00",
 					"title" : "For your Canary eyes only: CSS custom filters",
-					"desc" : "",
+					"desc" : "For your Canary eyes only: CSS shaders in HTML5 animations:<br/>Also known as custom CSS filters, this technology allows you to specify a vertex and a pixel shader to be applied to your page in your CSS. The GLSL shaders are executed directly by the GPU, unlocking an immense graphical power right from your CSS, entirely bypassing the complexity of OpenGL.",
 					"room_id" : "konfi45",
 					"track" : "Web",
+                    "slide":"http://animateyourhtml5.appspot.com/",
 					"speaker_ids" : [
 						"martingoerner"
 					]
@@ -473,6 +493,7 @@
 					"desc" : "",
 					"room_id" : "konfi45",
 					"track" : "Web",
+                    "slide":"",
 					"speaker_ids" : [
 						"janmonschke"
 					]
@@ -481,9 +502,10 @@
 					"time_start" : "14:00:00",
 					"time_end" : "14:45:00",
 					"title" : "Polymer",
-					"desc" : "",
+					"desc" : "The Polymer Project has been announced at Google’s I/O 2013 in May and is a collection of polyfills for up-and-coming browser technolgies as well as a framework on top. Polymer provides you with the ability to create your own custom elements which are handled just like native ones by the browser. How this is beneficial for your web development process is topic of the talk.",
 					"room_id" : "konfi45",
 					"track" : "Web",
+                    "slide":"http://surma-slides.github.com/polymer",
 					"speaker_ids" : [
 						"alexandersurma"
 					]
@@ -495,6 +517,7 @@
 					"desc" : "",
 					"room_id" : "konfi45",
 					"track" : "Web",
+                    "slide":"http://bit.ly/apifest",
 					"speaker_ids" : [
 						"michaelmahemoff"
 					]
@@ -506,6 +529,7 @@
 					"desc" : "",
 					"room_id" : "konfi45",
 					"track" : "Web",
+                    "slide":"",
 					"speaker_ids" : [
 						"stefanhoth"
 					]
@@ -525,9 +549,10 @@
 					"time_start" : "10:00:00",
 					"time_end" : "10:45:00",
 					"title" : "Intro on how Google Cloud Platform can power your startup",
-					"desc" : "",
+					"desc" : "This talk gives a brief overview about Google Cloud Platform and how it can power your startup by giving you access to Google's powerful infrastructure. Regardless if you want root access to the shell on Google Compute Engine or have us autoscale your application on Google App Engine, this talk shows how Google can do it at scale and how you can easily get started.",
 					"room_id" : "casino",
 					"track" : "Cloud",
+                    "slide":"https://docs.google.com//presentation/d/184mpeWXCZdt7H-OX1mbEnwUDyDHlmtG9SRBUX0672Pk/edit#slide=id.gd02f113b_90",
 					"speaker_ids" : [
 						"jenskuehlers"
 					]
@@ -539,6 +564,7 @@
 					"desc" : "",
 					"room_id" : "casino",
 					"track" : "Cloud",
+                    "slide":"",
 					"speaker_ids" : [
 						"benjaminweiss"
 					]
@@ -550,6 +576,7 @@
 					"desc" : "",
 					"room_id" : "casino",
 					"track" : "Cloud",
+                    "slide":"http://slides.steveliedtke.de/gcm3",
 					"speaker_ids" : [
 						"steveliedtke"
 					]
@@ -561,6 +588,7 @@
 					"desc" : "",
 					"room_id" : "casino",
 					"track" : "Cloud",
+                    "slide":"",
 					"speaker_ids" : [
 						"jeromemouton"
 					]
@@ -572,6 +600,7 @@
 					"desc" : "",
 					"room_id" : "casino",
 					"track" : "Cloud",
+                    "slide":"https://speakerdeck.com/icoloma/rewiring-the-java-brain-for-app-engine",
 					"speaker_ids" : [
 						"ignaciocoloma"
 					]
@@ -583,6 +612,7 @@
 					"desc" : "",
 					"room_id" : "casino",
 					"track" : "Cloud",
+                    "slide":"",
 					"speaker_ids" : [
 						"raphaelbauer"
 					]
