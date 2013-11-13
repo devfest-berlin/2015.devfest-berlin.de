@@ -31,13 +31,16 @@
         <li ng-repeat="slot in day.slots">
            <div class="cbp_tmlabel">
                 <h3>{{  slot[0].time_start | date:'HH:mm'}} - {{slot[0].time_end | date:'HH:mm'}}</h3>
-                <div class="stream-{{session.track.toLowerCase() || '0' }}" ng-repeat="session in slot" ng-click="angular.find('a').click()">
+                <div class="stream-{{session.track.toLowerCase() || '0' }}" ng-repeat="session in slot" ng-click="openSession(session);">
                     <h2>{{session.title}}</h2>
                     <p class="speaker">
                         <span ng-repeat="(index, speaker) in session.speakers">{{ speaker.name }}<span ng-show="session.speakers.length > 1 && index < session.speakers.length-1">, </span></span> </span>
                     </p>
+                    <p ng-show="session.youtube_id || session.slide" class="icons">
+                        <span ng-show="session.youtube_id" class="badge glyphicon glyphicon-facetime-video" title="This session has been recorded."> </span>
+                        <span ng-show="session.slide"class="badge glyphicon glyphicon-sound-stereo" title="This session has slides attached."> </span>
+                    </p>
                     <p class="room" title="{{session.room.location}}">room: {{ session.room.name}}</p>
-                    <a ng-show="session.track" ng-href="#/{{year}}/agenda/session/{{session.id}}">Slotinfo</a>
                 </div>
             </div>
         </li>

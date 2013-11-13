@@ -393,6 +393,12 @@ devfest.controller('AgendaControl', function($scope, $routeParams, AgendaService
     var agenda = AgendaService.getFullAgenda(year).then(function(agenda){
         $scope.days = agenda.days;
     });
+
+    $scope.openSession = function(session){
+        if(session.track){
+            location.href = "#/"+year+"/agenda/session/"+session.id;
+        }
+    }
 });
 
 devfest.controller('SessionControl', function($scope, $routeParams, AgendaService, $sce){
@@ -408,7 +414,6 @@ devfest.controller('SessionControl', function($scope, $routeParams, AgendaServic
         }
 
         $scope.session = session;
+
     });
-
-
 });
