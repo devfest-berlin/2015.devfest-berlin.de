@@ -5,7 +5,7 @@ var devfest = angular.module('devfest', ['ngRoute','ngSanitize', 'ui.bootstrap']
         $routeProvider.
             when("/:year/about",     {templateUrl:'views/about.html', controller:"AboutControl"}).
             when("/:year/agenda",    {templateUrl:'views/agenda.html', controller:"AgendaControl"}).
-            when("/:year/agenda/slot/:slotId",    {templateUrl:'views/slot.html', controller:"SlotControl"}).
+            when("/:year/agenda/session/:sessionId",    {templateUrl:'views/session.html', controller:"SessionControl"}).
             when("/:year/photos",    {templateUrl:'views/photos.html', controller:"PhotosControl"}).
             when("/:year/team",      {templateUrl:'views/team.html', controller:"TeamControl"}).
             when("/:year/news",      {templateUrl:'views/news.html', controller:"NewsControl"}).
@@ -116,19 +116,19 @@ devfest.service('AgendaService', ['$http', function($http){
         return promise;
     }
 
-    this.getSingleSlot = function(year, slotId){
+    this.getSession = function(year, sessionId){
 
         var promise = _getAgenda(year).then(function(agenda){
 
-            var foundSlot = 0;
+            var foundSession = 0;
 
             angular.forEach(agenda.days, function(day){
 
-                if(foundSlot === 0){ //Angular forEach has no break
+                if(foundSession === 0){ //Angular forEach has no break
                     angular.forEach(day.slots, function(slotArray){
-                        angular.forEach(slotArray, function(slot){
-                            if(slot.id == slotId){
-                                foundSlot = slot;
+                        angular.forEach(slotArray, function(session){
+                            if(session.id == sessionId){
+                                foundSession = session;
                                 return;
                             }
                         });
@@ -136,7 +136,7 @@ devfest.service('AgendaService', ['$http', function($http){
                 }
             });
 
-            return foundSlot;
+            return foundSession;
         });
 
         return promise;
@@ -390,15 +390,14 @@ devfest.controller('AgendaControl', function($scope, $routeParams, AgendaService
     });
 });
 
-devfest.controller('SlotControl', function($scope, $routeParams, AgendaService){
+devfest.controller('SessionControl', function($scope, $routeParams, AgendaService){
 
     var year = $routeParams.year;
     $scope.$parent.year = year; //make sure the main controller knows about the year from the url
     $scope.$parent.activeTab = "agenda";
 
-    var agenda = AgendaService.getSingleSlot(year, $routeParams.slotId).then(function(slot){
-        console.log(slot);
-        $scope.slot = slot;
+    var agenda = AgendaService.getSession(year, $routeParams.sessionId).then(function(session){
+        $scope.session = session;
     });
 
 
