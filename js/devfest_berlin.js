@@ -413,6 +413,12 @@ devfest.controller('SessionControl', function($scope, $routeParams, AgendaServic
             session.youtube_url = $sce.trustAsResourceUrl(session.youtube_url);
         }
 
+        angular.forEach(session.speakers, function(speaker){
+            if(! speaker.img){
+                speaker.img = "images/speech_bubble.png";
+            }
+        });
+
         $scope.session = session;
 
     });

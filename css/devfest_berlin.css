@@ -688,6 +688,7 @@ h3.day:nth-child(1) {
 .speakerlist img{
     width: 100%;
     max-width: 200px;
+    max-height: 200px;
 }
 
 img.blackwhite {
