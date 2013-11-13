@@ -691,10 +691,32 @@ h3.day:nth-child(1) {
     max-height: 200px;
 }
 
+
+.speakerlist .wrap{
+    min-height: 240px;
+}
+
+.speakerlist .label {
+    font-size: 1em;
+}
+
 img.blackwhite {
+
+    -moz-transition:all 0.8s ease;
+    -webkit-transition:all 0.8s ease;
+    -ms-transition:all 0.8s ease;
+    -o-transition:all 0.8s ease;
+    transition:all 0.8s ease;
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     filter: grayscale(100%);
+
+}
+
+img.blackwhite:hover {
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    filter: grayscale(0%);
 }
 
 /* bootstrap additions
