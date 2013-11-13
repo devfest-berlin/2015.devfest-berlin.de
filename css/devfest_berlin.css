@@ -496,6 +496,12 @@ h3.day:nth-child(1) {
 }
 
 
+[class^="stream"] p.icons{
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+}
+
 .cbp_tmtimeline > li .alternate {
     border:none;
 }
@@ -521,37 +527,6 @@ h3.day:nth-child(1) {
 [class^="stream"] a:hover {
     color: #245dc1;
     text-decoration: none;
-}
-
-[class^="stream"] p.speaker{
-
-}
-
-.en:after, .ukr:after, .rus:after {
-    position:absolute;
-    font-size:.9rem;
-    top:1.0rem;
-    right:1.02rem;
-    content:"";
-    color:gray;
-    width:1rem;
-    line-height:1rem;
-    text-align:right;
-    pointer-events:none;
-}
-
-.en:after {
-    content:"EN";
-}
-
-.ukr:after {
-    content:"UKR";
-    right:1.82rem;
-}
-
-.rus:after {
-    content:"RUS";
-    right:1.82rem;
 }
 
 .cbp_tmtimeline > li .cbp_tmlabel h3 {
@@ -587,24 +562,20 @@ h3.day:nth-child(1) {
     border-top: 7px solid #99cc00;
 }
 
-/* Web */
+/* Cloud */
 .stream-cloud {
     border-top: 7px solid #3366cc;
 }
 
-/* GDG[x] */
+/* Web */
 .stream-web {
     border-top: 7px solid #ff8800;
 }
 
-/* Glass */
-.stream-4 {
-    border-top: 7px solid #47b7e6;
-}
-
-/* Google Ads */
-.stream-5 {
-    border-top: 7px solid #cc0000;
+.stream-android,
+.stream-web,
+.stream-cloud{
+    cursor: pointer;
 }
 
 .presentation {
@@ -717,6 +688,12 @@ h3.day:nth-child(1) {
 .speakerlist img{
     width: 100%;
     max-width: 200px;
+}
+
+img.blackwhite {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 
 /* bootstrap additions
