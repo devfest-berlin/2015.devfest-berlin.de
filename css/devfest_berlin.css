@@ -713,3 +713,21 @@ h3.day:nth-child(1) {
     margin-bottom: 19px;
     width: 100%;
 }
+
+.speakerlist img{
+    width: 100%;
+    max-width: 200px;
+}
+
+/* bootstrap additions
+*/
+
+.label-android {
+    background-color: #99cc00;
+}
+.label-cloud {
+    background-color: #3366cc;
+}
+.label-web {
+    background-color: #ff8800;
+}

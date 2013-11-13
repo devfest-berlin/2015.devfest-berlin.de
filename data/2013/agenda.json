@@ -366,7 +366,8 @@
 					"desc" : "",
 					"room_id" : "atrium",
 					"track" : "Android",
-                    "slide":"https://googledrive.com/host/0B5fLjsud2Jw0ODktc2NXWTBldUU/",
+                    "video": "http://www.youtube.com/channel/UCKWW1FqEJ_hY8v5BMAjfRDw",
+                    "slide": "https://docs.google.com/presentation/d/1Htn24oVQ4jBgFx83DGj-pYSQtm7aiFYxqySgrHIChFg/present",
 					"speaker_ids" : [
 						"matthiasfriedrich"
 					]
