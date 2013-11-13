@@ -68,8 +68,8 @@
 		},
 		"christianketterer" : {
 			"name" : "Christian Ketterer",
-			"plus_id" : "",
-			"img" : "",
+			"plus_id" : "110214177917096895451",
+			"img" : "https://lh5.googleusercontent.com/-VWZOqf2XzyU/AAAAAAAAAAI/AAAAAAAAAIo/jrtEGsIfX5w/s200-c/photo.jpg",
 			"description" : ""
 		},
 		"sebastianstiehl" : {
@@ -447,11 +447,11 @@
 					"time_start" : "16:30:00",
 					"time_end" : "17:15:00",
 					"title" : "You are not alone on this phone",
-					"desc" : "",
+					"desc" : "This talk gives a brief overview of the options Android offers you to integrate with other apps.",
 					"room_id" : "atrium",
 					"track" : "Android",
                     "youtube_id": "wn5Tsh9zxp4",
-                    "slide":"",
+                    "slide":"http://www.slideshare.net/cketti/you-are-not-alone-on-this-phone",
 					"speaker_ids" : [
 						"christianketterer"
 					]
