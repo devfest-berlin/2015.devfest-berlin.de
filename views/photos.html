@@ -3,7 +3,7 @@
     <div class="gdg_loading" ng-show="loading"></div>
     <div ng-show="!loading">
         <h2>{{title}}</h2>
-        <ul class="thumbnails">
+        <ul class="photos thumbnails">
             <li class="col-md-3" ng-repeat="photo in photos">
                 <a ng-href="{{photo.link}}" class="thumbnail" target="_blank">
                     <img ng-src="{{photo.src}}?sz=260" alt="{{photo.alt}}" title="{{photo.title}}">
