@@ -76,7 +76,7 @@
 			"name" : "Sebastian Stiehl",
 			"plus_id" : "https://plus.google.com/+SebastianStiehl",
 			"img" : "",
-			"description" : "Name: Sebastian Stiehl<br/>From: Berlin, Germany<br/>Working: Dynamic Frontend Expert @ immobilienscout24.de<br/>Homepage: stiehl.io<br/>Twitter: @5oc"
+			"description" : "Dynamic Frontend Expert @ immobilienscout24.de living in Berlin"
 		},
 		"martingoerner" : {
 			"name" : "Martin Görner",
@@ -450,6 +450,7 @@
 					"desc" : "",
 					"room_id" : "atrium",
 					"track" : "Android",
+                    "youtube_id": "wn5Tsh9zxp4",
                     "slide":"",
 					"speaker_ids" : [
 						"christianketterer"
@@ -483,7 +484,7 @@
 					"time_start" : "11:00:00",
 					"time_end" : "11:45:00",
 					"title" : "For your Canary eyes only: CSS custom filters",
-					"desc" : "For your Canary eyes only: CSS shaders in HTML5 animations:<br/>Also known as custom CSS filters, this technology allows you to specify a vertex and a pixel shader to be applied to your page in your CSS. The GLSL shaders are executed directly by the GPU, unlocking an immense graphical power right from your CSS, entirely bypassing the complexity of OpenGL.",
+					"desc" : "Also known as custom CSS filters, this technology allows you to specify a vertex and a pixel shader to be applied to your page in your CSS. The GLSL shaders are executed directly by the GPU, unlocking an immense graphical power right from your CSS, entirely bypassing the complexity of OpenGL.",
 					"room_id" : "konfi45",
 					"track" : "Web",
                     "youtube_id": "F3nqxC9NbYM",
