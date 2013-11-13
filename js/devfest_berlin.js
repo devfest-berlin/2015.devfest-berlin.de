@@ -128,6 +128,11 @@ devfest.service('AgendaService', ['$http', function($http){
                     angular.forEach(day.slots, function(slotArray){
                         angular.forEach(slotArray, function(session){
                             if(session.id == sessionId){
+
+                                if(session.youtube_id){
+                                    session.youtube_url = '//www.youtube-nocookie.com/embed/'+ session.youtube_id;
+                                }
+
                                 foundSession = session;
                                 return;
                             }
@@ -390,13 +395,18 @@ devfest.controller('AgendaControl', function($scope, $routeParams, AgendaService
     });
 });
 
-devfest.controller('SessionControl', function($scope, $routeParams, AgendaService){
+devfest.controller('SessionControl', function($scope, $routeParams, AgendaService, $sce){
 
     var year = $routeParams.year;
     $scope.$parent.year = year; //make sure the main controller knows about the year from the url
     $scope.$parent.activeTab = "agenda";
 
-    var agenda = AgendaService.getSession(year, $routeParams.sessionId).then(function(session){
+    AgendaService.getSession(year, $routeParams.sessionId).then(function(session){
+
+        if(session.youtube_url){
+            session.youtube_url = $sce.trustAsResourceUrl(session.youtube_url);
+        }
+
         $scope.session = session;
     });
 

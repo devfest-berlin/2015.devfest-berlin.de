@@ -10,11 +10,11 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-6" ng-show="session.video">
+        <div ng-show="session.youtube_id" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <h3>Video</h3>
-            <a ng-href="{{session.video}}">Click here for the awesome video.</a>
+            <iframe style="width: 100%; height: 400px;" ng-src="{{session.youtube_url}}" frameborder="0" allowfullscreen></iframe>
         </div>
-        <div class="col-md-6" ng-show="session.slide">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" ng-show="session.slide">
             <h3>Slides</h3>
             <a ng-href="{{session.slide}}">Click here for the awesome slides.</a>
         </div>

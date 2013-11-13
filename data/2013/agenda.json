@@ -366,7 +366,7 @@
 					"desc" : "",
 					"room_id" : "atrium",
 					"track" : "Android",
-                    "video": "http://www.youtube.com/channel/UCKWW1FqEJ_hY8v5BMAjfRDw",
+                    "youtube_id": "Frioa9TpJo8",
                     "slide": "https://docs.google.com/presentation/d/1Htn24oVQ4jBgFx83DGj-pYSQtm7aiFYxqySgrHIChFg/present",
 					"speaker_ids" : [
 						"matthiasfriedrich"
@@ -391,6 +391,7 @@
 					"desc" : "",
 					"room_id" : "atrium",
 					"track" : "Android",
+                    "youtube_id": "ij7TjmVypmo",
                     "slide":"",
 					"speaker_ids" : [
 						"davidgonzalez"
@@ -413,6 +414,7 @@
 					"desc" : "",
 					"room_id" : "atrium",
 					"track" : "Android",
+                    "youtube_id": "HcOG6xAIkL4",
                     "slide":"",
 					"speaker_ids" : [
 						"wiebeelsinga"
@@ -425,6 +427,7 @@
 					"desc" : "",
 					"room_id" : "atrium",
 					"track" : "Android",
+                    "youtube_id": "vrJg3JuzSw8",
                     "slide" : "data/2013/slides/DevFest_berlin_2013-Authentication_for_Droids.pptx",
 					"speaker_ids" : [
 						"timmesserschmidt"
@@ -470,6 +473,7 @@
 					"desc" : "",
 					"room_id" : "konfi45",
 					"track" : "Web",
+                    "youtube_id": "BdOhWVl5B-M",
                     "slide":"http://stiehl.io/is-slides/edge.html",
 					"speaker_ids" : [
 						"sebastianstiehl"
@@ -482,6 +486,7 @@
 					"desc" : "For your Canary eyes only: CSS shaders in HTML5 animations:<br/>Also known as custom CSS filters, this technology allows you to specify a vertex and a pixel shader to be applied to your page in your CSS. The GLSL shaders are executed directly by the GPU, unlocking an immense graphical power right from your CSS, entirely bypassing the complexity of OpenGL.",
 					"room_id" : "konfi45",
 					"track" : "Web",
+                    "youtube_id": "F3nqxC9NbYM",
                     "slide":"http://animateyourhtml5.appspot.com/",
 					"speaker_ids" : [
 						"martingoerner"
@@ -494,6 +499,7 @@
 					"desc" : "",
 					"room_id" : "konfi45",
 					"track" : "Web",
+                    "youtube_id": "HqOtBGDh6nA",
                     "slide":"",
 					"speaker_ids" : [
 						"janmonschke"
@@ -506,6 +512,7 @@
 					"desc" : "The Polymer Project has been announced at Google’s I/O 2013 in May and is a collection of polyfills for up-and-coming browser technolgies as well as a framework on top. Polymer provides you with the ability to create your own custom elements which are handled just like native ones by the browser. How this is beneficial for your web development process is topic of the talk.",
 					"room_id" : "konfi45",
 					"track" : "Web",
+                    "youtube_id": "kAqdyKBYrJ0",
                     "slide":"http://surma-slides.github.com/polymer",
 					"speaker_ids" : [
 						"alexandersurma"
@@ -518,6 +525,7 @@
 					"desc" : "",
 					"room_id" : "konfi45",
 					"track" : "Web",
+                    "youtube_id": "T6gw9Cfmvz4",
                     "slide":"http://bit.ly/apifest",
 					"speaker_ids" : [
 						"michaelmahemoff"
@@ -530,6 +538,7 @@
 					"desc" : "",
 					"room_id" : "konfi45",
 					"track" : "Web",
+                    "youtube_id": "D6mYW3A26X8",
                     "slide":"",
 					"speaker_ids" : [
 						"stefanhoth"
@@ -542,6 +551,7 @@
 					"desc" : "",
 					"room_id" : "konfi45",
 					"track" : "Web",
+                    "youtube_id": "SbGDoiw7v-A",
 					"speaker_ids" : [
                         "martingoerner", "janmonschke", "alexandersurma", "michaelmahemoff", "stefanhoth"
 					]
@@ -553,6 +563,7 @@
 					"desc" : "This talk gives a brief overview about Google Cloud Platform and how it can power your startup by giving you access to Google's powerful infrastructure. Regardless if you want root access to the shell on Google Compute Engine or have us autoscale your application on Google App Engine, this talk shows how Google can do it at scale and how you can easily get started.",
 					"room_id" : "casino",
 					"track" : "Cloud",
+                    "youtube_id": "mYDSXsM8z-s",
                     "slide":"https://docs.google.com//presentation/d/184mpeWXCZdt7H-OX1mbEnwUDyDHlmtG9SRBUX0672Pk/edit#slide=id.gd02f113b_90",
 					"speaker_ids" : [
 						"jenskuehlers"
@@ -565,6 +576,7 @@
 					"desc" : "",
 					"room_id" : "casino",
 					"track" : "Cloud",
+                    "youtube_id": "hWJnOzUK8Cg",
                     "slide":"",
 					"speaker_ids" : [
 						"benjaminweiss"
@@ -577,6 +589,7 @@
 					"desc" : "",
 					"room_id" : "casino",
 					"track" : "Cloud",
+                    "youtube_id": "u2k7Cu4CA6I",
                     "slide":"http://slides.steveliedtke.de/gcm3",
 					"speaker_ids" : [
 						"steveliedtke"
@@ -589,6 +602,7 @@
 					"desc" : "",
 					"room_id" : "casino",
 					"track" : "Cloud",
+                    "youtube_id": "-OoSctFkoSY",
                     "slide":"",
 					"speaker_ids" : [
 						"jeromemouton"
@@ -613,6 +627,7 @@
 					"desc" : "",
 					"room_id" : "casino",
 					"track" : "Cloud",
+                    "youtube_id": "82DLxRYn1Nc",
                     "slide":"",
 					"speaker_ids" : [
 						"raphaelbauer"
