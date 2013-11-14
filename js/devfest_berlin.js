@@ -6,6 +6,7 @@ var devfest = angular.module('devfest', ['ngRoute','ngSanitize', 'ui.bootstrap']
             when("/:year/about",     {templateUrl:'views/about.html', controller:"AboutControl"}).
             when("/:year/agenda",    {templateUrl:'views/agenda.html', controller:"AgendaControl"}).
             when("/:year/agenda/session/:sessionId",    {templateUrl:'views/session.html', controller:"SessionControl"}).
+            when("/:year/speaker",    {templateUrl:'views/speakerList.html', controller:"SpeakerControl"}).
             when("/:year/photos",    {templateUrl:'views/photos.html', controller:"PhotosControl"}).
             when("/:year/team",      {templateUrl:'views/team.html', controller:"TeamControl"}).
             when("/:year/news",      {templateUrl:'views/news.html', controller:"NewsControl"}).
@@ -146,8 +147,15 @@ devfest.service('AgendaService', ['$http', function($http){
 
         return promise;
     }
-}]);
 
+    this.getSpeakerList = function (year){
+        var promise = _getAgenda(year).then(function(agenda){
+            return agenda;
+        });
+
+        return promise;
+    }
+}]);
 
 devfest.controller('MainControl', function($scope, Config) {
 
@@ -434,3 +442,24 @@ devfest.controller('SessionControl', function($scope, $routeParams, AgendaServic
 
     });
 });
+
+devfest.controller('SpeakerControl', function($scope, $routeParams, AgendaService) {
+
+    var year = $routeParams.year;
+    $scope.$parent.year = year; //make sure the main controller knows about the year from the url
+    $scope.$parent.activeTab = "speaker";
+
+    var agenda = AgendaService.getSpeakerList(year).then(function(agenda){
+        $scope.speakers = agenda.speakers;
+        angular.forEach($scope.speakers, function(speaker){
+            if(! speaker.img){
+                speaker.img = "images/speech_bubble.png";
+            }
+        });
+
+    });
+
+
+
+});
+
