@@ -1,0 +1,14 @@
+<div class="col-md-12">
+    <h2>Speakers</h2>
+
+    <div class="row speakerlist">
+        <div ng-repeat="speaker in speakers"
+             class="wrap well col-md-offset-1 col-md-2 col-xs-offset-3 col-xs-6 text-center">
+
+            <img ng-src="{{speaker.img}}" class="img-circle" alt="Photo of {{speaker.name}}"/>
+            <br><br>
+
+            <p class="label label-default">{{speaker.name}}</p>
+        </div>
+    </div>
+</div>
