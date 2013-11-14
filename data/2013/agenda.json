@@ -56,7 +56,7 @@
 		},
 		"wiebeelsinga" : {
 			"name" : "Wiebe Elsinga",
-			"plus_id" : "",
+			"plus_id" : "https://plus.google.com/+WiebeElsinga",
 			"img" : "",
 			"description" : ""
 		},
@@ -68,8 +68,8 @@
 		},
 		"christianketterer" : {
 			"name" : "Christian Ketterer",
-			"plus_id" : "",
-			"img" : "",
+			"plus_id" : "110214177917096895451",
+			"img" : "https://lh5.googleusercontent.com/-VWZOqf2XzyU/AAAAAAAAAAI/AAAAAAAAAIo/jrtEGsIfX5w/s200-c/photo.jpg",
 			"description" : ""
 		},
 		"sebastianstiehl" : {
@@ -110,7 +110,7 @@
 		},
 		"benjaminweiss" : {
 			"name" : "Benjamin Weiß",
-			"plus_id" : "",
+			"plus_id" : "https://plus.google.com/117509657298845443204",
 			"img" : "",
 			"description" : ""
 		},
@@ -379,6 +379,7 @@
 					"desc" : "Inject with Dagger - Dependency Injection on Android is nothing new.<br/>Guice-based RoboGuice was the first developers' choice for years.<br/>Unfortunately, since it's reflection based it's source of performance issues, visible especially on older devices. Dagger and its codegen-based injection seems like a better solution but is it mature enough to fight with well-known RoboGuice?",
 					"room_id" : "atrium",
 					"track" : "Android",
+                    "youtube_id" : "bf5oDskcVAo",
                     "slide":"/data/2013/slides/DevFest_berlin_2013-inject_with_dagger.pdf",
 					"speaker_ids" : [
 						"mateuszherych"
@@ -447,11 +448,11 @@
 					"time_start" : "16:30:00",
 					"time_end" : "17:15:00",
 					"title" : "You are not alone on this phone",
-					"desc" : "",
+					"desc" : "This talk gives a brief overview of the options Android offers you to integrate with other apps.",
 					"room_id" : "atrium",
 					"track" : "Android",
                     "youtube_id": "wn5Tsh9zxp4",
-                    "slide":"",
+                    "slide":"http://www.slideshare.net/cketti/you-are-not-alone-on-this-phone",
 					"speaker_ids" : [
 						"christianketterer"
 					]
@@ -463,8 +464,9 @@
 					"desc" : "",
 					"room_id" : "atrium",
 					"track" : "Android",
+                    "youtube_id":"vWde0WKL9Zk",
 					"speaker_ids" : [
-                        "matthiasfriedrich", "mateuszherych", "davidgonzalez", "wiebeelsinga", "christianketterer"
+                        "matthiasfriedrich", "mateuszherych", "davidgonzalez", "wiebeelsinga", "christianketterer", "benjaminweiss", "timmesserschmidt"
 					]
 				},
 				{

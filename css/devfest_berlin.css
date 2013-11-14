@@ -114,6 +114,13 @@ body {
     height: 64px;
 }
 
+/* TEAM SECTION
+*/
+
+ul.teammembers.thumbnails {
+    list-style: none;
+}
+
 .teammembers img{
     filter: blur(2px) brightness(0.5);
     -webkit-filter: blur(2px) brightness(0.5);
@@ -717,6 +724,13 @@ img.blackwhite:hover {
     -webkit-filter: grayscale(0%);
     -moz-filter: grayscale(0%);
     filter: grayscale(0%);
+}
+
+/* PHOTOS SECTION
+*/
+
+ul.photos.thumbnails {
+    list-style: none;
 }
 
 /* bootstrap additions
