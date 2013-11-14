@@ -150,7 +150,6 @@ devfest.service('AgendaService', ['$http', function($http){
 
     this.getSpeakerList = function (year){
         var promise = _getAgenda(year).then(function(agenda){
-            console.log(agenda);
             return agenda;
         });
 
@@ -441,7 +440,12 @@ devfest.controller('SpeakerControl', function($scope, $routeParams, AgendaServic
 
     var agenda = AgendaService.getSpeakerList(year).then(function(agenda){
         $scope.speakers = agenda.speakers;
-        console.log(agenda.speakers);
+        angular.forEach($scope.speakers, function(speaker){
+            if(! speaker.img){
+                speaker.img = "images/speech_bubble.png";
+            }
+        });
+
     });
 
 
