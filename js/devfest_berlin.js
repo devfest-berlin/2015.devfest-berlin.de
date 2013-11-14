@@ -157,14 +157,19 @@ devfest.controller('MainControl', function($scope, Config) {
     $scope.google_plus_event_link = 'https://plus.google.com/events/' + Config.years[$scope.year].google_plus_event_id;
     $scope.isCollapse = true;
     $scope.default_year = Config.default_year;
+
+    $scope.getPageTitle = function(){
+        return $scope.pageTitle ? $scope.pageTitle : "A weekend of awesome!";
+    }
 });
 
 devfest.controller('AboutControl', function( $scope, $http, $location, $routeParams, Config ) {
 
     var year = $routeParams.year;
-    $scope.$parent.year = year; //make sure the main controller knows about the year from the url
-
     $scope.loading = true;
+
+    $scope.$parent.year = year; //make sure the main controller knows about the year from the url
+    $scope.$parent.pageTitle = "A weekend of awesome!";
     $scope.$parent.activeTab = "about";
     $scope.cover = Config.years[year].cover;
     $scope.dates = Config.years[year].dates;
@@ -183,6 +188,7 @@ devfest.controller("NewsControl", function($scope, $routeParams, $http, $timeout
 
     $scope.loading = true;
 
+    $scope.$parent.pageTitle = "Latest news";
     $scope.$parent.activeTab = "news";
     $scope.$parent.year = $routeParams.year; //make sure the main controller knows about the year from the url
 
@@ -265,7 +271,6 @@ devfest.controller("NewsControl", function($scope, $routeParams, $http, $timeout
                     icon: actor_image
                 };
 
-                console.log(entry);
                 entries.push(entry);
             }
             $scope.news = entries;
@@ -284,6 +289,7 @@ devfest.controller("PhotosControl", function( $scope, $routeParams, $http, Confi
 
     $scope.loading = true;
     $scope.$parent.year = year; //make sure the main controller knows about the year from the url
+    $scope.$parent.pageTitle = "Photos of "+year;
     $scope.$parent.activeTab = "photos";
     $scope.title = "Photos of DevFest Berlin "+year;
 
@@ -314,6 +320,7 @@ devfest.controller('ContactControl', function($scope, $routeParams, $http, $time
 
     var year = $routeParams.year | Config.default_year;
     $scope.$parent.year = year; //make sure the main controller knows about the year from the url
+    $scope.$parent.pageTitle = "Get in touch";
     $scope.$parent.activeTab = "contact";
 
     $scope.email = Config.email;
@@ -354,6 +361,7 @@ devfest.controller('TeamControl', function($scope, $routeParams, $http, $timeout
 
     $scope.$parent.year = year; //make sure the main controller knows about the year from the url
     $scope.year = year; //make sure the main controller knows about the year from the url
+    $scope.$parent.pageTitle = "Team Awesome";
     $scope.$parent.activeTab = "team";
 
     $scope.team = [];
@@ -388,6 +396,7 @@ devfest.controller('AgendaControl', function($scope, $routeParams, AgendaService
 
     var year = $routeParams.year;
     $scope.$parent.year = year; //make sure the main controller knows about the year from the url
+    $scope.$parent.pageTitle = "Agenda in "+year;
     $scope.$parent.activeTab = "agenda";
 
     var agenda = AgendaService.getFullAgenda(year).then(function(agenda){
@@ -418,6 +427,8 @@ devfest.controller('SessionControl', function($scope, $routeParams, AgendaServic
                 speaker.img = "images/speech_bubble.png";
             }
         });
+
+        $scope.$parent.pageTitle = "Session: "+session.title;
 
         $scope.session = session;
 
