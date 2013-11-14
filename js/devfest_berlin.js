@@ -6,7 +6,7 @@ var devfest = angular.module('devfest', ['ngRoute','ngSanitize', 'ui.bootstrap']
             when("/:year/about",     {templateUrl:'views/about.html', controller:"AboutControl"}).
             when("/:year/agenda",    {templateUrl:'views/agenda.html', controller:"AgendaControl"}).
             when("/:year/agenda/session/:sessionId",    {templateUrl:'views/session.html', controller:"SessionControl"}).
-            when("/:year/speaker",    {templateUrl:'views/speaker.html', controller:"SpeakerControl"}).
+            when("/:year/speaker",    {templateUrl:'views/speakerList.html', controller:"SpeakerControl"}).
             when("/:year/photos",    {templateUrl:'views/photos.html', controller:"PhotosControl"}).
             when("/:year/team",      {templateUrl:'views/team.html', controller:"TeamControl"}).
             when("/:year/news",      {templateUrl:'views/news.html', controller:"NewsControl"}).
