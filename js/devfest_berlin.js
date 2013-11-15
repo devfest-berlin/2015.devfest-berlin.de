@@ -304,7 +304,7 @@ devfest.controller("PhotosControl", function( $scope, $routeParams, $http, Confi
     $scope.album_link = "http://picasaweb.google.com/user/"+Config.google_plus_page_id+"/"+picasa_album_id;
     $scope.photos = {};
 
-    var pwa = 'https://picasaweb.google.com/data/feed/api/user/'+Config.google_plus_page_id+'/albumid/'+picasa_album_id+'?access=public&alt=json-in-script&kind=photo&max-results=20&fields=entry(title,link/@href,summary,content/@src)&v=2.0&callback=JSON_CALLBACK';
+    var pwa = 'https://picasaweb.google.com/data/feed/api/user/'+Config.google_plus_page_id+'/albumid/'+picasa_album_id+'?access=public&alt=json-in-script&kind=photo&max-results=100&fields=entry(title,link/@href,summary,content/@src)&v=2.0&callback=JSON_CALLBACK';
 
     $scope.photos = []
 
