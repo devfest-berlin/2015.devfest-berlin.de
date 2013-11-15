@@ -1,0 +1,15 @@
+<div class="col-md-12">
+    <h2>{{speaker.name}}</h2>
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+            <img ng-src="{{speaker.img}}" class="img-circle" alt="Photo of {{speaker.name}}"/>
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+            <div ng-show="speaker.description">
+                <h3>CV</h3>
+                <p class="text-left">{{speaker.description}}</p>
+            </div>
+        </div>
+    </div>
+
+</div>
