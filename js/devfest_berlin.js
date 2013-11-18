@@ -89,7 +89,9 @@ devfest.service('AgendaService', ['$http', function ($http) {
 
                         var speakers = [];
                         angular.forEach(slot.speaker_ids, function (id) {
-                            speakers.push(agenda.speakers[id]);
+                            var tmpSpeaker = agenda.speakers[id];
+                            tmpSpeaker.id = id;
+                            speakers.push(tmpSpeaker);
                         });
 
                         slot.speakers = speakers;
@@ -163,6 +165,7 @@ devfest.service('AgendaService', ['$http', function ($http) {
 
         return promise;
     }
+
     this.getSpeaker = function (year, speakerId) {
         var promise = _getAgenda(year).then(function (agenda) {
                     var speaker = {};
@@ -470,6 +473,11 @@ devfest.controller('SessionControl', function ($scope, $routeParams, AgendaServi
         $scope.session = session;
 
     });
+
+    $scope.openSpeaker = function (speaker) {
+        location.href = "#/" + year + "/speaker/" + speaker.id;
+    }
+
 });
 
 devfest.controller('SpeakerListControl', function ($scope, $routeParams, AgendaService) {
@@ -478,7 +486,7 @@ devfest.controller('SpeakerListControl', function ($scope, $routeParams, AgendaS
     $scope.$parent.year = year; //make sure the main controller knows about the year from the url
     $scope.$parent.activeTab = "speaker";
 
-    var agenda = AgendaService.getSpeakerList(year).then(function (agenda) {
+    AgendaService.getSpeakerList(year).then(function (agenda) {
         $scope.speakers = agenda.speakers;
 
     });
@@ -496,8 +504,14 @@ devfest.controller('SpeakerControl', function ($scope, $routeParams, AgendaServi
     $scope.$parent.year = year; //make sure the main controller knows about the year from the url
     $scope.$parent.activeTab = "speaker";
 
-    var agenda = AgendaService.getSpeaker(year, speakerId).then(function (speaker) {
+    AgendaService.getSpeaker(year, speakerId).then(function (speaker) {
         $scope.speaker = speaker;
     });
+
+    $scope.openSession = function (session) {
+        if (session.track) {
+            location.href = "#/" + year + "/agenda/session/" + session.id;
+        }
+    }
 });
 

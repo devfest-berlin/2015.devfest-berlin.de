@@ -13,7 +13,7 @@
                 <h3>Sessions</h3>
                 <ul class="">
                     <li class="col-md-12"  ng-repeat="session in speaker.sessions" style="text-align: center;">
-                        <p class="text-left">{{session.title}}</p>
+                        <p class="label" ng-click="openSession(session);" ng-class="'label-' + session.track.toLowerCase() + ' text-left'">{{session.title}}</p>
                     </li>
                 </ul>
             </div>
