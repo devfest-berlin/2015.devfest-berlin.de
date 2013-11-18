@@ -1,13 +1,17 @@
 <div class="col-md-12">
     <h2>{{speaker.name}}</h2>
     <div class="row">
-        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-            <img ng-src="{{speaker.img}}" class="img-circle" alt="Photo of {{speaker.name}}"/>
+        <div class="col-md-offset-1 col-lg-offset-1 col-xs-offset-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 center">
+            <img ng-src="{{speaker.img}}" class="img-circle img-responsive" alt="Photo of {{speaker.name}}"/>
         </div>
-        <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+        <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
             <div ng-show="speaker.description">
-                <h3>CV</h3>
+                <h3>About</h3>
                 <p class="text-left">{{speaker.description}}</p>
+            </div>
+            <div ng-show="speaker.sessions">
+                <h3>Sessions</h3>
+                <p class="text-left">Hello World</p>
             </div>
         </div>
     </div>
