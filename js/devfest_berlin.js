@@ -100,6 +100,13 @@ devfest.service('AgendaService', ['$http', function ($http) {
                     day.slots = slots;
                 });
 
+                angular.forEach(agenda.speakers, function (speaker) {
+                    if (!speaker.img) {
+                        speaker.img = "images/speech_bubble.png";
+                    }
+                });
+
+
                 return agenda;
             },
             function (error) {
@@ -161,9 +168,6 @@ devfest.service('AgendaService', ['$http', function ($http) {
                     var speaker = {};
                     angular.forEach(agenda.speakers, function (speakerIter, id) {
                         if (id == speakerId) {
-                            if (!speakerIter.img) {
-                                speakerIter.img = "images/speech_bubble.png";
-                            }
                             speaker = speakerIter;
                         }
                     });
@@ -448,12 +452,6 @@ devfest.controller('SessionControl', function ($scope, $routeParams, AgendaServi
             session.youtube_url = $sce.trustAsResourceUrl(session.youtube_url);
         }
 
-        angular.forEach(session.speakers, function (speaker) {
-            if (!speaker.img) {
-                speaker.img = "images/speech_bubble.png";
-            }
-        });
-
         $scope.$parent.pageTitle = "Session: " + session.title;
 
         $scope.session = session;
@@ -469,11 +467,6 @@ devfest.controller('SpeakerListControl', function ($scope, $routeParams, AgendaS
 
     var agenda = AgendaService.getSpeakerList(year).then(function (agenda) {
         $scope.speakers = agenda.speakers;
-        angular.forEach($scope.speakers, function (speaker) {
-            if (!speaker.img) {
-                speaker.img = "images/speech_bubble.png";
-            }
-        });
 
     });
 
