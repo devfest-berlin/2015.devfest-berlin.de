@@ -171,6 +171,19 @@ devfest.service('AgendaService', ['$http', function ($http) {
                             speaker = speakerIter;
                         }
                     });
+                    speaker.sessions = [];
+                    angular.forEach(agenda.days, function (day) {
+                        angular.forEach(day.slots, function (slotArray) {
+                            angular.forEach(slotArray, function (session) {
+                                angular.forEach(session.speaker_ids, function(ids){
+                                    if (ids == speakerId && session.track){
+                                        speaker.sessions.push(session);
+                                    }
+                                });
+                            });
+                        });
+                    });
+
                     return speaker;
                 }
             )

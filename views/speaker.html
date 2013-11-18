@@ -11,7 +11,11 @@
             </div>
             <div ng-show="speaker.sessions">
                 <h3>Sessions</h3>
-                <p class="text-left">Hello World</p>
+                <ul class="">
+                    <li class="col-md-12"  ng-repeat="session in speaker.sessions" style="text-align: center;">
+                        <p class="text-left">{{session.title}}</p>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
