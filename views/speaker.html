@@ -1,0 +1,36 @@
+<div class="col-md-12" id="speaker">
+    <div class="row">
+        <div id="speaker_picture" class="col-lg-3 col-md-3 col-sm-12 col-xs-12 text-center">
+            <h2>{{speaker.name}}</h2>
+            <img ng-src="{{speaker.img}}" class="img-circle img-responsive" alt="Photo of {{speaker.name}}"/>
+        </div>
+        <div id="speaker_info" class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+            <div ng-show="speaker.description">
+                <h3>About</h3>
+                <p>{{speaker.description}}</p>
+            </div>
+            <div ng-show="speaker.sessions">
+                <h3>Sessions
+                    <small>
+                        <span class="label label-android">Android</span> &nbsp;
+                        <span class="label label-web">Web</span> &nbsp;
+                        <span class="label label-cloud">Cloud</span>
+                    </small>
+                </h3>
+                <br>
+                <ul class="">
+                    <li class="col-md-12" ng-repeat="session in speaker.sessions">
+                        <p ng-click="openSession(session);">
+                            <span class="label label-big" ng-class="'label-' + session.track.toLowerCase()">{{session.title}}</span>
+                            ({{session.time_start | date:'EEEE, MMM d - HH:mm'}})
+                        </p>
+                    </li>
+                </ul>
+                <p class="pull-right">
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>
