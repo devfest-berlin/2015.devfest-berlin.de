@@ -751,7 +751,7 @@ img.blackwhite:hover {
     cursor: pointer;
 }
 
-#speaker #speaker_info .label:hover {
+#speaker #speaker_info li .label:hover {
     background-color: #CCCCCC;
     color: #333333;
 }
