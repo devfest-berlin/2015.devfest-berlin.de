@@ -1,7 +1,7 @@
 <!doctype html>
-<html ng-app="devfest">
+<html ng-app="devfest" ng-controller="MainControl">
 <head>
-    <title>DevFest Berlin - A weekend of awesome!</title>
+    <title>DevFest Berlin - {{ getPageTitle() }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="icon" type="image/png" href="favicon.png"/>
@@ -28,7 +28,7 @@
     <meta property="og:description" content="GDG DevFests are large, community-run events that can offer speaker sessions across multiple product areas, all-day hack-a-thons, code labs, and more. And Berlin got it's own!"/>
 
 </head>
-<body ng-controller="MainControl">
+<body>
 
 <!-- NAV -->
 <nav class="navbar navbar-inverse navbar-static-top" role="navigation">

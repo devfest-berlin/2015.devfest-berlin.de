@@ -215,9 +215,10 @@ devfest.controller('MainControl', function ($scope, Config) {
 devfest.controller('AboutControl', function ($scope, $http, $location, $routeParams, Config) {
 
     var year = $routeParams.year;
-    $scope.$parent.year = year; //make sure the main controller knows about the year from the url
-
     $scope.loading = true;
+
+    $scope.$parent.year = year; //make sure the main controller knows about the year from the url
+    $scope.$parent.pageTitle = "A weekend of awesome!";
     $scope.$parent.activeTab = "about";
     $scope.cover = Config.years[year].cover;
     $scope.dates = Config.years[year].dates;
@@ -236,6 +237,7 @@ devfest.controller("NewsControl", function ($scope, $routeParams, $http, $timeou
 
     $scope.loading = true;
 
+    $scope.$parent.pageTitle = "Latest news";
     $scope.$parent.activeTab = "news";
     $scope.$parent.year = $routeParams.year; //make sure the main controller knows about the year from the url
 
@@ -318,7 +320,6 @@ devfest.controller("NewsControl", function ($scope, $routeParams, $http, $timeou
                     icon: actor_image
                 };
 
-                console.log(entry);
                 entries.push(entry);
             }
             $scope.news = entries;
@@ -368,6 +369,7 @@ devfest.controller('ContactControl', function ($scope, $routeParams, $http, $tim
 
     var year = $routeParams.year | Config.default_year;
     $scope.$parent.year = year; //make sure the main controller knows about the year from the url
+    $scope.$parent.pageTitle = "Get in touch";
     $scope.$parent.activeTab = "contact";
 
     $scope.email = Config.email;
@@ -408,6 +410,7 @@ devfest.controller('TeamControl', function ($scope, $routeParams, $http, $timeou
 
     $scope.$parent.year = year; //make sure the main controller knows about the year from the url
     $scope.year = year; //make sure the main controller knows about the year from the url
+    $scope.$parent.pageTitle = "Team Awesome";
     $scope.$parent.activeTab = "team";
 
     $scope.team = [];
