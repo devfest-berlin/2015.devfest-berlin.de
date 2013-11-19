@@ -751,8 +751,9 @@ img.blackwhite:hover {
     cursor: pointer;
 }
 
-#speaker #speaker_info li:hover {
-    list-style-position: inside;
+#speaker #speaker_info .label:hover {
+    background-color: #CCCCCC;
+    color: #333333;
 }
 
 /* PHOTOS SECTION
