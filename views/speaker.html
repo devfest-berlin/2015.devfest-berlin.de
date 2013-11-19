@@ -10,7 +10,14 @@
                 <p>{{speaker.description}}</p>
             </div>
             <div ng-show="speaker.sessions">
-                <h3>Sessions</h3>
+                <h3>Sessions
+                    <small>
+                        <span class="label label-android">Android</span> &nbsp;
+                        <span class="label label-web">Web</span> &nbsp;
+                        <span class="label label-cloud">Cloud</span>
+                    </small>
+                </h3>
+                <br>
                 <ul class="">
                     <li class="col-md-12" ng-repeat="session in speaker.sessions">
                         <p ng-click="openSession(session);">
@@ -19,6 +26,9 @@
                         </p>
                     </li>
                 </ul>
+                <p class="pull-right">
+
+                </p>
             </div>
         </div>
     </div>
