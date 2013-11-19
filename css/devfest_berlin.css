@@ -730,6 +730,14 @@ img.blackwhite:hover {
 /* SPEAKER SECTION
 */
 
+.speakerlist div.well {
+    cursor: pointer;
+}
+
+.speakerlist div.well:hover {
+    background-color: #CCCCCC;
+}
+
 #speaker #speaker_picture img{
     margin-left: auto;
     margin-right: auto;
