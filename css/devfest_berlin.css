@@ -726,6 +726,27 @@ img.blackwhite:hover {
     filter: grayscale(0%);
 }
 
+
+/* SPEAKER SECTION
+*/
+
+#speaker #speaker_picture img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#speaker #speaker_info ul{
+    list-style-type: square;
+}
+
+#speaker #speaker_info li{
+    cursor: pointer;
+}
+
+#speaker #speaker_info li:hover {
+    list-style-position: inside;
+}
+
 /* PHOTOS SECTION
 */
 
@@ -744,4 +765,8 @@ ul.photos.thumbnails {
 }
 .label-web {
     background-color: #ff8800;
+}
+
+.label-big {
+    font-size: 1em;
 }
