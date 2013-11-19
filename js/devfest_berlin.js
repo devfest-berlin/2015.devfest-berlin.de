@@ -6,7 +6,7 @@ var devfest = angular.module('devfest', ['ngRoute', 'ngSanitize', 'ui.bootstrap'
             when("/:year/about", {templateUrl: 'views/about.html', controller: "AboutControl"}).
             when("/:year/agenda", {templateUrl: 'views/agenda.html', controller: "AgendaControl"}).
             when("/:year/agenda/session/:sessionId", {templateUrl: 'views/session.html', controller: "SessionControl"}).
-            when("/:year/speaker", {templateUrl: 'views/speakerList.html', controller: "SpeakerListControl"}).
+            when("/:year/speakers", {templateUrl: 'views/speaker_list.html', controller: "SpeakerListControl"}).
             when("/:year/speaker/:speakerId", {templateUrl: 'views/speaker.html', controller: "SpeakerControl"}).
             when("/:year/photos", {templateUrl: 'views/photos.html', controller: "PhotosControl"}).
             when("/:year/team", {templateUrl: 'views/team.html', controller: "TeamControl"}).
@@ -160,7 +160,7 @@ devfest.service('AgendaService', ['$http', function ($http) {
 
     this.getSpeakerList = function (year) {
         var promise = _getAgenda(year).then(function (agenda) {
-            return agenda;
+            return agenda.speakers;
         });
 
         return promise;
@@ -484,10 +484,10 @@ devfest.controller('SpeakerListControl', function ($scope, $routeParams, AgendaS
 
     var year = $routeParams.year;
     $scope.$parent.year = year; //make sure the main controller knows about the year from the url
-    $scope.$parent.activeTab = "speaker";
+    $scope.$parent.activeTab = "speakers";
 
-    AgendaService.getSpeakerList(year).then(function (agenda) {
-        $scope.speakers = agenda.speakers;
+    AgendaService.getSpeakerList(year).then(function (speakers) {
+        $scope.speakers = speakers;
 
     });
 
@@ -502,7 +502,7 @@ devfest.controller('SpeakerControl', function ($scope, $routeParams, AgendaServi
     var year = $routeParams.year;
     var speakerId = $routeParams.speakerId;
     $scope.$parent.year = year; //make sure the main controller knows about the year from the url
-    $scope.$parent.activeTab = "speaker";
+    $scope.$parent.activeTab = "speakers";
 
     AgendaService.getSpeaker(year, speakerId).then(function (speaker) {
         $scope.speaker = speaker;
