@@ -111,9 +111,8 @@
 		"benjaminweiss" : {
 			"name" : "Benjamin Weiß",
 			"plus_id" : "https://plus.google.com/117509657298845443204",
-			"img" : "",
-			"description" : ""
-		},
+			"img" : "/images/speakers/benjaminweiss.jpg",
+			"description" : "After moving to Berlin in 2009 Benjamin started developing Applications for Android. Shortly after that he became manager of Berlin's Android Usergroup \"GDG Android in Berlin\" which holds monthly meetups. He has co-organized Android related community events such as \"GTUG Community Weekend\", \"Global Android Dev Camp\" and \"GDG DevFest\".\n\nWhile studying Business Computing he and his team developed the Guinness World Record setting Open Source App Blinkendroid. He has also developed the Crouton library for Android. Further is a member of c-base hackerspace's mobile interfaces project that is currently focusing on home automation.\n\nSince 2012 Benjamin is working as a Senior Software Developer at ImmobilienScout24." },
 		"steveliedtke" : {
 			"name" : "Steve Liedtke",
 			"plus_id" : "https://plus.google.com/+SteveLiedtke",
