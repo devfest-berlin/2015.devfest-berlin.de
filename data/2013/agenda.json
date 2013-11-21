@@ -580,7 +580,7 @@
 					"room_id" : "casino",
 					"track" : "Cloud",
                     "youtube_id": "hWJnOzUK8Cg",
-                    "slide":"",
+                    "slide":"https://speakerdeck.com/keyboardsurfer/an-introduction-to-open-source-development",
 					"speaker_ids" : [
 						"benjaminweiss"
 					]
