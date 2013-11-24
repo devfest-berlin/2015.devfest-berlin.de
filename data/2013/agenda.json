@@ -575,7 +575,7 @@
 					"time_start" : "11:00:00",
 					"time_end" : "11:45:00",
 					"title" : "An introduction to Open Source development",
-					"desc" : "",
+					"desc" : "This session is going to introduce good practices of Open Source development and how every developer can benefit from it.<br/>Listeners will gain insights on how to get started with an Open Source component as well as the successful continuation of it’s maintainance.<br/>The introduction will use the example of the Crouton library for Android.",
 					"room_id" : "casino",
 					"track" : "Cloud",
                     "youtube_id": "hWJnOzUK8Cg",
