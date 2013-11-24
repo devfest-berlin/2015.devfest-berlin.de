@@ -135,7 +135,7 @@
 			"name" : "Raphael Bauer",
 			"plus_id" : "https://plus.google.com/118082806863266758700",
 			"img" : "/images/speakers/raphaelbauer.jpg",
-			"description" : ""
+			"description" : "Entrepreneur and Freelancer <br/>Based in Berlin, Germany. I specialized in architecting and leading large scale IT projects. Test driven, agile and getting things done. My current projects often involve Google Web Toolkit (GWT), Angular.js, Google App Engine, Ninja / Play Framework and the JEE stack with Big Data backends. BackupGoo is one of the startups I am involved in. And if you want to see how I write code and lead projects check out Ninja web framework and DocTester.<br/><br/>Scientist<br/>I successfully graduated from the International Graduate School Genomics and Systems Biology of Molecular Networks and earned a PhD degree from the Free University Berlin. I am part of the team that developed one of the best 3D RNA superposition algorithms.  And I contributed to several high ranking scientific publications in the field."
 		},
 		"dirkjaeckel" : {
 			"name" : "Dirk Jäckel",
@@ -415,7 +415,7 @@
 					"room_id" : "atrium",
 					"track" : "Android",
                     "youtube_id": "HcOG6xAIkL4",
-                    "slide":"",
+                    "slide":"http://www.slideshare.net/welsinga/prototype-your-android-applications-the-uxfactor-28571709",
 					"speaker_ids" : [
 						"wiebeelsinga"
 					]
@@ -630,7 +630,7 @@
 					"room_id" : "casino",
 					"track" : "Cloud",
                     "youtube_id": "82DLxRYn1Nc",
-                    "slide":"",
+                    "slide":"https://github.com/raphaelbauer/ninja-devfest",
 					"speaker_ids" : [
 						"raphaelbauer"
 					]
