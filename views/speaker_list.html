@@ -1,10 +1,13 @@
 <div class="col-md-12">
     <h2>Speakers</h2>
+    <div>
+        Filter: <input ng-model="searchSpeaker.name"><br/>
+    </div>
 
     <div class="row speakerlist">
-        <div ng-repeat="(id,speaker) in speakers"
+        <div ng-repeat="speaker in speakers | array | filter:searchSpeaker | orderBy:'name'"
              class="wrap well col-md-offset-1 col-md-2 col-xs-offset-3 col-xs-6 text-center"
-             ng-click="openSpeaker(id)">
+             ng-click="openSpeaker(speaker.id)">
 
             <img ng-src="{{speaker.img}}" class="img-circle" alt="Photo of {{speaker.name}}"/>
             <br><br>
