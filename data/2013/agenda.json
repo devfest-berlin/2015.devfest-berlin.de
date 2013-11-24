@@ -57,8 +57,8 @@
 		"wiebeelsinga" : {
 			"name" : "Wiebe Elsinga",
 			"plus_id" : "https://plus.google.com/+WiebeElsinga",
-			"img" : "",
-			"description" : ""
+			"img" : "/images/speakers/wiebeelsinga.jpg",
+			"description" : "Co-Founder Dutch Android User Group and Mobile Technical Lead at ItudeMobile<br/>Basically a EntrepreNerd. Mainly focused on the development of mobile applications, and is continuously seeking quality improvements within the development process of mobile applications. Also a public speaker at technical conferences worldwide"
 		},
 		"timmesserschmidt" : {
 			"name" : "Tim Messerschmidt",
@@ -75,7 +75,7 @@
 		"sebastianstiehl" : {
 			"name" : "Sebastian Stiehl",
 			"plus_id" : "https://plus.google.com/+SebastianStiehl",
-			"img" : "",
+			"img" : "/images/speakers/sebastianstiehl.jpg",
 			"description" : "Dynamic Frontend Expert @ immobilienscout24.de living in Berlin"
 		},
 		"martingoerner" : {
@@ -86,20 +86,20 @@
 		},
 		"janmonschke" : {
 			"name" : "Jan Monschke",
-			"plus_id" : "",
-			"img" : "",
+			"plus_id" : "https://plus.google.com/+JanMonschke",
+			"img" : "/images/speakers/janmonschke.jpg",
 			"description" : ""
 		},
 		"alexandersurma" : {
 			"name" : "Alexander Surma",
 			"plus_id" : "http://plus.google.com/+AlexanderSurma",
 			"img" : "/images/speakers/alexandersurma.jpg",
-			"description" : ""
+			"description" : "Alexander \"surma\" Surma is a Software Engineer for nuboLAB and Co-Lead of the GDG Berlin Golang."
 		},
 		"michaelmahemoff" : {
 			"name" : "Michael Mahemoff",
-			"plus_id" : "",
-			"img" : "",
+			"plus_id" : "https://plus.google.com/+MichaelMahemoff",
+			"img" : "/images/speakers/michaelmahemoff.png",
 			"description" : ""
 		},
 		"jenskuehlers" : {
@@ -121,9 +121,9 @@
 		},
 		"jeromemouton" : {
 			"name" : "Jerome Mouton",
-			"plus_id" : "",
-			"img" : "",
-			"description" : ""
+			"plus_id" : "http://google.com/+JeromeMouton",
+			"img" : "/images/speakers/jeromemouton.jpg",
+			"description" : "Jerome is the co-founder and CTO at SnapEngage, a live chat and customer engagement solution hosted on Google AppEngine. He also co-leads the GDG Berlin."
 		},
 		"ignaciocoloma" : {
 			"name" : "Ignacio Coloma",
@@ -133,14 +133,14 @@
 		},
 		"raphaelbauer" : {
 			"name" : "Raphael Bauer",
-			"plus_id" : "",
-			"img" : "",
+			"plus_id" : "https://plus.google.com/118082806863266758700",
+			"img" : "/images/speakers/raphaelbauer.jpg",
 			"description" : ""
 		},
 		"dirkjaeckel" : {
 			"name" : "Dirk Jäckel",
-			"plus_id" : "",
-			"img" : "",
+			"plus_id" : "https://plus.google.com/+DirkJäckel",
+			"img" : "/images/speakers/dirkjaeckel.png",
 			"description" : ""
 		}
 	},
@@ -362,7 +362,7 @@
 					"time_start" : "10:00:00",
 					"time_end" : "10:45:00",
 					"title" : "Android ruling the big screen",
-					"desc" : "",
+					"desc" : "ChromeCast isn't the only approach by Google to bring control over your big screen to your mobile devices. Besides adopting the GoogleCast SDK to access content on the TV, developers can make use of Androids Presentation API (via Miracast) to utilize the TV as an additional screen or use the Anymote protocol to gain full control over Google TV devices right from within their apps. This talk will take a look at all three approaches, compare them and give some details on how to make use of them in your Android app.",
 					"room_id" : "atrium",
 					"track" : "Android",
                     "youtube_id": "Frioa9TpJo8",
@@ -388,7 +388,7 @@
 					"time_start" : "12:00:00",
 					"time_end" : "12:45:00",
 					"title" : "Gradle, Android Studio and the beauty of the command line",
-					"desc" : "",
+					"desc" : "David Gonzalez will explain his experience and propose best practices learned from using Gradle as the build system for production environment applications and libraries. By developing the new application for ARTE (www.arte.tv) David gained knowledge in Gradle and how to properly build, test and release applications and libraries using this build system. David will show that Gradle is not the perfect build system yet but it will be. There are benefits and downsides over other build systems, developers will get the knowledge of what was learned using Gradle over the last months.",
 					"room_id" : "atrium",
 					"track" : "Android",
                     "youtube_id": "ij7TjmVypmo",
@@ -411,7 +411,7 @@
 					"time_start" : "14:00:00",
 					"time_end" : "14:45:00",
 					"title" : "Prototyping your Android app, the (U)X-factor",
-					"desc" : "",
+					"desc" : "Prototypes can be a great way to improve Android application results on two fronts: they can prove a concept or improve on it, and they can teach you valuable lessons about the best ways to develop the product.<br/>This session will provide practical information about the approach and experiences implementing prototyping.",
 					"room_id" : "atrium",
 					"track" : "Android",
                     "youtube_id": "HcOG6xAIkL4",
@@ -424,7 +424,7 @@
 					"time_start" : "15:00:00",
 					"time_end" : "15:45:00",
 					"title" : "Authentication for Droids",
-					"desc" : "",
+					"desc" : "This talk is going to shed some light on different techniques that help to authenticate users in your application via methods such as Basic Authentication and more advanced technologies like OAuth 2.0 and OpenID Connect. Best practices will be presented and (dis-)advantages are going to be discussed.",
 					"room_id" : "atrium",
 					"track" : "Android",
                     "youtube_id": "vrJg3JuzSw8",
@@ -472,7 +472,7 @@
 					"time_start" : "10:00:00",
 					"time_end" : "10:45:00",
 					"title" : "Cutting Edge Web Applications",
-					"desc" : "",
+					"desc" : "Currently the most web applications are based on a client application with a mixture of HTML5, CSS3 and JS (ES5). In this session we will take a look at how to create this applications in a clean and maintainable way and how they are tied together.",
 					"room_id" : "konfi45",
 					"track" : "Web",
                     "youtube_id": "BdOhWVl5B-M",
@@ -498,7 +498,7 @@
 					"time_start" : "12:00:00",
 					"time_end" : "12:45:00",
 					"title" : "Making music with JavaScript and Gamepads",
-					"desc" : "",
+					"desc" : "The Web Audio API allows to create, to manipulate and to mix sounds right from the browser. Many highly interactive and novel experiments have been created, which enable everyone of us to make music even without any musical experience. Adding the Gamepad API to the experiments even enriches the user’s experience in exploring the music creation process.<br/>This talk will show the basics of dealing with both APIs and it will contain experiments that show how well both APIs go together.",
 					"room_id" : "konfi45",
 					"track" : "Web",
                     "youtube_id": "HqOtBGDh6nA",
@@ -524,7 +524,7 @@
 					"time_start" : "15:00:00",
 					"time_end" : "15:45:00",
 					"title" : "A RESTful Development: API Design for the Real World",
-					"desc" : "",
+					"desc" : "REST has pretty much won the standards battle. Game over, thankfully.  These days, we get to focus on how to do REST right, and there are as many opinions as there are APIs. This talk will explain the core principles behind RESTful API design, highlight key design principles, and overview emerging trends.",
 					"room_id" : "konfi45",
 					"track" : "Web",
                     "youtube_id": "T6gw9Cfmvz4",
@@ -601,11 +601,11 @@
 					"time_start" : "14:00:00",
 					"time_end" : "14:45:00",
 					"title" : "Super-charge your startup with Google AppEngine",
-					"desc" : "",
+					"desc" : "We will briefly present Google AppEngine, and will focus on why the PaaS from Google should be a hosting platform considered by any early stage Internet startup. The presentation will then focus on good practices to get started with Google AppEngine, and some ways to avoid common issues when developing for Google AppEngine Java.",
 					"room_id" : "casino",
 					"track" : "Cloud",
                     "youtube_id": "-OoSctFkoSY",
-                    "slide":"",
+                    "slide":"https://docs.google.com/presentation/d/1M-okJ0ojLIfV8AQEv87p6rdWeEkg5Aok9tCJ-eLEGNQ/",
 					"speaker_ids" : [
 						"jeromemouton"
 					]
@@ -614,7 +614,7 @@
 					"time_start" : "15:00:00",
 					"time_end" : "15:45:00",
 					"title" : "Data persistance: Typical Java way vs. AppEngine way",
-					"desc" : "",
+					"desc" : "The typical Java way of doing persistence does not really work in AppEngine. During this talk we will cover some typical pain points  from the difference between your expectations and what is supported in GAE, and workarounds for the most common cases.",
 					"room_id" : "casino",
 					"track" : "Cloud",
                     "slide":"https://speakerdeck.com/icoloma/rewiring-the-java-brain-for-app-engine",
@@ -626,7 +626,7 @@
 					"time_start" : "16:30:00",
 					"time_end" : "17:15:00",
 					"title" : "Ninja - the best Java web framework for App Engine",
-					"desc" : "",
+					"desc" : "Ninja is an agile Java web framework. Ninja's aim is that you don’t have to setup everything yourself. Ideally you just generate a new project from our maven archetype, import the project into your IDE and start hacking.<br/>Ninja delivers everything you need. Dependency injection, clean restful routes. Html, Json and Xml rendering and parsing, management of different environments, database persistence, excellent testing support and much much more.<br/>This session will introduce Ninja and feature some live coding on the App Engine.<br/>Getting productive on the App Engine has never been easier.",
 					"room_id" : "casino",
 					"track" : "Cloud",
                     "youtube_id": "82DLxRYn1Nc",
