@@ -178,8 +178,8 @@ devfest.service('AgendaService', ['$http', function ($http) {
                     angular.forEach(agenda.days, function (day) {
                         angular.forEach(day.slots, function (slotArray) {
                             angular.forEach(slotArray, function (session) {
-                                angular.forEach(session.speaker_ids, function(ids){
-                                    if (ids == speakerId && session.track){
+                                angular.forEach(session.speaker_ids, function (ids) {
+                                    if (ids == speakerId && session.track) {
                                         speaker.sessions.push(session);
                                     }
                                 });
@@ -197,7 +197,6 @@ devfest.service('AgendaService', ['$http', function ($http) {
 }
 ])
 ;
-
 devfest.controller('MainControl', function ($scope, Config) {
 
     $scope.year = Config.default_year;
@@ -498,6 +497,17 @@ devfest.controller('SpeakerListControl', function ($scope, $routeParams, AgendaS
         location.href = "#/" + year + "/speaker/" + speakerId;
     }
 
+});
+
+
+devfest.filter('array', function () {
+    return function (items) {
+        var filtered = [];
+        angular.forEach(items, function (item) {
+            filtered.push(item);
+        });
+        return filtered;
+    };
 });
 
 devfest.controller('SpeakerControl', function ($scope, $routeParams, AgendaService) {
