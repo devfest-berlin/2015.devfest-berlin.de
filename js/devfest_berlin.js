@@ -1,4 +1,3 @@
-var DEFAULT_YEAR = "2013";
 var DEFAULT_YEAR = "2014";
 
 var devfest = angular.module('devfest', ['ngRoute', 'ngSanitize', 'ui.bootstrap'])
