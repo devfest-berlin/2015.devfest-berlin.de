@@ -41,7 +41,7 @@ devfest.factory('Config', function () {
                 'picasa_album_id': "5940170057320370689", //picasa web album id, must belong to google+ page id above
                 'cover': {
                     title: 'DevFest Berlin',
-                    subtitle: 'November 21st - 23rd, 2014',
+                    subtitle: 'November 1st - 3rd, 2013',
                     button: {
                         text: 'Event is over',
                         url: 'https://berlin.ticketbud.com/devfest-berlin-2013',
