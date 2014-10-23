@@ -1,4 +1,5 @@
 var DEFAULT_YEAR = "2013";
+var DEFAULT_YEAR = "2014";
 
 var devfest = angular.module('devfest', ['ngRoute', 'ngSanitize', 'ui.bootstrap'])
     .config(function ($routeProvider) {
@@ -58,6 +59,37 @@ devfest.factory('Config', function () {
                 "sponsor_contacts": [
                     "117509657298845443204", //ben
                     "111119798064513732293", //david
+                    "111333123856542807695" //stevie
+                ]
+            },
+            '2014': {
+                'dates': {
+                    'workshops': '2014-11-21',
+                    'conference': '2014-11-22',
+                    'hackathon': '2014-11-23'
+                },
+                'google_plus_event_id': 'c1u8933vkjrog9uklt58o7frj24', //must be public
+                'picasa_album_id': "6073481044801655761", //picasa web album id, must belong to google+ page id above
+                'cover': {
+                    title: 'DevFest Berlin',
+                    subtitle: 'November 21st - 23rd, 2014',
+                    button: {
+                        text: 'Get your ticket NOW',
+                        url: 'https://devfest-berlin.ticketbud.com/devfest-berlin-2014',
+                        disabled: false
+                    }
+                },
+                "team_ids": [ //must be Google+ profile ids
+                    "111820256548303113275", //surma
+                    "110214177917096895451", //cketti
+                    "110167958764078863962", //dirk
+                    "109673287110815740267", //hasan
+                    "111333123856542807695", //stevie
+                    "110615325729051596989" //jerome
+                ],
+                "sponsor_contacts": [
+                    "109673287110815740267", //hasan
+                    "111820256548303113275", //surma
                     "111333123856542807695" //stevie
                 ]
             }
