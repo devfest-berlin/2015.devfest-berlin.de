@@ -16,6 +16,8 @@
     <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
     <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="bower_components/marked/lib/marked.js"></script>
+    <script src="bower_components/angular-md/dist/angular-md.min.js"></script>
     <script src="js/devfest_berlin.js"></script>
     <meta name="google-site-verification" content="-ArvK1Z6viSO7jd4DpG1KujHHXxSNSedS8lvtUGL7kE"/>
 
@@ -49,6 +51,7 @@
         <div class="collapse navbar-collapse" collapse="isCollapse">
             <ul class="nav navbar-nav">
                 <li ng-class="{ 'active' : activeTab=='about' }"><a ng-click="" ng-href="#/{{year || default_year}}/about">About</a></li>
+                <li ng-class="{ 'active' : activeTab=='code-of-conduct' }"><a ng-href="#/{{year || default_year}}/code-of-conduct">Code of Conduct</a>
                 <li ng-class="{ 'active' : activeTab=='agenda' }"><a ng-href="#/{{year || default_year}}/agenda">Agenda</a>
                 <li ng-show="speakers" ng-class="{ 'active' : activeTab=='speakers' }"><a ng-href="#/{{year || default_year}}/speakers">Speakers</a>
                 </li>
