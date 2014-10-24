@@ -1,6 +1,6 @@
 {
   "name": "showup",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Stephen Sawchuk",
   "description": "A Showdown companion.",
   "main": "showup.js",
@@ -16,12 +16,13 @@
     ".jshintrc"
   ],
   "homepage": "https://github.com/stephenplusplus/showup",
-  "_release": "0.0.2",
+  "_release": "0.0.3",
   "_resolution": {
     "type": "version",
-    "tag": "0.0.2",
-    "commit": "6bd1dc9ba7838588ed4b9e27935c8eddd26f5846"
+    "tag": "0.0.3",
+    "commit": "fccd4165f9b06c89d0efdccfc258d4d4df426c0f"
   },
   "_source": "git://github.com/stephenplusplus/showup.git",
-  "_target": "~0.0.2"
+  "_target": "~0.0.2",
+  "_originalSource": "showup"
 }

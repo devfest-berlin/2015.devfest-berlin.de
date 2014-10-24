@@ -1,0 +1,23 @@
+
+<div class="col-md-12">
+    <h1>Code of Conduct</h1>
+
+    <div class="lead">
+    	<p>We all want the DevFest Berlin to be a fun and fruitful event for everyone, regardless of their gender, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of conference participants in any form.
+    	</p> 
+		<p><button type="button" class="btn btn-danger" disabled="disabled"> <span class="glyphicon glyphicon-warning-sign"></span> Attention</button> By participating in our event you acknowledge the existence of the code of conduct and promise to respect it. Attendees violating these rules may be asked to leave the conference without a refund at the sole discretion of the conference organizers.
+		</p>
+    </div>
+
+	<div class="btn-group btn-group-lg btn-group-justified">
+	     <a ng-href="#/{{year || default_year}}/code-of-conduct" class="btn btn-warning">Our Rules</a>
+	   	<a ng-href="#/{{year || default_year}}/code-of-conduct/attendees" class="btn btn-info">Attendee procedures</a>
+	    	<a ng-href="#/{{year || default_year}}/code-of-conduct/staff" class="btn btn-success">Staff procedures</a>
+	</div>
+	
+	<h2>{{subline}}</h2>
+
+    <div class="well well-lg">
+		<md ng-include="mdUrl"></md>
+	</div>
+</div>

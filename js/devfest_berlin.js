@@ -1,9 +1,10 @@
-var DEFAULT_YEAR = "2013";
+var DEFAULT_YEAR = "2014";
 
-var devfest = angular.module('devfest', ['ngRoute', 'ngSanitize', 'ui.bootstrap'])
+var devfest = angular.module('devfest', ['ngRoute', 'ngSanitize', 'ui.bootstrap', 'yaru22.md'])
     .config(function ($routeProvider) {
         $routeProvider.
             when("/:year/about", {templateUrl: 'views/about.html', controller: "AboutControl"}).
+            when("/:year/code-of-conduct/:subpage?", {templateUrl: 'views/code-of-conduct.html', controller: "CodeOfConductController"}).
             when("/:year/agenda", {templateUrl: 'views/agenda.html', controller: "AgendaControl"}).
             when("/:year/agenda/session/:sessionId", {templateUrl: 'views/session.html', controller: "SessionControl"}).
             when("/:year/speakers", {templateUrl: 'views/speaker_list.html', controller: "SpeakerListControl"}).
@@ -12,6 +13,9 @@ var devfest = angular.module('devfest', ['ngRoute', 'ngSanitize', 'ui.bootstrap'
             when("/:year/team", {templateUrl: 'views/team.html', controller: "TeamControl"}).
             when("/:year/news", {templateUrl: 'views/news.html', controller: "NewsControl"}).
             when("/contact", {templateUrl: 'views/contact.html', controller: "ContactControl"}).
+            when("/code-of-conduct", { redirectTo: '/' + DEFAULT_YEAR + '/code-of-conduct'}).
+            when("/code-of-conduct/staff", { redirectTo: '/' + DEFAULT_YEAR + '/code-of-conduct/staff'}).
+            when("/code-of-conduct/attendees", { redirectTo: '/' + DEFAULT_YEAR + '/code-of-conduct/attendees'}).
             otherwise({ redirectTo: '/' + DEFAULT_YEAR + '/about' }); //FIXME how to use the config object here?
     });
 
@@ -58,6 +62,37 @@ devfest.factory('Config', function () {
                 "sponsor_contacts": [
                     "117509657298845443204", //ben
                     "111119798064513732293", //david
+                    "111333123856542807695" //stevie
+                ]
+            },
+            '2014': {
+                'dates': {
+                    'workshops': '2014-11-21',
+                    'conference': '2014-11-22',
+                    'hackathon': '2014-11-23'
+                },
+                'google_plus_event_id': 'c1u8933vkjrog9uklt58o7frj24', //must be public
+                'picasa_album_id': "6073481044801655761", //picasa web album id, must belong to google+ page id above
+                'cover': {
+                    title: 'DevFest Berlin',
+                    subtitle: 'November 21st - 23rd, 2014',
+                    button: {
+                        text: 'Get your ticket NOW',
+                        url: 'https://devfest-berlin.ticketbud.com/devfest-berlin-2014',
+                        disabled: false
+                    }
+                },
+                "team_ids": [ //must be Google+ profile ids
+                    "111820256548303113275", //surma
+                    "110214177917096895451", //cketti
+                    "110167958764078863962", //dirk
+                    "109673287110815740267", //hasan
+                    "111333123856542807695", //stevie
+                    "110615325729051596989" //jerome
+                ],
+                "sponsor_contacts": [
+                    "109673287110815740267", //hasan
+                    "111820256548303113275", //surma
                     "111333123856542807695" //stevie
                 ]
             }
@@ -230,6 +265,31 @@ devfest.controller('AboutControl', function ($scope, $http, $location, $routePar
             }
             $scope.loading = false;
         });
+});
+
+devfest.controller('CodeOfConductController', function ($scope, $http, $location, $routeParams) {
+
+    var year = $routeParams.year;
+    $scope.$parent.year = year; //make sure the main controller knows about the year from the url
+    $scope.$parent.pageTitle = "Code of Conduct";
+    $scope.$parent.activeTab = "code-of-conduct";
+    
+    $scope.subpage = $routeParams.subpage;
+
+    var mdUrl;
+    switch ($scope.subpage) {
+        case "staff":
+            $scope.mdUrl = "/data/code-of-conduct/staff-procedure-incidents.md";
+            $scope.subline = "Staff Procedure for incident handling"
+            break;
+        case "attendees":
+            $scope.mdUrl = "/data/code-of-conduct/attendee-procedure-incidents.md";
+            $scope.subline = "Attendee Procedure for incident handling"
+            break;
+        default:
+        $scope.subline = "Our Rules"
+        $scope.mdUrl = "/data/code-of-conduct/code_of_conduct.md";
+    }
 });
 
 devfest.controller("NewsControl", function ($scope, $routeParams, $http, $timeout, Config) {
