@@ -40,7 +40,7 @@
 			"name" : "Matthias Friedrich",
 			"plus_id" : "http://google.com/+MatthiasFriedrich",
 			"img" : "/images/speakers/matthiasfriedrich.png",
-			"description" : ""
+			"description" : "As Android user from the beginning, I started to develop for the platform with version 1.6 in 2009. Since then i'm following its progress very enthusiastically and worked on several applications, big and small, successful in the Play Store and as specialized customer solutions . During these years, i also co-founded the GDG Bremen and GDG Android Hamburg, gave several Android related talks and organized developer events around Google technologies in general."
 		},
 		"janmonschke" : {
 			"name" : "Jan Monschke",
@@ -77,6 +77,30 @@
             "plus_id" : "110214177917096895451",
             "img" : "https://lh5.googleusercontent.com/-VWZOqf2XzyU/AAAAAAAAAAI/AAAAAAAAAIo/jrtEGsIfX5w/s200-c/photo.jpg",
             "description" : ""
+        },
+        "melindaalbert" : {
+            "name" : "Melinda Albert",
+            "plus_id" : "+MelindaAlbert",
+            "img" : "https://lh4.googleusercontent.com/-cFePUG1gmsI/U4dqDRV4maI/AAAAAAAACKc/oR3dgYzUvoM/s749-no/ich.png",
+            "description" : ""  
+        },
+        "sebatianopoggi" : {
+            "name" : "Sebastiano Poggi",
+            "plus_id" : "+SebastianoPoggi",
+            "img" : "https://lh4.googleusercontent.com/-uhZ-3UFgzzo/T4XR5D4VHiI/AAAAAAABBp4/PNiNGfhEHUs/w354-h352-no/Face_malga.jpg",
+            "description" : "A self-taught and strong OSS believer who loves beautiful and simple UX and UI, where “less is more”, Sebastiano spends a big chunk of his spare time reading and writing about Android development. He also creates and maintains some FOSS apps and libraries, that span from the fun, smaller projects to the more serious (and, perhaps, useful) work."  
+        },
+        "danielebonaldo" : {
+            "name" : "Daniele Bonaldo",
+            "plus_id" : "+DanieleBonaldo",
+            "img" : "https://lh6.googleusercontent.com/-y3b7ZbMryRU/UaXAN9XZ_jI/AAAAAAAACNI/DGOuBFqWn_Q/w520-h519-no/IMG_7560.jpg",
+            "description" : "Daniele is an Android Software Craftsman at Novoda in London."  
+        },
+        "dannypreussler" : {
+            "name" : "Danny Preussler",
+            "plus_id" : "+DannyPreussler",
+            "img" : "https://lh6.googleusercontent.com/-lRS0HiJQ2cA/UrP9HfZrBuI/AAAAAAAAJn4/-nUPbl1pG_k/s414-no/IMAG1879.jpg",
+            "description" : "Danny is in charge of Android development at Groupon in Berlin. Before that he worked for companies like eBay and Alcatel. Danny writes and talks about android development or testing regularly."  
         }
 	},
 	"days" : {
@@ -308,43 +332,43 @@
 				{
 					"time_start" : "10:00:00",
 					"time_end" : "10:45:00",
-					"title" : "(tba)",
-					"desc" : "",
-                    "level": "",
+					"title" : "Android as it gets worn",
+					"desc" : "One of Androids new shapes is the one of a watch on your wrist. Besides the basic adjustments of notifications for Wearable devices, it is also possible to run full fledged applications on your its small screens, that don't suck. These applications are highly depended on new APIs for inter device communication and some new ui widgets. This talk wants to give a introduction to Android Wear, its special APIs, features and latest developments.",
+                    "level": "101",
 					"room_id" : "atrium",
 					"track" : "Android",
                     "youtube_id": "",
                     "slide": "",
 					"speaker_ids" : [
-						
+						"matthiasfriedrich"
 					]
 				},
 				{
 					"time_start" : "11:00:00",
 					"time_end" : "11:45:00",
-					"title" : "(tba)",
-					"desc" : "",
-                    "level": "",
+					"title" : "Delightful Details for Android Apps",
+					"desc" : "You have an android app and have you also followed Guidelines. How can you make sure, that your app doesn´t look all the other android apps alike, which also followed the Guidelines? How can you make your app stand out visually more in the Playstore? Melinda Albert is going to explain you in 40 minutes how you could bring more delightful details in your user interface, make your product more memorable so that it attracts new customers.\n\nThese are some of the questions which are included and going to be answered during the session: What are delightful details and how can we cluster them? Are colors and icons enought to create a brand identity? How can we achieve a visually memorable product that user remember and love? ",
+                    "level": "201",
 					"room_id" : "atrium",
 					"track" : "Android",
                     "youtube_id" : "",
                     "slide":"",
 					"speaker_ids" : [
-						
+					   "melindaalbert"	
 					]
 				},
 				{
 					"time_start" : "12:00:00",
 					"time_end" : "12:45:00",
-					"title" : "(tba)",
-					"desc" : "",
-                    "level": "",
+					"title" : "Framing the Canvas",
+					"desc" : "This talk will guide you through a topic that is often ignored: the Canvas API. Even if there's only scarce documentation for it, the Canvas API is at the heart of everything that shows a UI on Android. You'll need to tame this powerful and mysterious creature if you want to create great custom views and brilliant, lightweight UIs for your apps. What is a Canvas? How do you Paint? Can you draw Paths? What is Skia, and who invited it anyway? What actualy happens during a drawing pass? What are Shaders? What are Filters? Is it true that text is basically impossible to measure correctly? What shape does a Shape have if noone's painting it? These and other questions will get an answer during this session. Well, some of them will not, probably. Connect the dots in the spotty documentation the Android team has assembled, and become a true pixel pusher!",
+                    "level": "201",
 					"room_id" : "atrium",
 					"track" : "Android",
                     "youtube_id": "",
                     "slide":"",
 					"speaker_ids" : [
-						
+						"sebatianopoggi"
 					]
 				},
 				{
@@ -361,15 +385,15 @@
 				{
 					"time_start" : "14:00:00",
 					"time_end" : "14:45:00",
-					"title" : "(tba)",
-					"desc" : "",
-                    "level": "",
+					"title" : "AOSP building blocks",
+					"desc" : "Most of us Android developers are able to build awesome apps, but do we really know how the Android OS works? In some cases, as when developing a new product, adding customised apps is not enough, and OS modifications are required. From downloading the source code, to where to touch and modify it, to the (technical) process for placing it on your device. We will explore the world of Google's Repo and its collection of git repositories. The attendees will be able to customize the Android OS to address the needs of a new product, editing some features normally hidden to normal apps.",
+                    "level": "201",
 					"room_id" : "atrium",
 					"track" : "Android",
                     "youtube_id": "",
                     "slide":"",
 					"speaker_ids" : [
-
+                        "danielebonaldo"
 					]
 				},
 				{
@@ -400,15 +424,15 @@
 				{
 					"time_start" : "16:30:00",
 					"time_end" : "17:15:00",
-					"title" : "(tba)",
-					"desc" : "",
-                    "level": "",
+					"title" : "More Android Code Puzzles",
+					"desc" : "After the 1st round at droidconNL 2012 this is the 2nd round in best tradition of Joshua Bloch’s Java puzzle talks. We will show code, audience try to guess what it does or maybe does not! Don’t get fooled, but they will try!",
+                    "level": "301",
 					"room_id" : "atrium",
 					"track" : "Android",
                     "youtube_id": "",
                     "slide":"",
 					"speaker_ids" : [
-						
+						"dannypreussler"
 					]
 				},
 				{
@@ -420,7 +444,7 @@
 					"track" : "Android",
                     "youtube_id":"",
 					"speaker_ids" : [
-                        
+                        "matthiasfriedrich", "melindaalbert", "sebatianopoggi", "danielebonaldo", "dannypreussler"
 					]
 				},
 				{
