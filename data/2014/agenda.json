@@ -58,7 +58,7 @@
 			"name" : "Jens Kühlers",
 			"plus_id" : "https://www.google.com/+JensKuehlers",
 			"img" : "/images/speakers/jenskuehlers.jpg",
-			"description" : ""
+			"description" : "Cloud Platform Solutions Engineer at Google"
 		},
 		"dirkjaeckel" : {
 			"name" : "Dirk Jäckel",
@@ -113,6 +113,12 @@
             "plus_id" : "",
             "img" : "https://avatars0.githubusercontent.com/u/364246?v=2&s=460",
             "description" : "Tiffany is a self-taught JavaScript programmer trained as an electrically engineer. Front-end developer and interaction designer, mostly. “theophani” on Github, Twitter, Flickr, SoundCloud … and everywhere else. JSConf EU co-curator, weareaweso.me creator, BerlinJS co-organizer."
+        },
+        "leehambley" : {
+            "name" : "Lee Hambley",
+            "plus_id" : "+LeeHambley",
+            "img" : "https://lh3.googleusercontent.com/-dxGyDhdrl9U/UPlRy7RQGZI/AAAAAAAAAnU/H7MXA1uCDKY/w301-h300-no/me.png",
+            "description" : "I’m the founder of a successful consultancy company personally offering extensive experience with Ruby, PHP, Lua, and SQL (MySQL and PostgreSQL). Sometimes I work with JavaScript, C or Objective-C. I contribute heavily to open source. I’ve maintained Capistrano for the last few years; it’s the de-facto standard for deploying Ruby or Rails applications. I’m working hard with a couple of awesome people at making it work well for other projects too, you can watch us work."
         }
 	},
 	"days" : {
@@ -558,43 +564,43 @@
 				{
 					"time_start" : "10:00:00",
 					"time_end" : "10:45:00",
-					"title" : "(tba)",
+					"title" : "Something, something, Go!",
 					"desc" : "",
-                    "level": "",
+                    "level": "101",
 					"room_id" : "konfi45",
 					"track" : "Cloud",
                     "youtube_id": "",
                     "slide":"",
 					"speaker_ids" : [
-						
+						"alexandersurma"
 					]
 				},
 				{
 					"time_start" : "11:00:00",
 					"time_end" : "11:45:00",
-					"title" : "(tba)",
+					"title" : "Something, something, Cloud!",
 					"desc" : "",
-                    "level": "",
+                    "level": "201",
 					"room_id" : "konfi45",
 					"track" : "Cloud",
                     "youtube_id": "",
                     "slide":"",
 					"speaker_ids" : [
-						
+						"jenskuehlers"
 					]
 				},
 				{
 					"time_start" : "12:00:00",
 					"time_end" : "12:45:00",
-					"title" : "(tba)",
+					"title" : "Transactional HTTP Tests With Go’s Standard Library",
 					"desc" : "",
-                    "level": "",
+                    "level": "201",
 					"room_id" : "konfi45",
 					"track" : "Cloud",
                     "youtube_id": "",
                     "slide":"",
 					"speaker_ids" : [
-						
+						"leehambley"
 					]
 				},
 				{
