@@ -45,8 +45,8 @@
 		"janmonschke" : {
 			"name" : "Jan Monschke",
 			"plus_id" : "https://plus.google.com/+JanMonschke",
-			"img" : "/images/speakers/janmonschke.jpg",
-			"description" : ""
+			"img" : "https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xfp1/t31.0-8/10551669_10203558908747134_1336488498860434196_o.jpg",
+			"description" : "Jan is frontend web developer from Berlin who focusses on building collaborative, multimedia web applications. He is always looking for new challenges on the web and since learning about the Web Audio API at JSconf.eu 2012 it is his new passion to create music-related web apps and experiments."
 		},
 		"alexandersurma" : {
 			"name" : "Alexander Surma",
@@ -101,6 +101,18 @@
             "plus_id" : "+DannyPreussler",
             "img" : "https://lh6.googleusercontent.com/-lRS0HiJQ2cA/UrP9HfZrBuI/AAAAAAAAJn4/-nUPbl1pG_k/s414-no/IMAG1879.jpg",
             "description" : "Danny is in charge of Android development at Groupon in Berlin. Before that he worked for companies like eBay and Alcatel. Danny writes and talks about android development or testing regularly."  
+        },
+        "heikemeyburgh" : {
+            "name" : "Heike Meyburgh",
+            "plus_id" : "+HeikeMeyburgh",
+            "img" : "https://lh6.googleusercontent.com/-gymPtHKrfP8/T4_XFAAo-NI/AAAAAAAAARE/SKAXiIASi_g/s393-no/Photo%2Bon%2B2011-11-04%2Bat%2B16.35%2B%232.jpg",
+            "description" : "When she’s not training to become a Yoga Instructor or trying to become the female Bear Grylls, Heike Meyburgh works as an Executive Producer at Stinkdigital. After graduating in South Africa and before joining Stinkdigital, Heike worked at several agencies engaging with big brands such as Nike, Cell C and RedBull. Heike’s currently based in Berlin and is sinking her teeth into the new market."
+        },
+        "tiffanyconroy" : {
+            "name" : "Tiffany Conroy",
+            "plus_id" : "",
+            "img" : "https://avatars0.githubusercontent.com/u/364246?v=2&s=460",
+            "description" : "Tiffany is a self-taught JavaScript programmer trained as an electrically engineer. Front-end developer and interaction designer, mostly. “theophani” on Github, Twitter, Flickr, SoundCloud … and everywhere else. JSConf EU co-curator, weareaweso.me creator, BerlinJS co-organizer."
         }
 	},
 	"days" : {
@@ -450,43 +462,43 @@
 				{
 					"time_start" : "10:00:00",
 					"time_end" : "10:45:00",
-					"title" : "(tba)",
-					"desc" : "",
-                    "level": "",
+					"title" : "Using the web for music production and for live performances",
+					"desc" : "The introduction of the Web Audio API has enriched the web landscape enormously. It gives game developers the ability to add precisely timed, high performant sound effects and to create realistic spatialized sound landscapes. For many web developers it is the first time they encounter audio programming which leads to many interesting experiments when the world of web and audio collide. Traditional web developers start to become really interested into audio programming and educate themselves on the topic of synthesizers and audio effects. However, currently there are only few applications that try to create audio production or audio performance environments in the browser. In this talk I want to show how the Web Audio API can be used to create a collaborative music production environment similar to Garageband. Furthermore, I will do a live demonstration of a music performance setup which is inspired by The Glitch Mob’s setup (https://www.youtube.com/watch?v=9bXNo9MFXnU). Both demos will show how powerful the Web Audio API is and how important the web can become as platform for music production in the future.",
+                    "level": "101",
 					"room_id" : "casino",
 					"track" : "Web",
                     "youtube_id": "",
                     "slide":"",
 					"speaker_ids" : [
-						
+						"janmonschke"
 					]
 				},
 				{
 					"time_start" : "11:00:00",
 					"time_end" : "11:45:00",
-					"title" : "(tba)",
-					"desc" : "",
-                    "level": "",
+					"title" : "Using Prototypes to Break New Ground",
+					"desc" : "Technology is continuing to shape the way we communicate. As new platforms and devices are introduced, and technology continues to accelerate, we can no longer take it for granted that there is a definitive answer to a production challenge: what is true today may not be true tomorrow.",
+                    "level": "101",
 					"room_id" : "casino",
 					"track" : "Web",
                     "youtube_id": "",
                     "slide":"",
 					"speaker_ids" : [
-						
+						"heikemeyburgh"
 					]
 				},
 				{
 					"time_start" : "12:00:00",
 					"time_end" : "12:45:00",
-					"title" : "(tba)",
-					"desc" : "",
-                    "level": "",
+					"title" : "Lions and tigers and handling user capabilities",
+					"desc" : "Many applications restrict access to some features for some users for various reasons. For example: Only premium users get access to extra features. Only supervisors can edit product categories. I went on a hunt to gather patterns and techniques for handling the logic around user capabilities in client-side apps. Join me on a safari through the approaches, and I’ll tell you what I have learned.",
+                    "level": "201",
 					"room_id" : "casino",
 					"track" : "Web",
                     "youtube_id": "",
                     "slide":"",
 					"speaker_ids" : [
-					   
+					   "tiffanyconroy"
 					]
 				},
 				{
@@ -520,15 +532,15 @@
 				{
 					"time_start" : "16:30:00",
 					"time_end" : "17:15:00",
-					"title" : "(tba)",
-					"desc" : "",
-                    "level": "",
+					"title" : "Introduction into Polymer",
+					"desc" : "A frame work for web applications based on web components made by Google.",
+                    "level": "101",
 					"room_id" : "casino",
 					"track" : "Web",
                     "youtube_id": "",
                     "slide":"",
 					"speaker_ids" : [
-						
+						"janphilippheinrich"
 					]
 				},
 				{
@@ -540,7 +552,7 @@
 					"track" : "Web",
                     "youtube_id": "",
 					"speaker_ids" : [
-                        "janmonschke", "janphilippheinrich"
+                        "janmonschke", "heikemeyburgh", "tiffanyconroy", "janphilippheinrich"
 					]
 				},
 				{
