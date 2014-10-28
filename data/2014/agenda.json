@@ -1,0 +1,737 @@
+{
+	"venue" : {
+		"name" : "ImmobilienScout 24 GmbH",
+		"address" : "Andreasstr. 10, 10243 Berlin"
+	},
+	"rooms" : {
+		"atrium" : {
+			"name" : "Atrium",
+			"location" : "main entrance, ground floor, lobby"
+		},
+        "konfi3" : {
+            "name" : "Conference room 3",
+            "location" : "main entrance, ground floor, conference rooms"
+        },
+		"konfi45" : {
+			"name" : "Conference rooms 4+5",
+			"location" : "main entrance, ground floor, conference rooms"
+		},
+		"cafe" : {
+			"name" : "Scout Café",
+			"location" : "main entrance, ground floor, café"
+		},
+        "casino" : {
+            "name" : "Scout Lounge / Casino",
+            "location" : "side entrance, ground floor, Scout Lounge"
+        },
+        "cbase" : {
+            "name" : "c-base space station",
+            "location" : "Rungestr. 20, 2nd backyard, 10179 Berlin - S+U Jannowitzbrücke"
+        }
+	},
+	"speakers" : {
+        "stefanhoth" : {
+            "name" : "Stefan Hoth",
+            "plus_id" : "111333123856542807695",
+            "img" : "https://lh4.googleusercontent.com/-VfnjDrTP1Vw/AAAAAAAAAAI/AAAAAAAAZDY/zYb66YJ0xxw/photo.jpg?sz=200",
+            "description" : "Stefan is living in Berlin and a developer of many traits. He has programmed everything from Backends in Java or PHP, Chrome Apps and web frontends to Android apps. As a co-organizer of the GDG Berlin he can embrace his interest in getting to know new technologies, languages and frameworks."
+        },
+		"matthiasfriedrich" : {
+			"name" : "Matthias Friedrich",
+			"plus_id" : "http://google.com/+MatthiasFriedrich",
+			"img" : "/images/speakers/matthiasfriedrich.png",
+			"description" : "As Android user from the beginning, I started to develop for the platform with version 1.6 in 2009. Since then i'm following its progress very enthusiastically and worked on several applications, big and small, successful in the Play Store and as specialized customer solutions . During these years, i also co-founded the GDG Bremen and GDG Android Hamburg, gave several Android related talks and organized developer events around Google technologies in general."
+		},
+		"janmonschke" : {
+			"name" : "Jan Monschke",
+			"plus_id" : "https://plus.google.com/+JanMonschke",
+			"img" : "https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xfp1/t31.0-8/10551669_10203558908747134_1336488498860434196_o.jpg",
+			"description" : "Jan is frontend web developer from Berlin who focusses on building collaborative, multimedia web applications. He is always looking for new challenges on the web and since learning about the Web Audio API at JSconf.eu 2012 it is his new passion to create music-related web apps and experiments."
+		},
+		"alexandersurma" : {
+			"name" : "Alexander Surma",
+			"plus_id" : "http://plus.google.com/+AlexanderSurma",
+			"img" : "/images/speakers/alexandersurma.jpg",
+			"description" : "Alexander \"surma\" Surma is a Software Engineer for nuboLAB and Co-Lead of the GDG Berlin Golang."
+		},
+		"jenskuehlers" : {
+			"name" : "Jens Kühlers",
+			"plus_id" : "https://www.google.com/+JensKuehlers",
+			"img" : "/images/speakers/jenskuehlers.jpg",
+			"description" : "Cloud Platform Solutions Engineer at Google"
+		},
+		"dirkjaeckel" : {
+			"name" : "Dirk Jäckel",
+			"plus_id" : "https://plus.google.com/+DirkJäckel",
+			"img" : "/images/speakers/dirkjaeckel.png",
+			"description" : ""
+		},
+        "janphilippheinrich" : {
+            "name" : "Jan-Philipp Heinrich",
+            "plus_id" : "https://plus.google.com/+JanPhilippHeinrich",
+            "img" : "/images/speakers/janphilippheinrich.jpg",
+            "description" : ""
+        },
+        "christianketterer" : {
+            "name" : "Christian Ketterer",
+            "plus_id" : "110214177917096895451",
+            "img" : "https://lh5.googleusercontent.com/-VWZOqf2XzyU/AAAAAAAAAAI/AAAAAAAAAIo/jrtEGsIfX5w/s200-c/photo.jpg",
+            "description" : ""
+        },
+        "melindaalbert" : {
+            "name" : "Melinda Albert",
+            "plus_id" : "+MelindaAlbert",
+            "img" : "https://lh4.googleusercontent.com/-cFePUG1gmsI/U4dqDRV4maI/AAAAAAAACKc/oR3dgYzUvoM/s749-no/ich.png",
+            "description" : ""  
+        },
+        "sebatianopoggi" : {
+            "name" : "Sebastiano Poggi",
+            "plus_id" : "+SebastianoPoggi",
+            "img" : "https://lh4.googleusercontent.com/-uhZ-3UFgzzo/T4XR5D4VHiI/AAAAAAABBp4/PNiNGfhEHUs/w354-h352-no/Face_malga.jpg",
+            "description" : "A self-taught and strong OSS believer who loves beautiful and simple UX and UI, where “less is more”, Sebastiano spends a big chunk of his spare time reading and writing about Android development. He also creates and maintains some FOSS apps and libraries, that span from the fun, smaller projects to the more serious (and, perhaps, useful) work."  
+        },
+        "danielebonaldo" : {
+            "name" : "Daniele Bonaldo",
+            "plus_id" : "+DanieleBonaldo",
+            "img" : "https://lh6.googleusercontent.com/-y3b7ZbMryRU/UaXAN9XZ_jI/AAAAAAAACNI/DGOuBFqWn_Q/w520-h519-no/IMG_7560.jpg",
+            "description" : "Daniele is an Android Software Craftsman at Novoda in London."  
+        },
+        "dannypreussler" : {
+            "name" : "Danny Preussler",
+            "plus_id" : "+DannyPreussler",
+            "img" : "https://lh6.googleusercontent.com/-lRS0HiJQ2cA/UrP9HfZrBuI/AAAAAAAAJn4/-nUPbl1pG_k/s414-no/IMAG1879.jpg",
+            "description" : "Danny is in charge of Android development at Groupon in Berlin. Before that he worked for companies like eBay and Alcatel. Danny writes and talks about android development or testing regularly."  
+        },
+        "heikemeyburgh" : {
+            "name" : "Heike Meyburgh",
+            "plus_id" : "+HeikeMeyburgh",
+            "img" : "https://lh6.googleusercontent.com/-gymPtHKrfP8/T4_XFAAo-NI/AAAAAAAAARE/SKAXiIASi_g/s393-no/Photo%2Bon%2B2011-11-04%2Bat%2B16.35%2B%232.jpg",
+            "description" : "When she’s not training to become a Yoga Instructor or trying to become the female Bear Grylls, Heike Meyburgh works as an Executive Producer at Stinkdigital. After graduating in South Africa and before joining Stinkdigital, Heike worked at several agencies engaging with big brands such as Nike, Cell C and RedBull. Heike’s currently based in Berlin and is sinking her teeth into the new market."
+        },
+        "tiffanyconroy" : {
+            "name" : "Tiffany Conroy",
+            "plus_id" : "",
+            "img" : "https://avatars0.githubusercontent.com/u/364246?v=2&s=460",
+            "description" : "Tiffany is a self-taught JavaScript programmer trained as an electrically engineer. Front-end developer and interaction designer, mostly. “theophani” on Github, Twitter, Flickr, SoundCloud … and everywhere else. JSConf EU co-curator, weareaweso.me creator, BerlinJS co-organizer."
+        },
+        "leehambley" : {
+            "name" : "Lee Hambley",
+            "plus_id" : "+LeeHambley",
+            "img" : "https://lh3.googleusercontent.com/-dxGyDhdrl9U/UPlRy7RQGZI/AAAAAAAAAnU/H7MXA1uCDKY/w301-h300-no/me.png",
+            "description" : "I’m the founder of a successful consultancy company personally offering extensive experience with Ruby, PHP, Lua, and SQL (MySQL and PostgreSQL). Sometimes I work with JavaScript, C or Objective-C. I contribute heavily to open source. I’ve maintained Capistrano for the last few years; it’s the de-facto standard for deploying Ruby or Rails applications. I’m working hard with a couple of awesome people at making it work well for other projects too, you can watch us work."
+        }
+	},
+	"days" : {
+		"Friday" : {
+			"date" : "2014-11-21",
+            "label": "workshops",
+			"slots" : [
+				{
+					"time_start" : "14:00:00",
+					"time_end" : "14:45:00",
+					"title" : "Doors open, Registration, Snacks",
+					"desc" : "Come in, get your swag and ready to code.",
+                    "room_id" : "atrium",
+					"speaker_ids" : [
+						
+					]
+				},
+                {
+                    "time_start" : "14:45:00",
+                    "time_end" : "15:00:00",
+                    "title" : "Welcome & Introduction",
+                    "desc" : "Learn what we have prepared for you, where the rooms are and what else is imporatant to know.",
+                    "room_id" : "atrium",
+                    "speaker_ids" : [
+                        "stefanhoth", "alexandersurma"
+                    ]
+                },
+                {
+                    "time_start" : "15:00:00",
+                    "time_end" : "15:30:00",
+                    "title" : "Installing Android Studio and the SDK",
+                    "desc" : "",
+                    "level": "101",                    
+                    "room_id" : "casino",
+                    "track" : "Android",
+                    "slide":"",
+                    "speaker_ids" : [
+                        "dirkjaeckel", "christianketterer"
+                    ]
+                },
+                {
+                    "time_start" : "15:45:00",
+                    "time_end" : "16:15:00",
+                    "title" : "Android for absolute beginners I",
+                    "desc" : "",
+                    "level": "101",
+                    "room_id" : "casino",
+                    "track" : "Android",
+                    "slide":"",
+                    "speaker_ids" : [
+                        "dirkjaeckel", "christianketterer"
+                    ]
+                },
+                {
+                    "time_start" : "16:30:00",
+                    "time_end" : "17:30:00",
+                    "title" : "Android for absolute beginners II",
+                    "desc" : "",
+                    "level": "101",
+                    "room_id" : "casino",
+                    "track" : "Android",
+                    "slide":"",
+                    "speaker_ids" : [
+                        "dirkjaeckel", "christianketterer"
+                    ]
+                },
+                {
+                    "time_start" : "17:30:00",
+                    "time_end" : "18:30:00",
+                    "title" : "Android for absolute beginners III",
+                    "desc" : "",
+                    "level": "101",
+                    "room_id" : "casino",
+                    "track" : "Android",
+                    "slide":"",
+                    "speaker_ids" : [
+                        "dirkjaeckel", "christianketterer"
+                    ]
+                },
+                {
+                    "time_start" : "15:00:00",
+                    "time_end" : "15:30:00",
+                    "title" : "Polymer Code-Lab",
+                    "desc" : "Attend the Polymer Polyclinic to understand what all the fuzz is about with 'web components'.",
+                    "level": "101",
+                    "room_id" : "konfi3",
+                    "track" : "Web",
+                    "slide":"",
+                    "speaker_ids" : [
+                        "janphilippheinrich", "stefanhoth"
+                    ]
+                },
+                {
+                    "time_start" : "15:45:00",
+                    "time_end" : "16:15:00",
+                    "title" : "Polymer Code-Lab",
+                    "desc" : "Attend the Polymer Polyclinic to understand what all the fuzz is about with 'web components'.",
+                    "level": "101",
+                    "room_id" : "konfi3",
+                    "track" : "Web",
+                    "slide":"",
+                    "speaker_ids" : [
+                        "janphilippheinrich", "stefanhoth"
+                    ]
+                },
+                {
+                    "time_start" : "16:30:00",
+                    "time_end" : "17:30:00",
+                    "title" : "Polymer Code-Lab",
+                    "desc" : "Attend the Polymer Polyclinic to understand what all the fuzz is about with 'web components'.",
+                    "level": "101",
+                    "room_id" : "konfi3",
+                    "track" : "Web",
+                    "slide":"",
+                    "speaker_ids" : [
+                        "janphilippheinrich", "stefanhoth"
+                    ]
+                },
+                {
+                    "time_start" : "17:30:00",
+                    "time_end" : "18:30:00",
+                    "title" : "Polymer Code-Lab",
+                    "desc" : "Attend the Polymer Polyclinic to understand what all the fuzz is about with 'web components'.",
+                    "level": "101",
+                    "room_id" : "konfi3",
+                    "track" : "Web",
+                    "slide":"",
+                    "speaker_ids" : [
+                        "janphilippheinrich", "stefanhoth"
+                    ]
+                },
+                {
+                    "time_start" : "15:00:00",
+                    "time_end" : "15:30:00",
+                    "title" : "Syntax Speedrun I",
+                    "desc" : "Go has been getting more and more attention over the last few years.<br/>If it has peaked your interest as well, here's your chance to learn<br/>the basics and write your first Go program.",
+                    "level": "101",
+                    "room_id" : "konfi45",
+                    "track" : "Cloud",
+                    "slide":"http://surma-slides.github.com/pixelpixel",
+                    "speaker_ids" : [
+                        "alexandersurma"
+                    ]
+                },
+                {
+                    "time_start" : "15:45:00",
+                    "time_end" : "16:15:00",
+                    "title" : "Syntax Speedrun II",
+                    "desc" : "Go has been getting more and more attention over the last few years.<br/>If it has peaked your interest as well, here's your chance to learn<br/>the basics and write your first Go program.",
+                    "level": "101",
+                    "room_id" : "konfi45",
+                    "track" : "Cloud",
+                    "slide":"http://surma-slides.github.com/pixelpixel",
+                    "speaker_ids" : [
+                        "alexandersurma"
+                    ]
+                },
+                {
+                    "time_start" : "16:30:00",
+                    "time_end" : "17:30:00",
+                    "title" : "Write all the Pixels",
+                    "desc" : "Go has been getting more and more attention over the last few years.<br/>If it has peaked your interest as well, here's your chance to learn<br/>the basics and write your first Go program.",
+                    "level": "101",
+                    "room_id" : "konfi45",
+                    "track" : "Cloud",
+                    "slide":"http://surma-slides.github.com/pixelpixel",
+                    "speaker_ids" : [
+                        "alexandersurma"
+                    ]
+                },
+                {
+                    "time_start" : "17:30:00",
+                    "time_end" : "18:30:00",
+                    "title" : "Write all the Pixels",
+                    "desc" : "Go has been getting more and more attention over the last few years.<br/>If it has peaked your interest as well, here's your chance to learn<br/>the basics and write your first Go program.",
+                    "level": "101",
+                    "room_id" : "konfi45",
+                    "track" : "Cloud",
+                    "slide":"http://surma-slides.github.com/pixelpixel",
+                    "speaker_ids" : [
+                        "alexandersurma"
+                    ]
+                },
+                {
+                    "time_start" : "18:30:00",
+                    "time_end" : "19:00:00",
+                    "title" : "Wrap-Up",
+                    "desc" : "",
+                    "room_id" : "atrium",
+                    "speaker_ids" : [
+                        "stefanhoth", "alexandersurma"
+                    ]
+                },
+                {
+                    "time_start" : "19:00:00",
+                    "time_end" : "23:59:00",
+                    "title" : "After hour drinks @ c-base",
+                    "desc" : "",
+                    "room_id" : "cbase",
+                    "speaker_ids" : [
+                    ]
+                }
+			]
+		},
+		"Saturday" : {
+			"date" : "2014-11-22",
+            "label": "conference",
+			"slots" : [
+				{
+					"time_start" : "08:30:00",
+					"time_end" : "09:30:00",
+					"title" : "WELCOME! Doors open, Registration, Breakfast, Snacks",
+					"desc" : "",
+					"room_id" : "atrium",
+					"speaker_ids" : [
+						
+					]
+				},
+				{
+					"time_start" : "09:30:00",
+					"time_end" : "10:00:00",
+					"title" : "Greeting, Introduction, 180 secs of fame (Silver)",
+					"desc" : "",
+					"room_id" : "atrium",
+					"speaker_ids" : [
+						"stefanhoth", "alexandersurma"
+					]
+				},
+				{
+					"time_start" : "10:00:00",
+					"time_end" : "10:45:00",
+					"title" : "Android as it gets worn",
+					"desc" : "One of Androids new shapes is the one of a watch on your wrist. Besides the basic adjustments of notifications for Wearable devices, it is also possible to run full fledged applications on your its small screens, that don't suck. These applications are highly depended on new APIs for inter device communication and some new ui widgets. This talk wants to give a introduction to Android Wear, its special APIs, features and latest developments.",
+                    "level": "101",
+					"room_id" : "atrium",
+					"track" : "Android",
+                    "youtube_id": "",
+                    "slide": "",
+					"speaker_ids" : [
+						"matthiasfriedrich"
+					]
+				},
+				{
+					"time_start" : "11:00:00",
+					"time_end" : "11:45:00",
+					"title" : "Delightful Details for Android Apps",
+					"desc" : "You have an android app and have you also followed Guidelines. How can you make sure, that your app doesn´t look all the other android apps alike, which also followed the Guidelines? How can you make your app stand out visually more in the Playstore? Melinda Albert is going to explain you in 40 minutes how you could bring more delightful details in your user interface, make your product more memorable so that it attracts new customers.\n\nThese are some of the questions which are included and going to be answered during the session: What are delightful details and how can we cluster them? Are colors and icons enought to create a brand identity? How can we achieve a visually memorable product that user remember and love? ",
+                    "level": "201",
+					"room_id" : "atrium",
+					"track" : "Android",
+                    "youtube_id" : "",
+                    "slide":"",
+					"speaker_ids" : [
+					   "melindaalbert"	
+					]
+				},
+				{
+					"time_start" : "12:00:00",
+					"time_end" : "12:45:00",
+					"title" : "Framing the Canvas",
+					"desc" : "This talk will guide you through a topic that is often ignored: the Canvas API. Even if there's only scarce documentation for it, the Canvas API is at the heart of everything that shows a UI on Android. You'll need to tame this powerful and mysterious creature if you want to create great custom views and brilliant, lightweight UIs for your apps. What is a Canvas? How do you Paint? Can you draw Paths? What is Skia, and who invited it anyway? What actualy happens during a drawing pass? What are Shaders? What are Filters? Is it true that text is basically impossible to measure correctly? What shape does a Shape have if noone's painting it? These and other questions will get an answer during this session. Well, some of them will not, probably. Connect the dots in the spotty documentation the Android team has assembled, and become a true pixel pusher!",
+                    "level": "201",
+					"room_id" : "atrium",
+					"track" : "Android",
+                    "youtube_id": "",
+                    "slide":"",
+					"speaker_ids" : [
+						"sebatianopoggi"
+					]
+				},
+				{
+					"time_start" : "12:45:00",
+					"time_end" : "14:00:00",
+					"title" : "LUNCH",
+					"desc" : "",
+                    "level": "",
+					"room_id" : "cafe",
+					"speaker_ids" : [
+						
+					]
+				},
+				{
+					"time_start" : "14:00:00",
+					"time_end" : "14:45:00",
+					"title" : "AOSP building blocks",
+					"desc" : "Most of us Android developers are able to build awesome apps, but do we really know how the Android OS works? In some cases, as when developing a new product, adding customised apps is not enough, and OS modifications are required. From downloading the source code, to where to touch and modify it, to the (technical) process for placing it on your device. We will explore the world of Google's Repo and its collection of git repositories. The attendees will be able to customize the Android OS to address the needs of a new product, editing some features normally hidden to normal apps.",
+                    "level": "201",
+					"room_id" : "atrium",
+					"track" : "Android",
+                    "youtube_id": "",
+                    "slide":"",
+					"speaker_ids" : [
+                        "danielebonaldo"
+					]
+				},
+				{
+					"time_start" : "15:00:00",
+					"time_end" : "15:45:00",
+					"title" : "(tba)",
+					"desc" : "",
+                    "level": "",
+					"room_id" : "atrium",
+					"track" : "Android",
+                    "youtube_id": "",
+                    "slide" : "",
+					"speaker_ids" : [
+						
+					]
+				},
+				{
+					"time_start" : "15:45:00",
+					"time_end" : "16:30:00",
+					"title" : "COFFEE(!) BREAK",
+					"desc" : "",
+                    "level": "",
+					"room_id" : "cafe",
+					"speaker_ids" : [
+						
+					]
+				},
+				{
+					"time_start" : "16:30:00",
+					"time_end" : "17:15:00",
+					"title" : "More Android Code Puzzles",
+					"desc" : "After the 1st round at droidconNL 2012 this is the 2nd round in best tradition of Joshua Bloch’s Java puzzle talks. We will show code, audience try to guess what it does or maybe does not! Don’t get fooled, but they will try!",
+                    "level": "301",
+					"room_id" : "atrium",
+					"track" : "Android",
+                    "youtube_id": "",
+                    "slide":"",
+					"speaker_ids" : [
+						"dannypreussler"
+					]
+				},
+				{
+					"time_start" : "17:30:00",
+					"time_end" : "18:15:00",
+					"title" : "Fireside chat with all speakers of the Android track",
+					"desc" : "",
+					"room_id" : "atrium",
+					"track" : "Android",
+                    "youtube_id":"",
+					"speaker_ids" : [
+                        "matthiasfriedrich", "melindaalbert", "sebatianopoggi", "danielebonaldo", "dannypreussler"
+					]
+				},
+				{
+					"time_start" : "10:00:00",
+					"time_end" : "10:45:00",
+					"title" : "Using the web for music production and for live performances",
+					"desc" : "The introduction of the Web Audio API has enriched the web landscape enormously. It gives game developers the ability to add precisely timed, high performant sound effects and to create realistic spatialized sound landscapes. For many web developers it is the first time they encounter audio programming which leads to many interesting experiments when the world of web and audio collide. Traditional web developers start to become really interested into audio programming and educate themselves on the topic of synthesizers and audio effects. However, currently there are only few applications that try to create audio production or audio performance environments in the browser. In this talk I want to show how the Web Audio API can be used to create a collaborative music production environment similar to Garageband. Furthermore, I will do a live demonstration of a music performance setup which is inspired by The Glitch Mob’s setup (https://www.youtube.com/watch?v=9bXNo9MFXnU). Both demos will show how powerful the Web Audio API is and how important the web can become as platform for music production in the future.",
+                    "level": "101",
+					"room_id" : "casino",
+					"track" : "Web",
+                    "youtube_id": "",
+                    "slide":"",
+					"speaker_ids" : [
+						"janmonschke"
+					]
+				},
+				{
+					"time_start" : "11:00:00",
+					"time_end" : "11:45:00",
+					"title" : "Using Prototypes to Break New Ground",
+					"desc" : "Technology is continuing to shape the way we communicate. As new platforms and devices are introduced, and technology continues to accelerate, we can no longer take it for granted that there is a definitive answer to a production challenge: what is true today may not be true tomorrow.",
+                    "level": "101",
+					"room_id" : "casino",
+					"track" : "Web",
+                    "youtube_id": "",
+                    "slide":"",
+					"speaker_ids" : [
+						"heikemeyburgh"
+					]
+				},
+				{
+					"time_start" : "12:00:00",
+					"time_end" : "12:45:00",
+					"title" : "Lions and tigers and handling user capabilities",
+					"desc" : "Many applications restrict access to some features for some users for various reasons. For example: Only premium users get access to extra features. Only supervisors can edit product categories. I went on a hunt to gather patterns and techniques for handling the logic around user capabilities in client-side apps. Join me on a safari through the approaches, and I’ll tell you what I have learned.",
+                    "level": "201",
+					"room_id" : "casino",
+					"track" : "Web",
+                    "youtube_id": "",
+                    "slide":"",
+					"speaker_ids" : [
+					   "tiffanyconroy"
+					]
+				},
+				{
+					"time_start" : "14:00:00",
+					"time_end" : "14:45:00",
+					"title" : "(tba)",
+					"desc" : "",
+                    "level": "",
+					"room_id" : "casino",
+					"track" : "Web",
+                    "youtube_id": "",
+                    "slide":"",
+					"speaker_ids" : [
+
+					]
+				},
+				{
+					"time_start" : "15:00:00",
+					"time_end" : "15:45:00",
+					"title" : "(tba)",
+					"desc" : "",
+                    "level": "",
+					"room_id" : "casino",
+					"track" : "Web",
+                    "youtube_id": "",
+                    "slide":"",
+					"speaker_ids" : [
+
+					]
+				},
+				{
+					"time_start" : "16:30:00",
+					"time_end" : "17:15:00",
+					"title" : "Introduction into Polymer",
+					"desc" : "A frame work for web applications based on web components made by Google.",
+                    "level": "101",
+					"room_id" : "casino",
+					"track" : "Web",
+                    "youtube_id": "",
+                    "slide":"",
+					"speaker_ids" : [
+						"janphilippheinrich"
+					]
+				},
+				{
+					"time_start" : "17:30:00",
+					"time_end" : "18:15:00",
+					"title" : "Fireside chat with all speakers of the Web track",
+					"desc" : "",
+					"room_id" : "casino",
+					"track" : "Web",
+                    "youtube_id": "",
+					"speaker_ids" : [
+                        "janmonschke", "heikemeyburgh", "tiffanyconroy", "janphilippheinrich"
+					]
+				},
+				{
+					"time_start" : "10:00:00",
+					"time_end" : "10:45:00",
+					"title" : "Something, something, Go!",
+					"desc" : "",
+                    "level": "101",
+					"room_id" : "konfi45",
+					"track" : "Cloud",
+                    "youtube_id": "",
+                    "slide":"",
+					"speaker_ids" : [
+						"alexandersurma"
+					]
+				},
+				{
+					"time_start" : "11:00:00",
+					"time_end" : "11:45:00",
+					"title" : "Something, something, Cloud!",
+					"desc" : "",
+                    "level": "201",
+					"room_id" : "konfi45",
+					"track" : "Cloud",
+                    "youtube_id": "",
+                    "slide":"",
+					"speaker_ids" : [
+						"jenskuehlers"
+					]
+				},
+				{
+					"time_start" : "12:00:00",
+					"time_end" : "12:45:00",
+					"title" : "Transactional HTTP Tests With Go’s Standard Library",
+					"desc" : "",
+                    "level": "201",
+					"room_id" : "konfi45",
+					"track" : "Cloud",
+                    "youtube_id": "",
+                    "slide":"",
+					"speaker_ids" : [
+						"leehambley"
+					]
+				},
+				{
+					"time_start" : "14:00:00",
+					"time_end" : "14:45:00",
+					"title" : "(tba)",
+					"desc" : "",
+                    "level": "",
+					"room_id" : "konfi45",
+					"track" : "Cloud",
+                    "youtube_id": "",
+                    "slide":"",
+					"speaker_ids" : [
+						
+					]
+				},
+				{
+					"time_start" : "15:00:00",
+					"time_end" : "15:45:00",
+					"title" : "(tba)",
+					"desc" : "",
+                    "level": "",
+					"room_id" : "konfi45",
+					"track" : "Cloud",
+                    "slide":"",
+					"speaker_ids" : [
+						
+					]
+				},
+				{
+					"time_start" : "16:30:00",
+					"time_end" : "17:15:00",
+					"title" : "(tba)",
+					"desc" : "",
+                    "level": "",
+					"room_id" : "konfi45",
+					"track" : "Cloud",
+                    "youtube_id": "",
+                    "slide":"",
+					"speaker_ids" : [
+						
+					]
+				},
+				{
+					"time_start" : "17:30:00",
+					"time_end" : "18:15:00",
+					"title" : "Fireside chat with all speakers of the Cloud track",
+					"desc" : "",
+					"room_id" : "konfi45",
+					"track" : "Cloud",
+					"speaker_ids" : [
+					    "jenskuehlers", "alexandersurma"
+					]
+				},
+                {
+                    "time_start" : "18:30:00",
+                    "time_end" : "19:00:00",
+                    "title" : "Wrap-Up",
+                    "desc" : "",
+                    "room_id" : "atrium",
+                    "speaker_ids" : [
+                        "stefanhoth", "alexandersurma"
+                    ]
+                },
+                {
+                    "time_start" : "19:00:00",
+                    "time_end" : "23:59:00",
+                    "title" : "Party @ c-base",
+                    "desc" : "",
+                    "room_id" : "cbase",
+                    "speaker_ids" : [
+
+                    ]
+                }
+			]
+		},
+		"Sunday" : {
+			"date" : "2014-11-23",
+            "label": "hackathon",
+			"slots" : [
+				{
+					"time_start" : "09:00:00",
+					"time_end" : "09:30:00",
+					"title" : "Doors open, Registration, Snacks",
+					"desc" : "Come in, get your swag and ready to code.",
+					"room_id" : "atrium",
+					"speaker_ids" : [
+						
+					]
+				},
+                {
+                    "time_start" : "10:00:00",
+                    "time_end" : "10:30:00",
+                    "title" : "Project idea pitching & team building",
+                    "desc" : "",
+                    "room_id" : "atrium",
+                    "speaker_ids" : [
+                        "stefanhoth"
+                    ]
+                },
+                {
+                    "time_start" : "10:30:00",
+                    "time_end" : "17:00:00",
+                    "title" : "Building Blocks",
+                    "desc" : "",
+                    "room_id" : "atrium",
+                    "speaker_ids" : [
+
+                    ]
+                },
+                {
+                    "time_start" : "17:00:00",
+                    "time_end" : "18:00:00",
+                    "title" : "Demo time",
+                    "desc" : "",
+                    "room_id" : "atrium",
+                    "speaker_ids" : [
+                        "stefanhoth"
+                    ]
+                },
+                {
+                    "time_start" : "18:00:00",
+                    "time_end" : "18:30:00",
+                    "title" : "Award ceremony & the long Goodbye :-(",
+                    "desc" : "",
+                    "room_id" : "atrium",
+                    "speaker_ids" : [
+                        "stefanhoth", "alexandersurma"
+                    ]
+                }
+			]
+		}
+	}
+}

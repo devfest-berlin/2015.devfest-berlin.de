@@ -1,6 +1,10 @@
 <div class="col-md-12">
     <h2>{{session.title}}</h2>
-    <p class="time">{{session.time_start | date:'EEEE, MMM d'}}, {{session.time_start | date:'HH:mm'}} - {{session.time_end | date:'HH:mm'}} <span class="label" ng-class="'label-'+session.track.toLowerCase()">{{session.track}}</span></p>
+    <p class="time">{{session.time_start | date:'EEEE, MMM d'}}, {{session.time_start | date:'HH:mm'}} - {{session.time_end | date:'HH:mm'}} <span class="label" ng-class="'label-'+session.track.toLowerCase()">{{session.track}}</span>
+        <span ng-show="session.level == 101" class="label label-success">101 / Beginners</span>
+        <span ng-show="session.level == 201" class="label label-warning">201 / Intermediates</span>
+        <span ng-show="session.level == 301" class="label label-danger">301 / Experts</span>
+    </p>
     <div ng-show="session.speakers" class="row speakerlist">
         <h3 class="speaker col-md-12">Speaker<span ng-show="session.speakers.length > 1">s</span></h3>
         <div ng-repeat="speaker in session.speakers" class="wrap well col-md-offset-1 col-md-2 col-xs-offset-3 col-xs-6 text-center" ng-click="openSpeaker(speaker)">
