@@ -123,7 +123,7 @@
 	},
 	"days" : {
 		"Friday" : {
-			"date" : "2013-11-21",
+			"date" : "2014-11-21",
             "label": "workshops",
 			"slots" : [
 				{
@@ -324,7 +324,7 @@
 			]
 		},
 		"Saturday" : {
-			"date" : "2013-11-22",
+			"date" : "2014-11-22",
             "label": "conference",
 			"slots" : [
 				{
@@ -678,7 +678,7 @@
 			]
 		},
 		"Sunday" : {
-			"date" : "2013-11-23",
+			"date" : "2014-11-23",
             "label": "hackathon",
 			"slots" : [
 				{
