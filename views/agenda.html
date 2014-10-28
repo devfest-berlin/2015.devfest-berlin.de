@@ -41,6 +41,9 @@
                <div class="cbp_tmlabel">
                     <h3>{{  slot[0].time_start | date:'HH:mm'}} - {{slot[0].time_end | date:'HH:mm'}}</h3>
                     <div class="stream-{{session.track.toLowerCase() || '0' }}" ng-repeat="session in slot" ng-click="openSession(session);">
+                        <span ng-show="session.level == 101" class="label label-success">101 / Beginners</span>
+                        <span ng-show="session.level == 201" class="label label-warning">201 / Intermediates</span>
+                        <span ng-show="session.level == 301" class="label label-danger">301 / Experts</span>
                         <h2>{{session.title}}</h2>
                         <p class="speaker">
                             <span ng-repeat="(index, speaker) in session.speakers">{{ speaker.name }}<span ng-show="session.speakers.length > 1 && index < session.speakers.length-1">, </span></span> </span>

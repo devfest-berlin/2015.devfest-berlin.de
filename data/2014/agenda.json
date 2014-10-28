@@ -109,7 +109,7 @@
                     "time_end" : "15:30:00",
                     "title" : "Installing Android Studio and the SDK",
                     "desc" : "",
-                    "level": "beginner",                    
+                    "level": "101",                    
                     "room_id" : "casino",
                     "track" : "Android",
                     "slide":"",
@@ -122,7 +122,7 @@
                     "time_end" : "16:15:00",
                     "title" : "Android for absolute beginners I",
                     "desc" : "",
-                    "level": "beginner",
+                    "level": "101",
                     "room_id" : "casino",
                     "track" : "Android",
                     "slide":"",
@@ -135,7 +135,7 @@
                     "time_end" : "17:30:00",
                     "title" : "Android for absolute beginners II",
                     "desc" : "",
-                    "level": "beginner",
+                    "level": "101",
                     "room_id" : "casino",
                     "track" : "Android",
                     "slide":"",
@@ -148,7 +148,7 @@
                     "time_end" : "18:30:00",
                     "title" : "Android for absolute beginners III",
                     "desc" : "",
-                    "level": "beginner",
+                    "level": "101",
                     "room_id" : "casino",
                     "track" : "Android",
                     "slide":"",
@@ -161,12 +161,12 @@
                     "time_end" : "15:30:00",
                     "title" : "Polymer Code-Lab",
                     "desc" : "Attend the Polymer Polyclinic to understand what all the fuzz is about with 'web components'.",
-                    "level": "beginner",
+                    "level": "101",
                     "room_id" : "konfi3",
                     "track" : "Web",
                     "slide":"",
                     "speaker_ids" : [
-                        "janphilippheinrich"
+                        "janphilippheinrich", "stefanhoth"
                     ]
                 },
                 {
@@ -174,12 +174,12 @@
                     "time_end" : "16:15:00",
                     "title" : "Polymer Code-Lab",
                     "desc" : "Attend the Polymer Polyclinic to understand what all the fuzz is about with 'web components'.",
-                    "level": "beginner",
+                    "level": "101",
                     "room_id" : "konfi3",
                     "track" : "Web",
                     "slide":"",
                     "speaker_ids" : [
-                        "janphilippheinrich"
+                        "janphilippheinrich", "stefanhoth"
                     ]
                 },
                 {
@@ -187,12 +187,12 @@
                     "time_end" : "17:30:00",
                     "title" : "Polymer Code-Lab",
                     "desc" : "Attend the Polymer Polyclinic to understand what all the fuzz is about with 'web components'.",
-                    "level": "beginner",
+                    "level": "101",
                     "room_id" : "konfi3",
                     "track" : "Web",
                     "slide":"",
                     "speaker_ids" : [
-                        "janphilippheinrich"
+                        "janphilippheinrich", "stefanhoth"
                     ]
                 },
                 {
@@ -200,12 +200,12 @@
                     "time_end" : "18:30:00",
                     "title" : "Polymer Code-Lab",
                     "desc" : "Attend the Polymer Polyclinic to understand what all the fuzz is about with 'web components'.",
-                    "level": "beginner",
+                    "level": "101",
                     "room_id" : "konfi3",
                     "track" : "Web",
                     "slide":"",
                     "speaker_ids" : [
-                        "janphilippheinrich"
+                        "janphilippheinrich", "stefanhoth"
                     ]
                 },
                 {
@@ -213,7 +213,7 @@
                     "time_end" : "15:30:00",
                     "title" : "Syntax Speedrun I",
                     "desc" : "Go has been getting more and more attention over the last few years.<br/>If it has peaked your interest as well, here's your chance to learn<br/>the basics and write your first Go program.",
-                    "level": "beginner",
+                    "level": "101",
                     "room_id" : "konfi45",
                     "track" : "Cloud",
                     "slide":"http://surma-slides.github.com/pixelpixel",
@@ -226,7 +226,7 @@
                     "time_end" : "16:15:00",
                     "title" : "Syntax Speedrun II",
                     "desc" : "Go has been getting more and more attention over the last few years.<br/>If it has peaked your interest as well, here's your chance to learn<br/>the basics and write your first Go program.",
-                    "level": "beginner",
+                    "level": "101",
                     "room_id" : "konfi45",
                     "track" : "Cloud",
                     "slide":"http://surma-slides.github.com/pixelpixel",
@@ -239,7 +239,7 @@
                     "time_end" : "17:30:00",
                     "title" : "Write all the Pixels",
                     "desc" : "Go has been getting more and more attention over the last few years.<br/>If it has peaked your interest as well, here's your chance to learn<br/>the basics and write your first Go program.",
-                    "level": "beginner",
+                    "level": "101",
                     "room_id" : "konfi45",
                     "track" : "Cloud",
                     "slide":"http://surma-slides.github.com/pixelpixel",
@@ -252,7 +252,7 @@
                     "time_end" : "18:30:00",
                     "title" : "Write all the Pixels",
                     "desc" : "Go has been getting more and more attention over the last few years.<br/>If it has peaked your interest as well, here's your chance to learn<br/>the basics and write your first Go program.",
-                    "level": "beginner",
+                    "level": "101",
                     "room_id" : "konfi45",
                     "track" : "Cloud",
                     "slide":"http://surma-slides.github.com/pixelpixel",
