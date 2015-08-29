@@ -10,73 +10,73 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "GDG DevFest Season 2014"
-email: "devfest@gdg.org.ua"
-description: "GDG DevFest is a set of events all around the world"
-baseurl: "/zeppelin"
-url: "https://gdg-x.github.io"
+title: "GDG DevFest Berlin 2015"
+email: "team@devfest-berlin.de"
+description: "DevFest Berlin "
+baseurl: ""
+url: "http://devfest-berlin.de/"
 permalink: "/blog/:title"
-googleAnalyticsTrackingId: "UA-43643469-5"
-googleAnalyticsSiteUrl: "gdg-x.github.io"
-siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
+googleAnalyticsTrackingId: "UA-66916229-1"
+googleAnalyticsSiteUrl: "devfest-berlin.de"
+siteVerification: "-ArvK1Z6viSO7jd4DpG1KujHHXxSNSedS8lvtUGL7kE"
 
 # Organizer Info
-organizerName: "GDG Lviv"
-organizerAlternateName: "Google Developer Group Lviv"
+organizerName: "Three GDGs of Berlin"
+organizerAlternateName: "GDG Berlin, GDG Berlin Android &amp; GDG Berlin Golang"
 organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
-organizerEmail: "lviv@gdg.org.ua"
+organizerEmail: "team@devfest-berlin.de"
 organizerLogo: "/img/seo/organizer-logo.png"
-organizerLink: "http://lviv.gdg.org.ua/"
+organizerLink: "http://gdg-berlin.de"
 
 # Head
-metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
-twitterAccount: "@DevFest"
+metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, berlin"
+twitterAccount: "@GDGBerlin"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
-c4pUrl: "https://bit.ly/dfua-c4p"
-c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
+c4pUrl: "https://conference.devfest-berlin.de"
+c4sponsorsUrl: "https://drive.google.com/file/d/0B63FtzFoCw0_aHJYeTBoWjE5R1E/view?usp=sharing"
 
 
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
- - {permalink: "/blog/", text: "Blog"}
  - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/team/", text: "Team"}
  - {permalink: "/logistics/", text: "Logistics"}
  - {permalink: "/hackathon/", text: "Hackathon"}
+ - {permalink: "https://plus.google.com/116495772997450383126/", text: "Google+ Page"}
 bottomNavigationLinks:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {link: "https://conference.devfest-berlin.de", text: "Become a speaker"}
 rightNavigationButtons:
  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "GDG DevFest <typeout> 2014"
-eventDate: "September - November, 2014"
-typeoutTextValues: '"", "Season", "Ukraine", "Germany", "USA"'
-typeoutFallback: "Season"
+heroTitle: "GDG DevFest <typeout> 2015"
+eventDate: "13/14/15 November 2015"
+typeoutTextValues: '"", "Vienna", "New York", "Karlsruhe", "Cairo"'
+typeoutFallback: "Berlin"
 heroButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {link: "https://conference.devfest-berlin.de", text: "Become a speaker"}
  - {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
 aboutTitle: "About GDG DevFest"
 aboutBlock:
+ - {title: "Workshops", image: "workshop.jpg", text: "Half day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
  - {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
- - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
  - {title: "Hackathon", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "350", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
- - {count: "48", specialCharacter: "+", info: "hours", detail: "of pure Google technologies"}
- - {count: "20", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
+ - {count: "250", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
+ - {count: "36", specialCharacter: "+", info: "hours", detail: "of pure Google technologies"}
+ - {count: "24", specialCharacter: "+", info: "speakers", detail: "from the local community and beyond"}
  - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
 
 # Latest News Block
@@ -174,20 +174,22 @@ ticketsOffers:
 
 # Footer
 socialLinks:
- - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
- - {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
- - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
+ - {link: "https://plus.google.com/116495772997450383126", icon: "google-plus"}
+ - {link: "https://twitter.com/intent/user?screen_name=GDGBerlin", icon: "twitter"}
+ - {link: "https://twitter.com/intent/user?screen_name=BerlinDroid", icon: "twitter"}
  - {permalink: "/feed.xml", icon: "rss"}
 footerBlocks:
  -
   title: "Links"
   links:
-   - {link: "http://gdg.org.ua", text: "GDG.org.ua"}
+   - {link: "http://www.meetup.com/gdgberlin/", text: "GDG Berlin Meetup"}
+   - {link: "http://www.meetup.com/GDG-Android-in-Berlin/", text: "GDG Berlin Android Meetup"}
+   - {link: "http://www.meetup.com/golang-users-berlin/", text: "GDG Berlin Golang Meetup"}
    - {link: "https://developers.google.com", text: "Google Developers"}
  -
   title: "Contacts"
   links:
-   - {link: "mailto:lviv@gdg.org.ua", text: "lviv@gdg.org.ua"}
+   - {link: "mailto:team@devfest-berlin.de", text: "team@devfest-berlin.de"}
  -
   title: "FAQ"
   links:
