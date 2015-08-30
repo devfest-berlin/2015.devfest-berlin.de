@@ -52,7 +52,7 @@ navigationLinks:
 bottomNavigationLinks:
  - {link: "https://conference.devfest-berlin.de", text: "Become a speaker"}
 rightNavigationButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {link: "https://conference.devfest-berlin.de", text: "Become a speaker"}
 
 # Hero Block
 heroImage: "hero.jpg"
