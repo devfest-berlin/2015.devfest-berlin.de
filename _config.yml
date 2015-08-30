@@ -56,16 +56,16 @@ rightNavigationButtons:
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "GDG DevFest <typeout> 2015"
+heroTitle: "DevFest <typeout>"
 eventDate: "13/14/15 November 2015"
-typeoutTextValues: '"", "Vienna", "New York", "Karlsruhe", "Cairo"'
+typeoutTextValues: '"", "Berlin 2015", ""'
 typeoutFallback: "Berlin"
 heroButtons:
  - {link: "https://conference.devfest-berlin.de", text: "Become a speaker"}
  - {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
-aboutTitle: "About GDG DevFest"
+aboutTitle: "About DevFest Berlin"
 aboutBlock:
  - {title: "Workshops", image: "workshop.jpg", text: "Half day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
  - {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
@@ -197,11 +197,11 @@ footerBlocks:
 
 # Blog
 blogTitle: "Latest news"
-blogCommentsEnabled: true
-discusShortName: "devfestua"
+blogCommentsEnabled: false
+#discusShortName: "devfestBerlin"
 
 # Speakers List Block
-showSessions: true
+showSessions: false
 
 # Team Block
 teamBlockTitle: "About us"
@@ -215,13 +215,13 @@ findWayWalking: "WALKING"
 findWayBicycling: "BICYCLING"
 findWayTransit: "TRANSIT"
 findWayFindFlight: "Find Flight"
-logisticsMapCenterCoordinates: "49.056728, 3.117289"
-logisticsMapMobileCenterCoordinates: "48.335365, 23.711648"
+logisticsMapCenterCoordinates: "52.512594, 13.431108"
+logisticsMapMobileCenterCoordinates: "52.512594, 13.431108"
 logisticsMapAutoDirections: false
 
 # Logistics Direction Details Block
 directionDetailsImage: "direction-details.jpg"
-directionDetailsTitle: "Get around Lviv"
+directionDetailsTitle: "Get around Berlin"
 directionDetailsCards:
  - {title: "From the Airport", information: 'Airport is right at the city border. It is easily reachable by car, public transport or taxi. More information is available at <a href="http://lwo.aero/en/transport">airport website</a>.'}
  - {title: "Public Transit", information: 'Google Transit is available in Lviv. So you can find your way in Google Maps. Moreover, you can download any of the offline public transit apps available for Lviv.'}
