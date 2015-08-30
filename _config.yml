@@ -110,8 +110,8 @@ venueBigImage: "venue_0.jpg"
 venueSmallImage1: "venue_1.jpg"
 venueSmallImage2: "venue_2.jpg"
 venueSmallImage3: "venue_3.jpg"
-venueTitle: "Kinopalace Cinema"
-venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
+venueTitle: "ImmobilienScout24 Headquarters"
+venueFeatures: ["3 rooms with top-notch equipment", "Café area for chats and chill out", "Easily accessible by public transport"]
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
