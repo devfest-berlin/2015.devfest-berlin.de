@@ -58,8 +58,8 @@ rightNavigationButtons:
 heroImage: "hero.jpg"
 heroTitle: "DevFest <typeout>"
 eventDate: "13/14/15 November 2015"
-typeoutTextValues: '"", "Berlin 2015", ""'
-typeoutFallback: "Berlin"
+typeoutTextValues: '"", "Karlsruhe", "Hamburg", "Vienna", "Berlin 2015", ""'
+typeoutFallback: "Berlin 2015"
 heroButtons:
  - {link: "https://conference.devfest-berlin.de", text: "Become a speaker"}
  - {permalink: "/#tickets", text: "Buy tickets"}
