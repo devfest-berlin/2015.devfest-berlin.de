@@ -43,11 +43,12 @@ c4sponsorsUrl: "https://drive.google.com/file/d/0B63FtzFoCw0_aHJYeTBoWjE5R1E/vie
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
- - {permalink: "/schedule/", text: "Schedule"}
- - {permalink: "/speakers/", text: "Speakers"}
+# - {permalink: "/schedule/", text: "Schedule"}
+# - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/team/", text: "Team"}
- - {permalink: "/logistics/", text: "Logistics"}
- - {permalink: "/hackathon/", text: "Hackathon"}
+ - {permalink: "/cod/", text: "Code of Conduct"}
+# - {permalink: "/logistics/", text: "Logistics"}
+# - {permalink: "/hackathon/", text: "Hackathon"}
  - {permalink: "https://plus.google.com/116495772997450383126/", text: "Google+ Page"}
 bottomNavigationLinks:
  - {link: "https://conference.devfest-berlin.de/en/devfestberlin2015/cfp/session/new", text: "Become a speaker"}
