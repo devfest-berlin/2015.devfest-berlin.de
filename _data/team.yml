@@ -1,0 +1,11 @@
+- 
+  id: 0
+  name: "Stefan"
+  surname: "Hoth"
+  title: "GDG Berlin"
+  thumbnailUrl: StefanHoth.png
+  team: true
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/+StefanHoth"}
+    - {name: "twitter", link: "https://twitter.com/stefanhoth"}
+    - {name: "github", link: "https://github.com/stefanhoth"}
