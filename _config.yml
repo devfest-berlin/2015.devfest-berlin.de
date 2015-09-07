@@ -36,7 +36,7 @@ socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
-c4pUrl: "https://conference.devfest-berlin.de"
+c4pUrl: "https://conference.devfest-berlin.de/en/devfestberlin2015/cfp/session/new"
 c4sponsorsUrl: "https://drive.google.com/file/d/0B63FtzFoCw0_aHJYeTBoWjE5R1E/view?usp=sharing"
 
 
@@ -50,9 +50,9 @@ navigationLinks:
  - {permalink: "/hackathon/", text: "Hackathon"}
  - {permalink: "https://plus.google.com/116495772997450383126/", text: "Google+ Page"}
 bottomNavigationLinks:
- - {link: "https://conference.devfest-berlin.de", text: "Become a speaker"}
+ - {link: "https://conference.devfest-berlin.de/en/devfestberlin2015/cfp/session/new", text: "Become a speaker"}
 rightNavigationButtons:
- - {link: "https://conference.devfest-berlin.de", text: "Become a speaker"}
+ - {link: "https://conference.devfest-berlin.de/en/devfestberlin2015/cfp/session/new", text: "Become a speaker"}
 
 # Hero Block
 heroImage: "hero.jpg"
@@ -61,8 +61,8 @@ eventDate: "13/14/15 November 2015"
 typeoutTextValues: '"", "Karlsruhe", "Hamburg", "Vienna", "Berlin 2015", ""'
 typeoutFallback: "Berlin 2015"
 heroButtons:
- - {link: "https://conference.devfest-berlin.de", text: "Become a speaker"}
- - {permalink: "/#tickets", text: "Buy tickets"}
+ - {link: "https://conference.devfest-berlin.de/en/devfestberlin2015/cfp/session/new", text: "Become a speaker"}
+# - {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
 aboutTitle: "About DevFest Berlin"
