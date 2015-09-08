@@ -1,22 +1,22 @@
-- 
+-
   id: 0
   name: "Stefan"
   surname: "Hoth"
   title: "GDG Berlin"
   thumbnailUrl: StefanHoth.png
   team: true
-  social: 
+  social:
     - {name: "google-plus", link: "https://plus.google.com/+StefanHoth"}
     - {name: "twitter", link: "https://twitter.com/stefanhoth"}
     - {name: "github", link: "https://github.com/stefanhoth"}
-- 
+-
   id: 1
   name: "Hasan"
   surname: "Hosgel"
   title: "GDG Berlin Android"
   thumbnailUrl: HasanHosgel.jpg
   team: true
-  social: 
+  social:
     - {name: "google-plus", link: "https://plus.google.com/+HasanHosgel"}
     - {name: "twitter", link: "https://twitter.com/alosdev"}
     - {name: "github", link: "https://github.com/alosdev"}
@@ -32,3 +32,16 @@
     - {name: "github", link: "https://github.com/mariobodemann"}
     - {name: "twitter", link: "https://twitter.com/mariobodemann"}
     - {name: "facebook", link: "https://www.facebook.com/mario.bodemann"}
+-
+  id: 3
+  name: "Florn"
+  surname: "Patan"
+  title: "GDG Berlin Golang"
+  thumbnailUrl: FlorinPatan.jpg
+  team: true
+  social:
+    - {name: "google-plus", link: "https://plus.google.com/+FlorinPatan"}
+    - {name: "github", link: "https://github.com/dlsniper"}
+    - {name: "twitter", link: "https://twitter.com/dlsniper"}
+    - {name: "stack-overflow", link: "https://stackoverflow.com/users/951414/dlsniper"}
+    - {name: "linkedin", link: "https://https://www.facebook.com/florinpatan"}
