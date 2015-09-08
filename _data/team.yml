@@ -20,3 +20,15 @@
     - {name: "google-plus", link: "https://plus.google.com/+HasanHosgel"}
     - {name: "twitter", link: "https://twitter.com/alosdev"}
     - {name: "github", link: "https://github.com/alosdev"}
+-
+  id: 2
+  name: "Mario"
+  surname: "Bodemann"
+  title: "GDG Berlin Android"
+  thumbnailUrl: MarioBodemann.jpg
+  team: true
+  social:
+    - {name: "google-plus", link: "https://plus.google.com/+MarioBodemann"}
+    - {name: "github", link: "https://github.com/mariobodemann"}
+    - {name: "twitter", link: "https://twitter.com/mariobodemann"}
+    - {name: "facebook", link: "https://www.facebook.com/mario.bodemann"}
