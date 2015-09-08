@@ -45,3 +45,14 @@
     - {name: "twitter", link: "https://twitter.com/dlsniper"}
     - {name: "stack-overflow", link: "https://stackoverflow.com/users/951414/dlsniper"}
     - {name: "linkedin", link: "https://https://www.facebook.com/florinpatan"}
+-
+  id: 4
+  name: "cketti"
+  surname: ""
+  title: "GDG Berlin Android"
+  thumbnailUrl: cketti.png
+  team: true
+  social:
+    - {name: "google-plus", link: "https://plus.google.com/+cketti"}
+    - {name: "github", link: "https://github.com/cketti"}
+    - {name: "twitter", link: "https://twitter.com/cketti"}
