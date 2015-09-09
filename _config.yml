@@ -43,7 +43,7 @@ c4sponsorsUrl: "https://drive.google.com/file/d/0B63FtzFoCw0_aHJYeTBoWjE5R1E/vie
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
-# - {permalink: "/schedule/", text: "Schedule"}
+ - {permalink: "/schedule/", text: "Schedule"}
 # - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/logistics/", text: "Logistics"}
  - {permalink: "/team/", text: "Team"}
