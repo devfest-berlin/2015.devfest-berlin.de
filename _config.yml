@@ -45,9 +45,9 @@ navigationLinks:
  - {permalink: "/", text: "Home"}
 # - {permalink: "/schedule/", text: "Schedule"}
 # - {permalink: "/speakers/", text: "Speakers"}
+ - {permalink: "/logistics/", text: "Logistics"}
  - {permalink: "/team/", text: "Team"}
  - {permalink: "/cod/", text: "Code of Conduct"}
-# - {permalink: "/logistics/", text: "Logistics"}
 # - {permalink: "/hackathon/", text: "Hackathon"}
  - {permalink: "https://plus.google.com/116495772997450383126/", text: "Google+ Page"}
 bottomNavigationLinks:
@@ -224,34 +224,34 @@ logisticsMapAutoDirections: false
 directionDetailsImage: "direction-details.jpg"
 directionDetailsTitle: "Get around Berlin"
 directionDetailsCards:
- - {title: "From the Airport", information: 'Airport is right at the city border. It is easily reachable by car, public transport or taxi. More information is available at <a href="http://lwo.aero/en/transport">airport website</a>.'}
- - {title: "Public Transit", information: 'Google Transit is available in Lviv. So you can find your way in Google Maps. Moreover, you can download any of the offline public transit apps available for Lviv.'}
- - {title: "Hotels", information: 'Lviv has lots of great hotels and hostels. More information will be available later.'}
+ - {title: "From the Airport", information: 'Airports Tegel [TXL] and Schönefeld [SXF] are right at the city border. They are easily reachable by car, public transport or taxi. More information is available at <a href="http://www.berlin-airport.de/en/">the centrail airport website</a>.'}
+ - {title: "Public Transit", information: 'Google Transit is available in Berlin. So you can find your way in Google Maps, the closest station is <strong>"Ostbahnhof"</strong>.<br/><br/>Moreover, you can download any of the offline public transit apps available for Berlin, e.g. <a href="https://play.google.com/store/apps/details?id=de.schildbach.oeffi">Oeffi</a>.'}
+ - {title: "Hotels", information: 'Berlin has lots of great (and bad) hotels and hostels.<br/><br/>The closest hotel is <a href="http://www.accorhotels.com/gb/hotel-3108-ibis-berlin-ostbahnhof/index.shtml">Ibis</a> and a close hostel is <a href="http://www.aohostels.com/en/berlin/berlin-mitte/">A&amp;O</a>.'}
 directionDetailsWideCards:
- -
-  title: "Questions?"
-  subCards:
-   -
-    title: "Hotels"
-    links:
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
-   -
-    title: "Registration"
-    links:
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
-   -
-    title: "Attendance Details"
-    links:
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+ # -
+ #  title: "Questions?"
+ #  subCards:
+ #   -
+ #    title: "Hotels"
+ #    links:
+ #     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+ #     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+ #     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+ #     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+ #   -
+ #    title: "Registration"
+ #    links:
+ #     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+ #     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+ #     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+ #     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+ #   -
+ #    title: "Attendance Details"
+ #    links:
+ #     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+ #     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+ #     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+ #     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
 
 # Hackathon
 hackathonTitle: "Hackathon"
