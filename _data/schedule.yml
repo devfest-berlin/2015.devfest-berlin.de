@@ -1,50 +1,142 @@
 - 
-  date: "2014-10-24"
-  dateReadable: "October 24"
+  date: "2015-11-13"
+  dateReadable: "Workshops // Friday, November 13th"
   tracks: 
-    - {title: "Android", color: "#90be4e"}
-    - {title: "Web & Cloud", color: "#03a9f4"}
-    - {title: "Community", color: "#e91e63"}
+    - {title: "Android", color: "#99cc00"}
+    - {title: "Web", color: "#ff8800"}
+    - {title: "Cloud", color: "#3366cc"}
   timeslots:
     - {
-    	startTime: "10:00",
-    	endTime: "10:45",
-    	sessionIds: [002, 003, 004]
+    	startTime: "14:00",
+    	endTime: "14:45",
+    	sessionIds: [201]
+    }
+    - {
+        startTime: "14:45",
+        endTime: "15:00",
+        sessionIds: [202]
+    }
+    - {
+    	startTime: "15:00",
+    	endTime: "18:30",
+    	sessionIds: [203, 204, 205]
+    }
+- 
+  date: "2015-11-14"
+  dateReadable: "Conference // Saturday, November 14th"
+  tracks: 
+    - {title: "Android", color: "#99cc00"}
+    - {title: "Web", color: "#ff8800"}
+    - {title: "Cloud", color: "#3366cc"}
+  timeslots: 
+    - {
+    	startTime: "08:30",
+    	endTime: "09:30",
+    	sessionIds: [301]
+    }
+    - {
+    	startTime: "09:30",
+    	endTime: "10:00",
+    	sessionIds: [302]
+    }
+    - {
+        startTime: "10:00",
+        endTime: "10:45",
+        sessionIds: [300, 300, 300]
     }
     - {
         startTime: "11:00",
         endTime: "11:45",
-        sessionIds: [003, 404, 004]
+        sessionIds: [300, 300, 300]
     }
     - {
-    	startTime: "12:00",
-    	endTime: "11:45",
-    	sessionIds: [307]
+        startTime: "12:00",
+        endTime: "12:45",
+        sessionIds: [300, 300, 300]
+    }
+    - {
+        startTime: "12:45",
+        endTime: "14:00",
+        sessionIds: [101]
+    }
+    - {
+        startTime: "14:00",
+        endTime: "14:45",
+        sessionIds: [300, 300, 300]
+    }
+    - {
+        startTime: "15:00",
+        endTime: "15:45",
+        sessionIds: [300, 300, 300]
+    }
+    - {
+        startTime: "15:45",
+        endTime: "16:30",
+        sessionIds: [300, 300, 300]
+    }
+    - {
+        startTime: "16:30",
+        endTime: "17:15",
+        sessionIds: [102]
+    }
+    - {
+        startTime: "17:30",
+        endTime: "18:15",
+        sessionIds: [303, 304, 305]
+    }
+    - {
+        startTime: "18:30",
+        endTime: "19:00",
+        sessionIds: [306]
+    }
+    - {
+        startTime: "19:00",
+        endTime: "23:59",
+        sessionIds: [307]
     }
 - 
-  date: "2014-10-25"
-  dateReadable: "October 25"
+  date: "2015-11-15"
+  dateReadable: "Hackathon // Sunday, November 15th"
   tracks: 
-    - {title: "Android", color: "#90be4e"}
-    - {title: "Web & Cloud", color: "#03a9f4"}
+    - {title: "Hackathon", color: "#3D1255"}
   timeslots: 
     - {
-    	startTime: "10:00",
-    	endTime: "10:45",
-    	sessionIds: [404, 002]
+        startTime: "09:00",
+        endTime: "09:45",
+        sessionIds: [401]
     }
     - {
-    	startTime: "11:00",
-    	endTime: "11:45",
-    	sessionIds: [002, 003]
+        startTime: "09:45",
+        endTime: "10:00",
+        sessionIds: [402]
+    }
+    - {
+        startTime: "10:00",
+        endTime: "10:30",
+        sessionIds: [403]
+    }
+    - {
+        startTime: "10:30",
+        endTime: "13:00",
+        sessionIds: [405]
     }
     - {
         startTime: "13:00",
-        endTime: "13:45",
-        sessionIds: [003]
+        endTime: "14:00",
+        sessionIds: [101]
     }
     - {
-    	startTime: "14:00",
-    	endTime: "15:00",
-    	sessionIds: [503]
+        startTime: "14:00",
+        endTime: "17:00",
+        sessionIds: [405]
+    }
+    - {
+        startTime: "17:00",
+        endTime: "18:00",
+        sessionIds: [406]
+    }
+    - {
+        startTime: "18:00",
+        endTime: "18:30",
+        sessionIds: [407]
     }

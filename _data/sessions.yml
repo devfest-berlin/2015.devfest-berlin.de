@@ -1,59 +1,131 @@
+# 1xx general blocks for all days
 -
-  id: 307
+  id: 101
+  title: "Lunch Break"
+  place: "Scout Casino"
+  service: true
+  description: "Make new friends while sharing a meal"
+-
+  id: 102
   title: "Coffee Break"
-  place: "Hall"
+  place: "Scout Café"
   service: true
   description: "The best time to talk with speakers and attendees"
+
+# 2xx Workshop day
+
 -
-  id: 503
-  title: "Lunch Break"
-  place: "Dining room"
+  id: 201
+  title: "Doors open, Registration, Snacks"
+  place: "Atrium"
+  service: true
+  description: "Come in, get your swag and ready to code."
+-
+  id: 202
+  title: "Welcome & Introduction"
+  place: "Atrium"
+  service: true
+  description: "Learn what we have prepared for you, where the rooms are and what else is imporatant to know."
+-
+  id: 203
+  title: "Android workshop TBA"
+  place: ""
+  description: "The workshop topic and requirements will be announced soon™."
+-
+  id: 204
+  title: "Web workshop TBA"
+  place: ""
+  description: "The workshop topic and requirements will be announced soon™."
+-
+  id: 205
+  title: "Cloud workshop TBA"
+  place: ""
+  description: "The workshop topic and requirements will be announced soon™."
+
+# 3xx conference day
+
+# 300 placeholder to be deleted
+-
+  id: 300
+  title: "&lt;Your talk here/&gt;"
+  place: ""
+  description: "Submit your own talk! Answer the call for participation!"
+-
+  id: 301
+  title: "WELCOME! Doors open, Registration, Breakfast, Snacks"
+  place: "Atrium"
+  service: true
+  description: ""
+-
+  id: 302
+  title: "Greeting, Introduction, 180 secs of fame (Silver sponsor)"
+  place: "Atrium"
+  service: true
+  description: ""
+-
+  id: 303
+  title: "Fireside chat with all speakers of the Android track"
+  place: "Atrium"
+  description: ""
+-
+  id: 304
+  title: "Fireside chat with all speakers of the Web track"
+  place: "Casino"
+  description: ""
+-
+  id: 305
+  title: "Fireside chat with all speakers of the Cloud track"
+  place: "Konfi 4+5"
+  description: ""
+-
+  id: 306
+  title: "Wrap-Up"
+  place: "Atrium"
+  service: true
+  description: "Let's meet again and recap a great community conference day!"
+-
+  id: 307
+  title: "Community Gathering @ c-base spacestation"
+  place: "c-base spacestation"
+  service: true
+  description: "Join us for a great night on a crashed space station called c-base - the oldest hackerspace in the world!"
+
+# 4xx hackathon day
+-
+  id: 401
+  title: "Doors open, Registration, Snacks"
+  place: "Atrium"
+  service: true
+  description: "Come in, have a snack and get into hacking mode."
+-
+  id: 402
+  title: "Welcome &amp; Motto announcement"
+  place: "Atrium"
+  service: true
+  description: "Getting you excited, a bit of housekeeping and some rules."
+-
+  id: 403
+  title: "Project idea pitching & team building"
+  place: "Atrium"
+  service: true
+  description: "Find the right team for your idea."
+
+## 404 seems to be special code. don't use it!
+-
+  id: 405
+  title: "Hacking"
+  place: "Atrium"
+  service: true
+  description: "Build something awesome with your team."
+-
+  id: 406
+  title: "Demo time"
+  place: "Atrium"
+  description: "Let's see what you built!"
   service: true
 -
-  id: 001
-  title: "Material design: Visual style and imagery"
-  description: "This session will reveal the invisible structures behind the material design system. Designers will show how to use the new color systems, typographic strategies, and the underlying grids that hold it together. They will show how imagery and the new framework material rendering can make apps more interesting and communicate more quickly."
-  subtype: workshop
-  speakers: [3, 6]
-  language: en
-  complexity: "Intermediate"
-  video: "//www.youtube.com/embed/v3SCiUqI1yQ"
--
-  id: 002
-  title: "Building Cloud-powered wearable Apps"
-  description: "I will speak and show how to:<br>- Respond to touch events in your views with touch feedback animations.<br>- Hide and show views with reveal effect animations.<br>- Switch between activities with custom activity transition animations.<br>- Create more natural animations with curved motion.<br>- Animate changes in one or more view properties with view state change animations.<br>- Create icon morphing transition"
-  subtype: presentation
-  speakers: [4, 5]
-  language: en
-  complexity: "Intermediate" 
-  presentation: "https://speakerdeck.com/gdglviv/dmytro-danylyk-android-l-animation"
-  video: "//www.youtube.com/embed/v3SCiUqI1yQ"
--
-  id: 003
-  title: "Android L Animation"
-  description: "More than ever before, developing for global audience is a necessity than a luxury in today's world. Are you ready ... where to start? what does it entail? how do I do it? how to promote in local markets? This talk will address above questions for android, chrome and web developers. In our journey of the where, what and how, we will take an in-depth look at various internationalization and localization tools & strategies available to you."
-  subtype: presentation
-  speakers: [4]
-  language: en
-  complexity: "Intermediate" 
-  presentation: "https://speakerdeck.com/gdglviv/dmytro-danylyk-android-l-animation"
--
-  id: 004
-  title: "Polymer: Interacting with Google Services using nothing but HTML"
-  description: "Google has 1M APIs and services. Every API is different! Learn how you can interact with Google services without writing code! Designing your UI so it works across multiple screen sizes is no longer a nice to have, it is *the* way to build for the web. Using Polymer, we'll cover how to create robust, responsive elements that work across all platforms."
-  subtype: keynote
-  speakers: [6]
-  language: uk
-  complexity: "Beginner"
-  presentation: "https://speakerdeck.com/gdglviv/mateusz-herych-guava-beyond-collections"
-  video: "//www.youtube.com/embed/v3SCiUqI1yQ"
--
-  id: 005
-  title: "Test: Interacting with Google Services using nothing but HTML"
-  description: "Google has 1M APIs and services. Every API is different! Learn how you can interact with Google services without writing code! Designing your UI so it works across multiple screen sizes is no longer a nice to have, it is *the* way to build for the web. Using Polymer, we'll cover how to create robust, responsive elements that work across all platforms."
-  subtype: keynote
-  speakers: [7]
-  language: en
-  complexity: "Expert"
-  presentation: "https://speakerdeck.com/gdglviv/michal-tajchert-wearables-views"
-  video: "//www.youtube.com/embed/v3SCiUqI1yQ"
+  id: 407
+  title: "Award ceremony & the long Goodbye :-("
+  place: "Atrium"
+  description: "Vote on the winner of the day. Have some goodbyes. Pack your stuff and get some sleep."
+  service: true
