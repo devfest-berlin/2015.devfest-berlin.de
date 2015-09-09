@@ -1,22 +1,58 @@
-- 
+-
   id: 0
   name: "Stefan"
   surname: "Hoth"
   title: "GDG Berlin"
   thumbnailUrl: StefanHoth.png
   team: true
-  social: 
+  social:
     - {name: "google-plus", link: "https://plus.google.com/+StefanHoth"}
     - {name: "twitter", link: "https://twitter.com/stefanhoth"}
     - {name: "github", link: "https://github.com/stefanhoth"}
-- 
+-
   id: 1
   name: "Hasan"
   surname: "Hosgel"
   title: "GDG Berlin Android"
   thumbnailUrl: HasanHosgel.jpg
   team: true
-  social: 
+  social:
     - {name: "google-plus", link: "https://plus.google.com/+HasanHosgel"}
     - {name: "twitter", link: "https://twitter.com/alosdev"}
     - {name: "github", link: "https://github.com/alosdev"}
+-
+  id: 2
+  name: "Mario"
+  surname: "Bodemann"
+  title: "GDG Berlin Android"
+  thumbnailUrl: MarioBodemann.jpg
+  team: true
+  social:
+    - {name: "google-plus", link: "https://plus.google.com/+MarioBodemann"}
+    - {name: "github", link: "https://github.com/mariobodemann"}
+    - {name: "twitter", link: "https://twitter.com/mariobodemann"}
+    - {name: "facebook", link: "https://www.facebook.com/mario.bodemann"}
+-
+  id: 3
+  name: "Florin"
+  surname: "Patan"
+  title: "GDG Berlin Golang"
+  thumbnailUrl: FlorinPatan.jpg
+  team: true
+  social:
+    - {name: "google-plus", link: "https://plus.google.com/+FlorinPatan"}
+    - {name: "github", link: "https://github.com/dlsniper"}
+    - {name: "twitter", link: "https://twitter.com/dlsniper"}
+    - {name: "stack-overflow", link: "https://stackoverflow.com/users/951414/dlsniper"}
+    - {name: "linkedin", link: "https://https://www.facebook.com/florinpatan"}
+-
+  id: 4
+  name: "cketti"
+  surname: ""
+  title: "GDG Berlin Android"
+  thumbnailUrl: cketti.png
+  team: true
+  social:
+    - {name: "google-plus", link: "https://plus.google.com/+cketti"}
+    - {name: "github", link: "https://github.com/cketti"}
+    - {name: "twitter", link: "https://twitter.com/cketti"}
