@@ -1,6 +1,6 @@
 - 
   date: "2015-11-13"
-  dateReadable: "Workshops // Friday, November 13th"
+  dateReadable: "Workshops // Friday, November 13"
   tracks: 
     - {title: "Android", color: "#99cc00"}
     - {title: "Web", color: "#ff8800"}
@@ -23,7 +23,7 @@
     }
 - 
   date: "2015-11-14"
-  dateReadable: "Conference // Saturday, November 14th"
+  dateReadable: "Conference // Saturday, November 14"
   tracks: 
     - {title: "Android", color: "#99cc00"}
     - {title: "Web", color: "#ff8800"}
@@ -96,7 +96,7 @@
     }
 - 
   date: "2015-11-15"
-  dateReadable: "Hackathon // Sunday, November 15th"
+  dateReadable: "Hackathon // Sunday, November 15"
   tracks: 
     - {title: "Hackathon", color: "#3D1255"}
   timeslots: 
