@@ -56,3 +56,14 @@
     - {name: "google-plus", link: "https://plus.google.com/+cketti"}
     - {name: "github", link: "https://github.com/cketti"}
     - {name: "twitter", link: "https://twitter.com/cketti"}
+-
+  id: 5
+  name: "Dirk"
+  surname: "Jäckel"
+  title: "GDG Berlin Android"
+  thumbnailUrl: DirkJaeckel.png
+  team: true
+  social:
+    - {name: "google-plus", link: "https://plus.google.com/+DirkJäckel"}
+    - {name: "github", link: "https://github.com/biafra23"}
+    - {name: "twitter", link: "https://twitter.com/dirkjaeckel"}
