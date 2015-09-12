@@ -79,9 +79,10 @@ layout: compress
                     if ($(window).width() > 767) {
                         $("#typeout-text").typed({
                             strings: [{{site.typeoutTextValues}}],
+                            startDelay: 500,
                             typeSpeed: 150,
                             backDelay: 900,
-                            loop: true
+                            loop: false
                         });
                     }
                 });
