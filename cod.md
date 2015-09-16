@@ -17,6 +17,7 @@ If someone is bothering you, please tell GDG Organizers immediately and they wil
 ######Contacts:
 
 - Stefan Hoth, +49 179 210 86 09, [stefan@devfest-berlin.de](mailto:stefan@devfest-berlin.de)
+- Natalie Pistunovich, +49 176 15 00 38 62, [natalie@devfest-berlin.de](mailto:natalie@devfest-berlin.de)
 - Hasan Hosgel, +49 178 38 66 44 2, [hasan@devfest-berlin.de](mailto:hasan@devfest-berlin.de)
 
 <img class="img-responsive feature-image" src="{{ site.baseurl }}/img/posts/cod.jpg" style="display:none">
