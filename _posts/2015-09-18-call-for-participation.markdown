@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Call for Papers"
-date:   2014-07-21 09:00:00
+title:  "Call for Participation"
+date:   2015-09-18 09:00:00
 isStaticPost: false
 ---
-GDG DevFest Ukraine 2014 will be held 24-25th of October in ancient city of Lviv. If you want to be part of this great event as a speaker you knocked at the good door.
+GDG DevFest Berlin 2015 will be held 13-15th of November in the awesome city of  Berlin. If you want to be part of this great event as a speaker you knocked at the good door.
 
 #### Presenters – who should speak at the DevFest Conference?
 
@@ -13,7 +13,7 @@ GDG DevFest Ukraine 2014 will be held 24-25th of October in ancient city of Lviv
 * research institutions with Google relevant activities
 * companies, organisations and individuals using Google technologies
 
-If you belong to one of those groups you are cordially invited to submit a talk proposal (or a number of proposals). An independent program committee assesses the proposals and selects the actual conference talks.<br/>
+If you belong to one of those groups you are cordially invited to submit a talk proposal (or a number of proposals) or even a workshop. An independent program committee assesses the proposals and selects the actual conference talks and workshops.<br/>
 
 #### Themes and topics – what do we expect?
 Our team prepared set of interesting topics in but if you have any cool idea you want to share not from this list, feel free to submit it as well.
@@ -23,11 +23,12 @@ Our team prepared set of interesting topics in but if you have any cool idea you
 __Google I/O 2014__
 
 * Material Design
-* Migration to ART
 * New Android Camera API
 * New Job Scheduler
 * Storage Access Framework
+* New Permission model
 * Elevation & Clipping
+* Chrome Tabs
 
 __General__
 
@@ -35,6 +36,8 @@ __General__
 * Loaders, Cursor Adapters
 * Android Animations
 * Patterns in Android development
+* Application Architecture
+* Libraries
 
 ##### Web
 
@@ -53,15 +56,15 @@ __General__
   * App Engine
   * Storages (SQL, NoSQL, BigData)
   * APIs
-* Go (as a language for a Cloud Ready Apps)
+* Go
 
 
-#### Please submit your proposals [here](http://bit.ly/dfua-c4p).
-__Deadline__ is September 1, 2014
+#### Please submit your proposals [here](https://conference.devfest-berlin.de/en/devfestberlin2015/cfp/session/new).
+__Deadline__ is mod October, 2015
 
 __Please note:__ There is no guarantee that a submission will be put onto the conference agenda!<br/>
 
-The program committee picks the most interesting talk proposals and informs the selected submitters until September 15, 2014.<br/>
+The program committee picks the most interesting talk proposals and informs the selected submitters after closing Call for Participation.<br/>
 
 #### Any questions? 
-Email organizers at [devfest@gdg.org.ua](mailto:devfest@gdg.org.ua)
+Email organizers at [team@devfest-berlin.de](mailto:team@devfest-berlin.de)
