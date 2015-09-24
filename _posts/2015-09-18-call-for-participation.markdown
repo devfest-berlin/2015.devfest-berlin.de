@@ -20,7 +20,7 @@ Our team prepared set of interesting topics in but if you have any cool idea you
 
 ##### Android
 
-__Google I/O 2014__
+__Google I/O 2015__
 
 * Material Design
 * New Android Camera API
@@ -60,7 +60,7 @@ __General__
 
 
 #### Please submit your proposals [here](https://conference.devfest-berlin.de/en/devfestberlin2015/cfp/session/new).
-__Deadline__ is mod October, 2015
+__Deadline__ is mid October, 2015
 
 __Please note:__ There is no guarantee that a submission will be put onto the conference agenda!<br/>
 
