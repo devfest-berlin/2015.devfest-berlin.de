@@ -199,8 +199,8 @@ footerBlocks:
 
 # Blog
 blogTitle: "Latest News"
-blogCommentsEnabled: true
-discusShortName: "devfestBerlin"
+blogCommentsEnabled: false
+#discusShortName: "devfestBerlin"
 
 # Speakers List Block
 showSessions: false
