@@ -50,7 +50,7 @@ navigationLinks:
  - {permalink: "/team/", text: "Team"}
  - {permalink: "/code-of-conduct/", text: "Code of Conduct"}
 # - {permalink: "/hackathon/", text: "Hackathon"}
- - {permalink: "https://plus.google.com/116495772997450383126/", text: "Google+ Page"}
+ - {permalink: "https://plus.google.com/+DevFestBerlin/", text: "Google+ Page"}
 bottomNavigationLinks:
  - {link: "https://conference.devfest-berlin.de/en/devfestberlin2015/cfp/session/new", text: "Become a speaker"}
 rightNavigationButtons:
