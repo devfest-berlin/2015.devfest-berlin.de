@@ -3,32 +3,8 @@
 	<div class="content-wrapper">
 		<div class="col-lg-8 col-md-10 col-lg-offset-2 col-md-offset-1">
 			<h3>{{ site.ticketsTitle }}</h3>
-            {% for ticketsOffer in site.ticketsOffers %}
-	            {% assign colWidth = 12 | divided_by: forloop.length %}
-	            {% assign check = forloop.index | modulo:2 %}
-	            <div class="col-md-{{ colWidth }} col-sm-{{ colWidth }} pricing-col {% if ticketsOffer.featured != null %}pricing-col-featured{% endif %} animated hiding" data-animation="{% if forloop.index == 1 %}fadeInLeft{% elsif forloop.index == forloop.length %}fadeInRight{% else %}fadeInDown{% endif %}" data-delay="{% if check == 0 %}0{% else %}500{% endif %}">
-	            	{% if ticketsOffer.ribbon != null %}<div class="pricing-ribbon">{{ ticketsOffer.ribbon }}</div>{% endif %}
-					<div class="pricing-header">
-						<p class="title">{{ ticketsOffer.name }}</p>
-						<p class="price">{{ ticketsOffer.price }} <span class="currency">{{ ticketsOffer.priceCurrency }}</span></p>
-					</div>
-					<div class="pricing-content">
-						<ul>
-							{% for listItem in ticketsOffer.ticketContentList %}
-							<li>{{ listItem }}</li>
-							{% endfor %}
-						</ul>
-						{% if ticketsOffer.soldOut == true %}
-						<span class="button disabled">{{ ticketsOffer.soldOutText }}</span>
-						{% elsif ticketsOffer.disabled != true %}
-						<a class="button" href="{{ ticketsOffer.buyButtonLink }}" target="_blank">{{ ticketsOffer.buyButtonText }}</a>
-						{% else %}
-		           		{% assign ticketValidFrom = ticketsOffer.validFrom | split: "T" %}
-						<span class="button disabled fallback">Ticket sales will begin on {{ ticketValidFrom[0] | date: "%-d %B %Y"}} {{ ticketValidFrom[1] }}</span>
-						{% endif %}
-					</div>
-				</div>
-            {% endfor %}
+			<p>{{ site.ticketsInfo }}</p>
+            <script type="text/javascript" src="https://www.amiando.com/resources/js/amiandoExport.js"></script><iframe src="https://www.amiando.com/DevFestBerlin2015.html?viewType=iframe&distributionChannel=CHANNEL_IFRAME&panelId=2690962&useDefaults=false&resizeIFrame=true" frameborder="0" width="650px" height="650px" id="_amiandoIFrame2690962"><p>Diese Seite benötigt die Unterstützung von Frames durch Ihren Browser. Bitte nutzen Sie einen Browser, der die Darstellung von Frames unterstützt, damit das amiando Ticketvorverkauf Widget angezeigt werden kann.</p><p>Probieren Sie die amiando <a href="http://de.amiando.com/features.html">online Registrierung</a> noch heute aus.</p></iframe><p style="text-align: left; font-size:10px;"><a href="http://de.amiando.com?viralRefId=DevFestBerlin2015&utm_campaign=ev-DevFestBerlin2015&utm_medium=viral&utm_source=EventWebsite&utm_content=TextLinkBottom&utm_term=text-link" target="_blank" alt="Konferenz - Online Event Management" title="Konferenz - Online Event Management" >Konferenz - Online Event Management</a> mit der Ticketing-Lösung von XING EVENTS</p>
 		</div>
 	</div>
 </section>
