@@ -135,8 +135,8 @@ subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b05
 subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
 
 # Tickets Block
-ticketsTitle: "Pricetable"
-ticketsInfo: "Tickets grant access to all conference sections, coffee breakes, lunch and party. Accommodation is NOT included in the ticket price."
+ticketsTitle: "Get your ticket NOW!"
+ticketsInfo: "Tickets grant access to all conference sections on all 3 days, incl. coffee breakes, lunch and party. Accommodation is NOT included in the ticket price."
 ticketsOffers:
  -
   name: "Early Bird"
