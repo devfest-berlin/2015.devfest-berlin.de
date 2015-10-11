@@ -53,8 +53,10 @@ navigationLinks:
  - {permalink: "https://plus.google.com/+DevFestBerlin/", text: "Google+ Page"}
 bottomNavigationLinks:
  - {link: "https://conference.devfest-berlin.de/en/devfestberlin2015/cfp/session/new", text: "Become a speaker"}
+ - {link: "/#tickets", text: "Buy a ticket"}
 rightNavigationButtons:
  - {link: "https://conference.devfest-berlin.de/en/devfestberlin2015/cfp/session/new", text: "Become a speaker"}
+ - {link: "/#tickets", text: "Buy a ticket"}
 
 # Hero Block
 heroImage: "hero.jpg"
@@ -64,7 +66,7 @@ typeoutTextValues: '"Karlsruhe?", "Hamburg?", "Vienna?", "Malta?", "Zurich?", "B
 typeoutFallback: "Berlin 2015"
 heroButtons:
  - {link: "https://conference.devfest-berlin.de/en/devfestberlin2015/cfp/session/new", text: "Become a speaker"}
-# - {permalink: "/#tickets", text: "Buy tickets"}
+ - {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
 aboutTitle: "About DevFest Berlin"
