@@ -72,7 +72,7 @@
   name: "A Selim"
   surname: "Salman"
   title: "GDG Berlin"
-  thumbnailUrl: SelimSalman1.png
+  thumbnailUrl: SelimSalman.png
   team: true
   social:
     - {name: "google-plus", link: "https://plus.google.com/+ASelimSalman"}
