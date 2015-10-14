@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ticket Sale started"
+title:  "Ticket sale started"
 date:   2015-10-13 15:00:00
 isStaticPost: false
 ---
