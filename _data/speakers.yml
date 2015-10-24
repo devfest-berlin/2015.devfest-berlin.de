@@ -148,8 +148,8 @@
   bio: "Entrepreneur. Passionate about the combination of business and product development together with software engineering. Interested in new technologies, especially in the areas of mobile, cloud, and e-health. Author, wanna-be social entrepreneur and always free for long beer conversations."
   thumbnailUrl: "JoseLUgia.jpg"
   rockstar: false
-  # ribbon: 
-  #  - {abbr: "", title: "", url: ""}
+  ribbon: 
+    - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
   social: 
     - {name: "google-plus", link: "https://plus.google.com/+JoseLuisUgiaGonzalez/posts"}
     - {name: "twitter", link: "https://twitter.com/jl_ugia"}
