@@ -155,7 +155,7 @@
     - {name: "google-plus", link: "https://plus.google.com/+JoseLuisUgiaGonzalez/posts"}
     - {name: "twitter", link: "https://twitter.com/jl_ugia"}
     - {name: "linkedin", link: "https://www.linkedin.com/in/joseluisugia"}
-  #  - {name: "github", link: "https://github.com/ernesto-jimenez"}
+
 -
   id: 013
   name: "Igor"
@@ -169,8 +169,7 @@
   #  - {abbr: "", title: "", url: ""}
   social: 
     - {name: "linkedin", link: "https://www.linkedin.com/in/igorfilippov"}
-  #  - {name: "github", link: "https://github.com/ernesto-jimenez"}
-  #  - {name: "site", link: "https://slackline.io/"}
+
 -
   id: 014
   name: "Zbigniew"
@@ -184,5 +183,3 @@
   #  - {abbr: "", title: "", url: ""}
   social: 
     - {name: "linkedin", link: "https://www.linkedin.com/in/zbigniewszymanski"}
-  #  - {name: "github", link: "https://github.com/ernesto-jimenez"}
-  #  - {name: "site", link: "https://slackline.io/"}
