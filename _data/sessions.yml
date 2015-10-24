@@ -38,11 +38,26 @@
   description: "The workshop topic and requirements will be announced soon™."
 -
   id: 205
-  title: "Cloud workshop TBA"
-  place: ""
-  description: "The workshop topic and requirements will be announced soon™."
+  title: "Hands-on with Kubernetes"
+  place: "Konfi 4+5"
+  description: "Hands on Workshop for getting started with Kubernetes"
+  subtype: workshop
+  speakers: [6]
+  language: en
+  complexity: "Beginner" # Beginner / Intermediate / Expert
 
 # 3xx conference day
+# -
+#   id: 
+#   title: ""
+#   place: "" # Atrium / Casino / Konfi 4+5
+#   description: ""
+#   subtype: presentation
+#   speakers: []
+#   language: en
+#   complexity: "Intermediate" # Beginner / Intermediate / Expert
+#   video: ""
+#   presentation: ""
 
 # 300 placeholder to be deleted
 -
@@ -89,6 +104,54 @@
   place: "c-base spacestation"
   service: true
   description: "Join us for a great night on a crashed space station called c-base - the oldest hackerspace in the world!"
+
+-
+  id: 320
+  title: "Kubernetes and Containers: Changing the way we build applications"
+  place: "Konfi 4+5"
+  description: "Containers are rapidly changing the way we develop applications and services but to release their full potential you'll need to find simple and efficient ways to manage them and wire them together. In this session we'll look at the key concepts behind Kubernetes container orchestration platform. We'll see how it can simply and efficiently handle the management of your existing container based apps and we'll show you how you can use it to build new applications from scratch."
+  subtype: presentation
+  speakers: [4]
+  language: en
+  complexity: "Beginner" # Beginner / Intermediate / Expert
+  #video: ""
+  #presentation: ""
+
+-
+  id: 321
+  title: "Your Data and the World Beyond MapReduce"
+  place: "Konfi 4+5" # Atrium / Casino / Konfi 4+5
+  description: "MapReduce is not a principal technology at Google anymore. The company use next generation of distributed large scale data processing technologies. In this session, we will discuss what is the latest innovation for Big Data processing at Google and how we externalize it as public services of Google Cloud Platform."
+  subtype: presentation
+  speakers: [5]
+  language: en
+  complexity: "Intermediate" # Beginner / Intermediate / Expert
+  #video: ""
+  #presentation: ""
+
+-
+  id: 
+  title: ""
+  place: "" # Atrium / Casino / Konfi 4+5
+  description: ""
+  subtype: presentation
+  speakers: []
+  language: en
+  complexity: "Intermediate" # Beginner / Intermediate / Expert
+  video: ""
+  presentation: ""
+
+-
+  id: 
+  title: ""
+  place: "" # Atrium / Casino / Konfi 4+5
+  description: ""
+  subtype: presentation
+  speakers: []
+  language: en
+  complexity: "Intermediate" # Beginner / Intermediate / Expert
+  video: ""
+  presentation: ""
 
 # 4xx hackathon day
 -

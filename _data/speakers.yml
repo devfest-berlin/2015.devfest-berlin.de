@@ -1,5 +1,20 @@
+# -
+#   id: 
+#   name:
+#   surname:
+#   title:
+#   bio:
+#   thumbnailUrl:
+#   rockstar: false
+#   #ribbon: 
+#   #  - {abbr: "", title: "", url: ""}
+#   # social: 
+#   #  - {name: "google-plus", link: "https://plus.google.com/+"}
+#   #  - {name: "twitter", link: "https://twitter.com/"}
+#   #  - {name: "github", link: "https://github.com/"}
+#   #  - {name: "facebook", link: "https://facebook.com/"}
 - 
-  id: 3
+  id: 003
   name: "Stefan"
   surname: "Hoth"
   company: "Novoda"
@@ -13,3 +28,51 @@
     - {name: "google-plus", link: "https://plus.google.com/+StefanHoth"}
     - {name: "twitter", link: "https://twitter.com/stefanhoth"}
     - {name: "github", link: "https://github.com/stefanhoth"}
+- 
+  id: 004
+  name: "Mandy" 
+  surname: "Waite"
+  company: "Google"
+  title: "Developer Advocate"
+  bio: "Mandy works at Google as a Developer Advocate for Google Cloud Platform and is working to make the world a better place for developers building applications for the Cloud. She came to Google from Sun Microsystems where she worked with partners on performance and optimisation of large scale applications and services before moving on to building an ecosystem of Open Source applications for OpenSolaris. In her spare time she is learning Japanese and plays the guitar."
+  thumbnailUrl: "MandyWaite.jpg"
+  rockstar: true
+  ribbon: 
+    - {abbr: "Google", title: "Google Developers", url: "https://developers.google.com/"}
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/+MandyWaite"}
+    - {name: "twitter", link: "https://twitter.com/tekgrrl"}
+  #  - {name: "github", link: "https://github.com/"}
+  #  - {name: "facebook", link: "https://facebook.com/"}
+-
+  id: 005
+  name: "Kaz"
+  surname: "Sato"
+  company: "Google"
+  title: "Developer Advocate"
+  bio:  "Kaz Sato is a Developer Advocate at Cloud Platform team, Google Inc. He works as an advocate for Google Cloud Platform developer communities and also supports Big Data products go-to-market activities including BigQuery, Cloud Dataflow and Cloud Dataproc."
+  thumbnailUrl: "KazSato.png"
+  rockstar: true
+  ribbon: 
+    - {abbr: "Google", title: "Google Developers", url: "https://developers.google.com/"}
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/+KazunoriSato"}
+    - {name: "twitter", link: "https://twitter.com/kazunori_279"}
+  #  - {name: "github", link: "https://github.com/"}
+  #  - {name: "facebook", link: "https://facebook.com/"}
+-
+  id: 006
+  name: "Robert"
+  surname: "Kubis"
+  company: "Google"
+  title: "Developer Advocate"
+  bio:  " Robert Kubis is a developer advocate for the Google Cloud Platform based in London, UK, specializing in container, storage, and scalable technologies. Before joining Google, Robert collected over 10 years of experience in software development and architecture. He has driven multiple full-stack application developments at SAP with a passion for distributed systems, containers, databases, and performance optimization. In his spare time he enjoys following tech trends and good restaurants, traveling, and improving his photography skills."
+  thumbnailUrl: "RobertKubis.jpg"
+  rockstar: true
+  ribbon: 
+    - {abbr: "Google", title: "Google Developers", url: "https://developers.google.com/"}
+  social: 
+    - {name: "twitter", link: "https://twitter.com/hostirosti"}
+  #  - {name: "google-plus", link: "https://plus.google.com/+KazunoriSato"}
+  #  - {name: "github", link: "https://github.com/"}
+  #  - {name: "facebook", link: "https://facebook.com/"}
