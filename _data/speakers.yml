@@ -14,21 +14,6 @@
 #   #  - {name: "github", link: "https://github.com/"}
 #   #  - {name: "facebook", link: "https://facebook.com/"}
 - 
-  id: 003
-  name: "Stefan"
-  surname: "Hoth"
-  company: "Novoda"
-  title: "Android Software Craftsman"
-  bio: "Stefan works as an Android Software Craftsman at Novoda in Berlin. He helps creating community events like Google Developer Group Berlin, Berlin Hack and Tell and the DevFest Berlin. He enjoys learning new tricks and discuss about best practises."
-  thumbnailUrl: StefanHoth.png
-  rockstar: false
-  ribbon:
-    - {abbr: "GDG", title: "GDG Berlin", url: "https://developers.google.com/groups/chapter/115635340252753847571/"}
-  social: 
-    - {name: "google-plus", link: "https://plus.google.com/+StefanHoth"}
-    - {name: "twitter", link: "https://twitter.com/stefanhoth"}
-    - {name: "github", link: "https://github.com/stefanhoth"}
-- 
   id: 004
   name: "Mandy" 
   surname: "Waite"
