@@ -3,12 +3,13 @@
 #   name: ""
 #   surname: ""
 #   title: ""
+#   company: ""
 #   bio: ""
 #   thumbnailUrl: ""
 #   rockstar: false
 #   #ribbon: 
 #   #  - {abbr: "", title: "", url: ""}
-#   # social: 
+#   #social: 
 #   #  - {name: "google-plus", link: "https://plus.google.com/+"}
 #   #  - {name: "twitter", link: "https://twitter.com/"}
 #   #  - {name: "github", link: "https://github.com/"}
@@ -23,7 +24,7 @@
   thumbnailUrl: "MandyWaite.jpg"
   rockstar: true
   ribbon: 
-    - {abbr: "Google", title: "Google Developers", url: "https://developers.google.com/"}
+    - {abbr: "Google", title: "Google Cloud", url: "https://cloud.google.com/"}
   social: 
     - {name: "google-plus", link: "https://plus.google.com/+MandyWaite"}
     - {name: "twitter", link: "https://twitter.com/tekgrrl"}
@@ -39,7 +40,7 @@
   thumbnailUrl: "KazSato.png"
   rockstar: true
   ribbon: 
-    - {abbr: "Google", title: "Google Developers", url: "https://developers.google.com/"}
+    - {abbr: "Google", title: "Google Cloud", url: "https://cloud.google.com/"}
   social: 
     - {name: "google-plus", link: "https://plus.google.com/+KazunoriSato"}
     - {name: "twitter", link: "https://twitter.com/kazunori_279"}
@@ -55,9 +56,86 @@
   thumbnailUrl: "RobertKubis.jpg"
   rockstar: true
   ribbon: 
-    - {abbr: "Google", title: "Google Developers", url: "https://developers.google.com/"}
+    - {abbr: "Google", title: "Google Cloud", url: "https://cloud.google.com/"}
   social: 
     - {name: "twitter", link: "https://twitter.com/hostirosti"}
   #  - {name: "google-plus", link: "https://plus.google.com/+KazunoriSato"}
   #  - {name: "github", link: "https://github.com/"}
   #  - {name: "facebook", link: "https://facebook.com/"}
+-
+  id: 007
+  name: "Björn"
+  surname: "Rabenstein"
+  title: "Team Lead Production Engineering"
+  company: "SoundCloud"
+  bio: "Björn is the team lead of Production Engineering at SoundCloud and one of the main Prometheus developers. Previously, he was a Site Reliability Engineer at Google and a number cruncher for science."
+  thumbnailUrl: "BjoernRabenstein.jpg"
+  rockstar: false
+  ribbon: 
+    - {abbr: "Prometheus", title: "Prometheus Project", url: "http://prometheus.io/"}
+  social: 
+    # - {name: "google-plus", link: "https://plus.google.com/+"}
+    # - {name: "twitter", link: "https://twitter.com/"}
+    - {name: "github", link: "https://github.com/beorn7"}
+    # - {name: "facebook", link: "https://facebook.com/"}
+-
+  id: 008
+  name: "Rahul"
+  surname: "Tongia"
+  title: "Platform Architect"
+  company: "Market Logic Software"
+  bio: "Rahul is currently the Platform Architect at Market Logic Software where is leads the Machine Learning, Large Scale Search and Data Integration teams. In addition, Rahul is Founder and developer of Tandem.cc which is Shared Gmail Labels app built on Google Cloud platform. With Tandem, teams can collaborate over Gmail with great ease. Rahul is also a part of Google Cloud Insider program."
+  thumbnailUrl: "RahulTongia.jpg"
+  rockstar: false
+  # ribbon: 
+  #  - {abbr: "", title: "", url: ""}
+  social: 
+  #  - {name: "google-plus", link: "https://plus.google.com/+"}
+  #  - {name: "twitter", link: "https://twitter.com/"}
+  #  - {name: "github", link: "https://github.com/"}
+     - {name: "linkedin", link: "https://de.linkedin.com/in/rahultongia"}
+-  
+  id: 009
+  name: "Dominik"
+  surname: "Raute"
+  title: "CTO"
+  company: "JustWatch"
+  bio: "Businesswise, currently dabbling in AdTech, Online & Mobile Marketing, Tracking, Analytics and Video on Demand. <br><br>Architecturally, I've fallen in love with Go(lang), Docker, 12factor, Elasticsearch, PostgreSQL, ETCD and Aerospike."
+  thumbnailUrl: "DominikRaute.jpg"
+  rockstar: false
+  # ribbon: 
+  #  - {abbr: "", title: "", url: ""}
+  # social: 
+  #  - {name: "google-plus", link: "https://plus.google.com/+"}
+  #  - {name: "twitter", link: "https://twitter.com/"}
+  #  - {name: "github", link: "https://github.com/"}
+  #  - {name: "linkedin", link: "https://de.linkedin.com/in/"}
+-  
+  id: 010
+  name: "Oleh"
+  surname: "Zasadnyy"
+  title: "Full-stack developer & Designer"
+  bio: "Active open-source contributor. Full-stack developer with passion to new technologies. GDG organizer for more than 3 years, designer."
+  thumbnailUrl: "OlehZasadnyy.jpg"
+  rockstar: true
+  ribbon: 
+    - {abbr: "GDG", title: "GDG Lviv", url: "http://lviv.gdg.org.ua/"}
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/+OlehZasadnyy/posts"}
+    - {name: "twitter", link: "https://twitter.com/ozasadnyy"}
+    - {name: "site", link: "http://o.zasadnyy.com/"}
+-
+  id: 011
+  name: "Ernesto"
+  surname: "Jimenez"
+  title: "Co-Founder"
+  company: "Slackline"
+  bio: "Ernesto has worked on different kinds of products, from webapps to APIs and games in both startups and big corporations. Most recently, he cofounded slackline.io where he is enabling better collaboration between companies."
+  thumbnailUrl: "ErnestoJimenez.png"
+  rockstar: false
+  # ribbon: 
+  #  - {abbr: "", title: "", url: ""}
+  social: 
+    - {name: "twitter", link: "https://twitter.com/ernesto_jimenez"}
+    - {name: "github", link: "https://github.com/ernesto-jimenez"}
+    - {name: "site", link: "https://slackline.io/"}

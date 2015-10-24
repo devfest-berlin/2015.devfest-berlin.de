@@ -24,18 +24,21 @@
   id: 202
   title: "Welcome & Introduction"
   place: "Atrium"
+  language: en
   service: true
   description: "Learn what we have prepared for you, where the rooms are and what else is imporatant to know."
 -
   id: 203
   title: "Android workshop TBA"
-  place: ""
   description: "The workshop topic and requirements will be announced soon™."
+  place: ""
+  language: en
 -
   id: 204
   title: "Web workshop TBA"
-  place: ""
   description: "The workshop topic and requirements will be announced soon™."
+  place: ""
+  language: en
 -
   id: 205
   title: "Hands-on with Kubernetes"
@@ -50,7 +53,6 @@
 # -
 #   id: 
 #   title: ""
-#   place: "" # Atrium / Casino / Konfi 4+5
 #   description: ""
 #   subtype: presentation
 #   speakers: []
@@ -80,17 +82,14 @@
 -
   id: 303
   title: "Fireside chat with all speakers of the Android track"
-  place: "Atrium"
   description: ""
 -
   id: 304
   title: "Fireside chat with all speakers of the Web track"
-  place: "Casino"
   description: ""
 -
   id: 305
   title: "Fireside chat with all speakers of the Cloud track"
-  place: "Konfi 4+5"
   description: ""
 -
   id: 306
@@ -108,10 +107,9 @@
 -
   id: 320
   title: "Kubernetes and Containers: Changing the way we build applications"
-  place: "Konfi 4+5"
   description: "Containers are rapidly changing the way we develop applications and services but to release their full potential you'll need to find simple and efficient ways to manage them and wire them together. In this session we'll look at the key concepts behind Kubernetes container orchestration platform. We'll see how it can simply and efficiently handle the management of your existing container based apps and we'll show you how you can use it to build new applications from scratch."
   subtype: presentation
-  speakers: [4]
+  speakers: [004]
   language: en
   complexity: "Beginner" # Beginner / Intermediate / Expert
   #video: ""
@@ -120,38 +118,67 @@
 -
   id: 321
   title: "Your Data and the World Beyond MapReduce"
-  place: "Konfi 4+5" # Atrium / Casino / Konfi 4+5
   description: "MapReduce is not a principal technology at Google anymore. The company use next generation of distributed large scale data processing technologies. In this session, we will discuss what is the latest innovation for Big Data processing at Google and how we externalize it as public services of Google Cloud Platform."
   subtype: presentation
-  speakers: [5]
+  speakers: [005]
   language: en
   complexity: "Intermediate" # Beginner / Intermediate / Expert
   #video: ""
   #presentation: ""
 
 -
-  id: 
-  title: ""
-  place: "" # Atrium / Casino / Konfi 4+5
-  description: ""
+  id: 322
+  title: "Large-Scale Monitoring with Prometheus"
+  description: "With Prometheus, you are in a good position to monitor your ever growing clusters and the skyrocketing number of your microservices. However, you need to master its advanced features: Find monitoring targets with service discovery. Shard and federate Prometheus servers for scalability. Monitor on all levels: hosts, containers, and services. Instrument your code and create dashboards and alerts in a meaningful way that allows you to identify and solve issues even in very complex scenarios. While doing all of this, you will notice the natural match between Kubernetes and Prometheus."
   subtype: presentation
-  speakers: []
+  speakers: [007]
   language: en
   complexity: "Intermediate" # Beginner / Intermediate / Expert
-  video: ""
-  presentation: ""
+  #video: ""
+  #presentation: ""
 
 -
-  id: 
-  title: ""
-  place: "" # Atrium / Casino / Konfi 4+5
-  description: ""
+  id: 323
+  title: "Building Large Scale Backend with Managed VMs"
+  description: "Tandem.cc enables Gmail / Google Apps teams to collaborate using Shared Gmail Labels. Tandem is entirely built over Google Cloud Platform using AppEngine / Cloud Endpoints for frontend and Managed VMs for long running processes. In this talk, I want to illustrate differences between AppEngine and Managed VMs. Also, I want to highlight how easy it is to build and operate Managed VMs compared to similar solutions using IaaS platforms like Compute Engine. The speake has previous experience of building similar product using IaaS platform."
   subtype: presentation
-  speakers: []
+  speakers: [008]
   language: en
   complexity: "Intermediate" # Beginner / Intermediate / Expert
-  video: ""
-  presentation: ""
+  #video: ""
+  #presentation: ""
+
+-
+  id: 324
+  title: "We can't use Angular. It will hurt our SEO."
+  description: "Lots of myths surrounded and still surround the search rankings of fully dynamic web apps since their introduction. We took the bet of building an AngularJS web app that did not make tradeoffs on either speed, usability and a strong SEO channel - show how we did it, and which problems came up. We didn't just achieve our goals, but in some ways could even leverage opportunities that would not have been possible with a classic web page. We'll also present how we went on from there to create one of the most performant current hybrid mobile apps from the very same code base."
+  subtype: presentation
+  speakers: [009]
+  language: en
+  complexity: "Intermediate" # Beginner / Intermediate / Expert
+  #video: ""
+  #presentation: ""
+-
+  id: 325
+  title: "Build your next app with Polymer"
+  description: "Would you like to create web application without copying the same block many times? Create powerful and fast apps? Additionally have beautiful material design? Take a look at Polymer - library that helps you build elements and apps out of web components. "
+  subtype: presentation
+  speakers: [010]
+  language: en
+  complexity: "Beginner" # Beginner / Intermediate / Expert
+  #video: ""
+  #presentation: ""
+-
+  id: 326
+  title: "Inception: Go programs that generate Go code"
+  description: "Go is amazing, but sometimes we need to code lots of boiler plate. In this talk I'll be covering some ways to build programs that generate source code for other programs."
+  subtype: presentation
+  speakers: [011]
+  language: en
+  complexity: "Intermediate" # Beginner / Intermediate / Expert
+  #video: ""
+  #presentation: ""
+
 
 # 4xx hackathon day
 -
