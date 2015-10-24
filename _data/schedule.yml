@@ -25,9 +25,9 @@
   date: "2015-11-14"
   dateReadable: "Conference // Saturday, November 14"
   tracks: 
-    - {title: "Android", color: "#99cc00"}
-    - {title: "Web", color: "#ff8800"}
-    - {title: "Cloud", color: "#3366cc"}
+    - {title: "Android // Atrium", color: "#99cc00"}
+    - {title: "Web // Casino", color: "#ff8800"}
+    - {title: "Cloud // Konfi 4+5", color: "#3366cc"}
   timeslots: 
     - {
     	startTime: "08:30",
