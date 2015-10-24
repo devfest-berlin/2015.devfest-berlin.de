@@ -62,17 +62,17 @@
     - {
         startTime: "14:00",
         endTime: "14:45",
-        sessionIds: [300, 300, 321]
+        sessionIds: [327, 300, 321]
     }
     - {
         startTime: "15:00",
         endTime: "15:45",
-        sessionIds: [300, 300, 323]
+        sessionIds: [329, 300, 323]
     }
     - {
         startTime: "15:45",
         endTime: "16:30",
-        sessionIds: [300, 300, 322]
+        sessionIds: [328, 300, 322]
     }
     - {
         startTime: "16:30",

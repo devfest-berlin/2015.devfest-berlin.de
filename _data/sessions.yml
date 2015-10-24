@@ -178,7 +178,36 @@
   complexity: "Intermediate" # Beginner / Intermediate / Expert
   #video: ""
   #presentation: ""
-
+-
+  id: 327
+  title: "Beauty Treatment for Your Mobile Application"
+  description: "It is time take advantage of the new tools to draw and animate, design guidelines and a few tricks and recipes to make your mobile application stand out from the rest. Join me to speak about how to make your application look different by adding subtle effects that are appealing to the eye and the overall experience of your users."
+  subtype: presentation
+  speakers: [012]
+  language: en
+  complexity: "Intermediate" # Beginner / Intermediate / Expert
+  #video: ""
+  #presentation: ""
+-
+  id: 328
+  title: "Unit testing Android apps"
+  description: "There's no doubt that test automation is a way to go when working on large projects. But a lot of Android developers struggle with writing unit or integration tests on Android. The goal of the talk is to share a simple and practical approach to starting developing with unit tests. While Android framework is indeed not as test friendly as we all want, developers still can achieve decent test coverage. To do so, one should apply some of these techniques: 1. Using Model-View-Presenter pattern. MVP allows to separate business logic and use cases from view logic.  2. Inversion of Control(IoC) makes it easy to keep track of dependencies, which is a key for unit-testing.  3. Building abstraction layers for such components as Services and BroadcastReceivers allows to encapsulate business logic, which eliminates overhead of writing unit tests. 4. Dealing with legacy code is possible by leveraging such techniques as anticorruption layer."
+  subtype: presentation
+  speakers: [013]
+  language: en
+  complexity: "Intermediate" # Beginner / Intermediate / Expert
+  #video: ""
+  #presentation: ""
+-
+  id: 329
+  title: "Reactive UI on Android with Scala"
+  description: "Reactive programming can bring many benefits to mobile application development, especially when implementing UI. User interfaces developed this way are naturally responsive and code tends to be much more concise, which leads to easier development and less bugs. Reactive Extensions became quite popular among Android developers recently,  unfortunately creating UI with this library tends to be very unnatural, partially due to Java language limitations. Using Scala and techniques borrowed from Functional Reactive Programming we can achieve much better results. This talk is not going to be about Scala itself, nor about using Scala on Android. This talk is going to show how we can use Scala to implement UI in reactive fashion, achieving better results, with less code. There will be quite a lot of Scala code, but it should be accessible for Java developers."
+  subtype: presentation
+  speakers: [014]
+  language: en
+  complexity: "Intermediate" # Beginner / Intermediate / Expert
+  #video: ""
+  #presentation: ""
 
 # 4xx hackathon day
 -

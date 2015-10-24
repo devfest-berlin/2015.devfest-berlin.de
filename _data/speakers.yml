@@ -139,3 +139,49 @@
     - {name: "twitter", link: "https://twitter.com/ernesto_jimenez"}
     - {name: "github", link: "https://github.com/ernesto-jimenez"}
     - {name: "site", link: "https://slackline.io/"}
+-
+  id: 012
+  name: "Jose L"
+  surname: "Ugia"
+  title: "Co-Founder & Head of Tech & Google Developer Expert"
+  company: "Momenta"
+  bio: "Entrepreneur. Passionate about the combination of business and product development together with software engineering. Interested in new technologies, especially in the areas of mobile, cloud, and e-health. Author, wanna-be social entrepreneur and always free for long beer conversations."
+  thumbnailUrl: "JoseLUgia.jpg"
+  rockstar: false
+  # ribbon: 
+  #  - {abbr: "", title: "", url: ""}
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/+JoseLuisUgiaGonzalez/posts"}
+    - {name: "twitter", link: "https://twitter.com/jl_ugia"}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/joseluisugia"}
+  #  - {name: "github", link: "https://github.com/ernesto-jimenez"}
+-
+  id: 013
+  name: "Igor"
+  surname: "Filippov"
+  title: "Software Developer"
+  company: ""
+  bio: "Software developer with experience in building mobile apps for millions of users. Interested in wide range in technologies: Node.js, Go, Machine Learning, Artificial Intelligence. Spent more than 5 years developing Android and iOS apps. Focused on architecture, test automation, agile. Built award winning apps: kaufda, retale, bonial, meinprospekt, wifarer, mspy and others."
+  thumbnailUrl: "IgorFilippov.jpg"
+  rockstar: false
+  # ribbon: 
+  #  - {abbr: "", title: "", url: ""}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/igorfilippov"}
+  #  - {name: "github", link: "https://github.com/ernesto-jimenez"}
+  #  - {name: "site", link: "https://slackline.io/"}
+-
+  id: 014
+  name: "Zbigniew"
+  surname: "Szymanski"
+  title: "Senior Developer / Architect"
+  company: "wire.com"
+  bio: "Senior Developer / Architect at wire.com, responsible for keeping Android Wire app in sync. Focusing on Android development in Scala, obsessed with idea of creating apps with simpler and more powerful abstractions."
+  thumbnailUrl: "ZbigniewSzymanski.jpg"
+  rockstar: false
+  # ribbon: 
+  #  - {abbr: "", title: "", url: ""}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/zbigniewszymanski"}
+  #  - {name: "github", link: "https://github.com/ernesto-jimenez"}
+  #  - {name: "site", link: "https://slackline.io/"}
