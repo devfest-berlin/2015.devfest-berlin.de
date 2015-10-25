@@ -25,9 +25,9 @@
   date: "2015-11-14"
   dateReadable: "Conference // Saturday, November 14"
   tracks: 
-    - {title: "Android", color: "#99cc00"}
-    - {title: "Web", color: "#ff8800"}
-    - {title: "Cloud", color: "#3366cc"}
+    - {title: "Android // Atrium", color: "#99cc00"}
+    - {title: "Web // Casino", color: "#ff8800"}
+    - {title: "Cloud // Konfi 4+5", color: "#3366cc"}
   timeslots: 
     - {
     	startTime: "08:30",
@@ -42,17 +42,17 @@
     - {
         startTime: "10:00",
         endTime: "10:45",
-        sessionIds: [300, 300, 300]
+        sessionIds: [327, 325, 320]
     }
     - {
         startTime: "11:00",
         endTime: "11:45",
-        sessionIds: [300, 300, 300]
+        sessionIds: [300, 324, 300]
     }
     - {
         startTime: "12:00",
         endTime: "12:45",
-        sessionIds: [300, 300, 300]
+        sessionIds: [300, 300, 326]
     }
     - {
         startTime: "12:45",
@@ -62,17 +62,17 @@
     - {
         startTime: "14:00",
         endTime: "14:45",
-        sessionIds: [300, 300, 300]
+        sessionIds: [300, 300, 321]
     }
     - {
         startTime: "15:00",
         endTime: "15:45",
-        sessionIds: [300, 300, 300]
+        sessionIds: [329, 300, 323]
     }
     - {
         startTime: "15:45",
         endTime: "16:30",
-        sessionIds: [300, 300, 300]
+        sessionIds: [328, 300, 322]
     }
     - {
         startTime: "16:30",
