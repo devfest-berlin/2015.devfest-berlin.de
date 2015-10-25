@@ -31,9 +31,9 @@
   id: 203
   title: "Beacons: Microlocation, Presence and Context"
   description: "An intro to Beacons with different use cases and Hands-on workshop communicating with estimote™ beacons."
-  place: ""
+  subtype: workshop
   language: en
-  speakers: [15]
+  speakers: [015]
   complexity: "Beginner"
 -
   id: 204
@@ -47,7 +47,7 @@
   place: "Konfi 4+5"
   description: "Hands on Workshop for getting started with Kubernetes"
   subtype: workshop
-  speakers: [6]
+  speakers: [006]
   language: en
   complexity: "Beginner" # Beginner / Intermediate / Expert
 
