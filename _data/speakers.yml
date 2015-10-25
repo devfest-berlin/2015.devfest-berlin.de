@@ -1,15 +1,185 @@
+# -
+#   id: 
+#   name: ""
+#   surname: ""
+#   title: ""
+#   company: ""
+#   bio: ""
+#   thumbnailUrl: ""
+#   rockstar: true
+#   #ribbon: 
+#   #  - {abbr: "", title: "", url: ""}
+#   #social: 
+#   #  - {name: "google-plus", link: "https://plus.google.com/+"}
+#   #  - {name: "twitter", link: "https://twitter.com/"}
+#   #  - {name: "github", link: "https://github.com/"}
+#   #  - {name: "facebook", link: "https://facebook.com/"}
 - 
-  id: 3
-  name: "Stefan"
-  surname: "Hoth"
-  company: "Novoda"
-  title: "Android Software Craftsman"
-  bio: "Stefan works as an Android Software Craftsman at Novoda in Berlin. He helps creating community events like Google Developer Group Berlin, Berlin Hack and Tell and the DevFest Berlin. He enjoys learning new tricks and discuss about best practises."
-  thumbnailUrl: StefanHoth.png
-  rockstar: false
-  ribbon:
-    - {abbr: "GDG", title: "GDG Berlin", url: "https://developers.google.com/groups/chapter/115635340252753847571/"}
+  id: 004
+  name: "Mandy" 
+  surname: "Waite"
+  company: "Google"
+  title: "Developer Advocate"
+  bio: "Mandy works at Google as a Developer Advocate for Google Cloud Platform and is working to make the world a better place for developers building applications for the Cloud. She came to Google from Sun Microsystems where she worked with partners on performance and optimisation of large scale applications and services before moving on to building an ecosystem of Open Source applications for OpenSolaris. In her spare time she is learning Japanese and plays the guitar."
+  thumbnailUrl: "MandyWaite.jpg"
+  rockstar: true
+  ribbon: 
+    - {abbr: "Google", title: "Google Cloud", url: "https://cloud.google.com/"}
   social: 
-    - {name: "google-plus", link: "https://plus.google.com/+StefanHoth"}
-    - {name: "twitter", link: "https://twitter.com/stefanhoth"}
-    - {name: "github", link: "https://github.com/stefanhoth"}
+    - {name: "google-plus", link: "https://plus.google.com/+MandyWaite"}
+    - {name: "twitter", link: "https://twitter.com/tekgrrl"}
+  #  - {name: "github", link: "https://github.com/"}
+  #  - {name: "facebook", link: "https://facebook.com/"}
+-
+  id: 005
+  name: "Kaz"
+  surname: "Sato"
+  company: "Google"
+  title: "Developer Advocate"
+  bio:  "Kaz Sato is a Developer Advocate at Cloud Platform team, Google Inc. He works as an advocate for Google Cloud Platform developer communities and also supports Big Data products go-to-market activities including BigQuery, Cloud Dataflow and Cloud Dataproc."
+  thumbnailUrl: "KazSato.png"
+  rockstar: true
+  ribbon: 
+    - {abbr: "Google", title: "Google Cloud", url: "https://cloud.google.com/"}
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/+KazunoriSato"}
+    - {name: "twitter", link: "https://twitter.com/kazunori_279"}
+  #  - {name: "github", link: "https://github.com/"}
+  #  - {name: "facebook", link: "https://facebook.com/"}
+-
+  id: 006
+  name: "Robert"
+  surname: "Kubis"
+  company: "Google"
+  title: "Developer Advocate"
+  bio:  " Robert Kubis is a developer advocate for the Google Cloud Platform based in London, UK, specializing in container, storage, and scalable technologies. Before joining Google, Robert collected over 10 years of experience in software development and architecture. He has driven multiple full-stack application developments at SAP with a passion for distributed systems, containers, databases, and performance optimization. In his spare time he enjoys following tech trends and good restaurants, traveling, and improving his photography skills."
+  thumbnailUrl: "RobertKubis.jpg"
+  rockstar: true
+  ribbon: 
+    - {abbr: "Google", title: "Google Cloud", url: "https://cloud.google.com/"}
+  social: 
+    - {name: "twitter", link: "https://twitter.com/hostirosti"}
+  #  - {name: "google-plus", link: "https://plus.google.com/+KazunoriSato"}
+  #  - {name: "github", link: "https://github.com/"}
+  #  - {name: "facebook", link: "https://facebook.com/"}
+-
+  id: 007
+  name: "Björn"
+  surname: "Rabenstein"
+  title: "Team Lead Production Engineering"
+  company: "SoundCloud"
+  bio: "Björn is the team lead of Production Engineering at SoundCloud and one of the main Prometheus developers. Previously, he was a Site Reliability Engineer at Google and a number cruncher for science."
+  thumbnailUrl: "BjoernRabenstein.jpg"
+  rockstar: true
+  ribbon: 
+    - {abbr: "Prometheus", title: "Prometheus Project", url: "http://prometheus.io/"}
+  social: 
+    # - {name: "google-plus", link: "https://plus.google.com/+"}
+    # - {name: "twitter", link: "https://twitter.com/"}
+    - {name: "github", link: "https://github.com/beorn7"}
+    # - {name: "facebook", link: "https://facebook.com/"}
+-
+  id: 008
+  name: "Rahul"
+  surname: "Tongia"
+  title: "Platform Architect"
+  company: "Market Logic Software"
+  bio: "Rahul is currently the Platform Architect at Market Logic Software where is leads the Machine Learning, Large Scale Search and Data Integration teams. In addition, Rahul is Founder and developer of Tandem.cc which is Shared Gmail Labels app built on Google Cloud platform. With Tandem, teams can collaborate over Gmail with great ease. Rahul is also a part of Google Cloud Insider program."
+  thumbnailUrl: "RahulTongia.jpg"
+  rockstar: true
+  # ribbon: 
+  #  - {abbr: "", title: "", url: ""}
+  social: 
+  #  - {name: "google-plus", link: "https://plus.google.com/+"}
+  #  - {name: "twitter", link: "https://twitter.com/"}
+  #  - {name: "github", link: "https://github.com/"}
+     - {name: "linkedin", link: "https://de.linkedin.com/in/rahultongia"}
+-  
+  id: 009
+  name: "Dominik"
+  surname: "Raute"
+  title: "CTO"
+  company: "JustWatch"
+  bio: "Businesswise, currently dabbling in AdTech, Online & Mobile Marketing, Tracking, Analytics and Video on Demand. <br><br>Architecturally, I've fallen in love with Go(lang), Docker, 12factor, Elasticsearch, PostgreSQL, ETCD and Aerospike."
+  thumbnailUrl: "DominikRaute.jpg"
+  rockstar: true
+  # ribbon: 
+  #  - {abbr: "", title: "", url: ""}
+  # social: 
+  #  - {name: "google-plus", link: "https://plus.google.com/+"}
+  #  - {name: "twitter", link: "https://twitter.com/"}
+  #  - {name: "github", link: "https://github.com/"}
+  #  - {name: "linkedin", link: "https://de.linkedin.com/in/"}
+-  
+  id: 010
+  name: "Oleh"
+  surname: "Zasadnyy"
+  title: "Full-stack developer & Designer"
+  company: "GDG Lviv"
+  bio: "Active open-source contributor. Full-stack developer with passion to new technologies. GDG organizer for more than 3 years, designer."
+  thumbnailUrl: "OlehZasadnyy.jpg"
+  rockstar: true
+  ribbon: 
+    - {abbr: "GDG", title: "GDG Lviv", url: "http://lviv.gdg.org.ua/"}
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/+OlehZasadnyy/posts"}
+    - {name: "twitter", link: "https://twitter.com/ozasadnyy"}
+    - {name: "site", link: "http://o.zasadnyy.com/"}
+-
+  id: 011
+  name: "Ernesto"
+  surname: "Jimenez"
+  title: "Co-Founder"
+  company: "Slackline"
+  bio: "Ernesto has worked on different kinds of products, from webapps to APIs and games in both startups and big corporations. Most recently, he cofounded slackline.io where he is enabling better collaboration between companies."
+  thumbnailUrl: "ErnestoJimenez.png"
+  rockstar: true
+  # ribbon: 
+  #  - {abbr: "", title: "", url: ""}
+  social: 
+    - {name: "twitter", link: "https://twitter.com/ernesto_jimenez"}
+    - {name: "github", link: "https://github.com/ernesto-jimenez"}
+    - {name: "site", link: "https://slackline.io/"}
+-
+  id: 012
+  name: "Jose L"
+  surname: "Ugia"
+  title: "Co-Founder & Head of Tech & Google Developer Expert"
+  company: "Momenta"
+  bio: "Entrepreneur. Passionate about the combination of business and product development together with software engineering. Interested in new technologies, especially in the areas of mobile, cloud, and e-health. Author, wanna-be social entrepreneur and always free for long beer conversations."
+  thumbnailUrl: "JoseLUgia.jpg"
+  rockstar: true
+  ribbon: 
+    - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/+JoseLuisUgiaGonzalez/posts"}
+    - {name: "twitter", link: "https://twitter.com/jl_ugia"}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/joseluisugia"}
+
+-
+  id: 013
+  name: "Igor"
+  surname: "Filippov"
+  title: "Software Developer"
+  company: ""
+  bio: "Software developer with experience in building mobile apps for millions of users. Interested in wide range in technologies: Node.js, Go, Machine Learning, Artificial Intelligence. Spent more than 5 years developing Android and iOS apps. Focused on architecture, test automation, agile. Built award winning apps: kaufda, retale, bonial, meinprospekt, wifarer, mspy and others."
+  thumbnailUrl: "IgorFilippov.jpg"
+  rockstar: true
+  # ribbon: 
+  #  - {abbr: "", title: "", url: ""}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/igorfilippov"}
+
+-
+  id: 014
+  name: "Zbigniew"
+  surname: "Szymanski"
+  title: "Senior Developer / Architect"
+  company: "wire.com"
+  bio: "Senior Developer / Architect at wire.com, responsible for keeping Android Wire app in sync. Focusing on Android development in Scala, obsessed with idea of creating apps with simpler and more powerful abstractions."
+  thumbnailUrl: "ZbigniewSzymanski.jpg"
+  rockstar: true
+  # ribbon: 
+  #  - {abbr: "", title: "", url: ""}
+  social: 
+    - {name: "linkedin", link: "https://www.linkedin.com/in/zbigniewszymanski"}

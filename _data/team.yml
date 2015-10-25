@@ -66,4 +66,15 @@
   social:
     - {name: "google-plus", link: "https://plus.google.com/+DirkJäckel"}
     - {name: "github", link: "https://github.com/biafra23"}
-    - {name: "twitter", link: "https://twitter.com/dirkjaeckel"}
+    - {name: "twitter", link: "https://twitter.com/dirkjaeckel"}    
+-
+  id: 6
+  name: "A Selim"
+  surname: "Salman"
+  title: "GDG Berlin"
+  thumbnailUrl: SelimSalman.png
+  team: true
+  social:
+    - {name: "google-plus", link: "https://plus.google.com/+ASelimSalman"}
+    - {name: "twitter", link: "https://twitter.com/A_SelimS"}
+    - {name: "github", link: "https://github.com/aselims"}
