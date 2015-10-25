@@ -29,10 +29,12 @@
   description: "Learn what we have prepared for you, where the rooms are and what else is imporatant to know."
 -
   id: 203
-  title: "Android workshop TBA"
-  description: "The workshop topic and requirements will be announced soon™."
+  title: "Beacons: Microlocation, Presence and Context"
+  description: "An intro to Beacons with different use cases and Hands-on workshop communicating with estimote™ beacons."
   place: ""
   language: en
+  speakers: [15]
+  complexity: "Beginner"
 -
   id: 204
   title: "Web workshop TBA"
