@@ -211,6 +211,17 @@
   #video: ""
   #presentation: ""
 
+-
+  id: 330
+  title: "The Rules of the Games"
+  description: "What can app developers learn from games developers to make their app more success full on Google Play?"
+  subtype: presentation
+  speakers: [016]
+  language: en
+  complexity: "Beginner" # Beginner / Intermediate / Expert
+  #video: ""
+  #presentation: ""
+
 # 4xx hackathon day
 -
   id: 401

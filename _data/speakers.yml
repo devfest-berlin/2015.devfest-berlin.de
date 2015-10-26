@@ -201,4 +201,20 @@
     - {name: "github", link: "https://github.com/aselims"}
     - {name: "linkedin", link: "https://de.linkedin.com/in/aselimsalman"}
 
+-
+  id: 016
+  name: "Niko"
+  surname: "Schröer"
+  title: "Business Development Manager, Google Play"
+  company: "Google"
+  bio: "As a Business Development Manager for Android Apps Niko works with developers in the DACH & Benelux region to successfully build, distribute and monetise apps on the Google Play store. In previous roles at Google, Niko worked as a specialist for ad monetisation on mobile devices and as an account manager for retail clients across Google´s advertising solutions. When he does not “geek out” on the possibilities of mobile devices, he loves watching and doing any kind of sports."
+  thumbnailUrl: "NikoSchroeer.jpg"
+  rockstar: true
+  # ribbon: 
+  #  - {abbr: "", title: "", url: ""}
+  social:
+    - {name: "google-plus", link: "https://plus.google.com/+NikoSchroer"}
+    - {name: "twitter", link: "https://twitter.com/niko_schr"}
+    - {name: "linkedin", link: "https://de.linkedin.com/in/nikoschroeer"}
+
   
