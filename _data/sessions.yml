@@ -255,6 +255,39 @@
   #video: ""
   #presentation: ""
 
+-
+  id: 334
+  title: "Form of Art"
+  description: "Although creating forms is an easy task, especially with AngularJS, creating user-friendly forms with powerful capabilities requires creativity and attention to details. AngularJS form, input and ngModel directives have various options we should exploit. Other modules and directives, whether shipped with AngularJS or written independently, vastly expand our toolbox and allow us to easily upgrade our forms' usability and visibility. The first part of this talk will be live-coding of a form from scratch. We will go over the basic best practices: form structure, submission, and validation. We will discover important relationships between directives, such as ngModelOptions and ngSubmit. In the second part I will show how I used third-party directives to add abilities to forms and controls, enhancing the form usability and user experience, in real-life projects."
+  subtype: presentation
+  speakers: [020]
+  language: en
+  complexity: "Beginner" # Beginner / Intermediate / Expert
+  #video: ""
+  #presentation: ""
+
+-
+  id: 335
+  title: "npm (Basically Magic)"
+  description: "This talk is for you if you've ever wondered why a project uses a whole Gulp toolchain to compile SASS, or a Grunt setup that lints code and copies some files. Let's explore the whats, hows, and whys of front end build automation technologies, and discover new ways of using npm."
+  subtype: presentation
+  speakers: [021]
+  language: en
+  complexity: "Beginner" # Beginner / Intermediate / Expert
+  #video: ""
+  #presentation: ""
+
+-
+  id: 336
+  title: "Building an End-to-End ETL Application with Python"
+  description: "As the big data revolution has increased the quantity and availability of data, processing said data for easy consumption has become even more important. In this talk, we will build a simple ETL (extract, transform, load) application using Python's Flask framework and Pandas libraries. We will read in data from an API, transform the data, undertake some analysis, and finally present it in a web-based GUI. Join us and learn how to take the first steps towards data development!"
+  subtype: presentation
+  speakers: [022]
+  language: en
+  complexity: "Beginner" # Beginner / Intermediate / Expert
+  #video: ""
+  #presentation: ""
+
 # 4xx hackathon day
 -
   id: 401
