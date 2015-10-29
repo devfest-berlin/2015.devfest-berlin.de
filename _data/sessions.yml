@@ -222,6 +222,28 @@
   #video: ""
   #presentation: ""
 
+-
+  id: 331
+  title: "Building Android Apps"
+  description: "With the release of the new Gradle-based Build System, Android finally has a flexible and highly customizable build toolchain that allows for tweaks at all stages of development, from code generation to deployment at App stores. We assume that by now the community is familiar with the basic capabilities of the Android build tool. This talk aims to provide some more advanced tricks and techniques of how to extend and customise your build employing the wide and growing range of Gradle plugins."
+  subtype: presentation
+  speakers: [017]
+  language: en
+  complexity: "Beginner" # Beginner / Intermediate / Expert
+  #video: ""
+  #presentation: ""
+
+-
+  id: 332
+  title: "20 tips for building better apps"
+  description: "Anyone can start making Android apps, but with the platform evolving rapidly it's difficult to stay on top of what's required to maintain high quality. During this presentation you'll learn various API, tooling, performance and battery life tips and best practices that will make your life as a developer easier and help you build better apps for your users."
+  subtype: presentation
+  speakers: [018]
+  language: en
+  complexity: "Beginner" # Beginner / Intermediate / Expert
+  #video: ""
+  #presentation: ""
+
 # 4xx hackathon day
 -
   id: 401

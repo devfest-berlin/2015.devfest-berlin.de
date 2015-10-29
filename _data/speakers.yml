@@ -217,4 +217,36 @@
     - {name: "twitter", link: "https://twitter.com/niko_schr"}
     - {name: "linkedin", link: "https://de.linkedin.com/in/nikoschroeer"}
 
+-
+  id: 017
+  name: "Volker"
+  surname: "Leck"
+  title: "Senior Software Craftsman"
+  company: "Novoda"
+  bio: "Volker is a Java veteran and an early adopter of the Android platform. He works at Novoda where he develops Android Apps of all sizes, flavours and colours."
+  thumbnailUrl: "VolkerLeck.png"
+  rockstar: true
+  # ribbon: 
+  #  - {abbr: "", title: "", url: ""}
+  social:
+    - {name: "google-plus", link: "https://plus.google.com/+VolkerLeck"}
+    - {name: "twitter", link: "https://twitter.com/devisnik"}
+    - {name: "github", link: "https://github.com/devisnik"}
+
+-
+  id: 018
+  name: "Wojtek"
+  surname: "Kalicinski"
+  title: "Android Developer Advocate @ Google"
+  company: "Google"
+  bio: "Helping developers leverage the power of Android Studio and Tools, as well as providing general developer outreach for the Android platform. Previously member of the Google Developer Experts program and co-founder and long time organiser at GDG Warsaw."
+  thumbnailUrl: "WojtekKalicinski.png"
+  rockstar: true
+  # ribbon: 
+  #  - {abbr: "", title: "", url: ""}
+  social:
+    - {name: "google-plus", link: "https://plus.google.com/+WojtekKalicinski"}
+    - {name: "twitter", link: "https://twitter.com/wkalic"}
+    - {name: "github", link: "https://github.com/wojtek-kalicinski"}
+
   
