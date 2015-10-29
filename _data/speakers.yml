@@ -248,5 +248,21 @@
     - {name: "google-plus", link: "https://plus.google.com/+WojtekKalicinski"}
     - {name: "twitter", link: "https://twitter.com/wkalic"}
     - {name: "github", link: "https://github.com/wojtek-kalicinski"}
+  
+-
+  id: 019
+  name: "Katharine"
+  surname: "Jarmul"
+  title: "Founder"
+  company: "kjamistan"
+  bio: "Katharine Jarmul is a pythonista and open-source enthusiast who lives in Berlin. Via her company: kjamistan, she helps create business and data solutions for start ups. You can find her on twitter at @kjam."
+  thumbnailUrl: "KatharineJarmul.jpg"
+  rockstar: true
+  # ribbon: 
+  #  - {abbr: "", title: "", url: ""}
+  social:
+    - {name: "google-plus", link: "https://plus.google.com/108889369218177612541"}
+    - {name: "twitter", link: "https://twitter.com/kjam"}
+    - {name: "github", link: "https://github.com/kjam"}
 
   
