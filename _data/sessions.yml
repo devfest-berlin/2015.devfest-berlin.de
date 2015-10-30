@@ -229,7 +229,7 @@
   subtype: presentation
   speakers: [017]
   language: en
-  complexity: "Beginner" # Beginner / Intermediate / Expert
+  complexity: "Expert" # Beginner / Intermediate / Expert
   #video: ""
   #presentation: ""
 
@@ -240,7 +240,7 @@
   subtype: presentation
   speakers: [018]
   language: en
-  complexity: "Beginner" # Beginner / Intermediate / Expert
+  complexity: "Intermediate" # Beginner / Intermediate / Expert
   #video: ""
   #presentation: ""
 
@@ -273,7 +273,7 @@
   subtype: presentation
   speakers: [021]
   language: en
-  complexity: "Beginner" # Beginner / Intermediate / Expert
+  complexity: "Expert" # Beginner / Intermediate / Expert
   #video: ""
   #presentation: ""
 
@@ -284,7 +284,7 @@
   subtype: presentation
   speakers: [022]
   language: en
-  complexity: "Beginner" # Beginner / Intermediate / Expert
+  complexity: "Intermediate" # Beginner / Intermediate / Expert
   #video: ""
   #presentation: ""
 
