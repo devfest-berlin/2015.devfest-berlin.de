@@ -287,6 +287,16 @@
   complexity: "Intermediate" # Beginner / Intermediate / Expert
   #video: ""
   #presentation: ""
+-
+  id: 337
+  title: "Google Maps API, Google"
+  description: "&lt;insert talk details here /&gt;"
+  subtype: presentation
+  speakers: []
+  language: en
+  complexity: "Beginner" # Beginner / Intermediate / Expert
+  #video: ""
+  #presentation: ""
 
 # 4xx hackathon day
 -
