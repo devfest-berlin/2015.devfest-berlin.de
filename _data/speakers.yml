@@ -217,4 +217,95 @@
     - {name: "twitter", link: "https://twitter.com/niko_schr"}
     - {name: "linkedin", link: "https://de.linkedin.com/in/nikoschroeer"}
 
+-
+  id: 017
+  name: "Volker"
+  surname: "Leck"
+  title: "Senior Software Craftsman"
+  company: "Novoda"
+  bio: "Volker is a Java veteran and an early adopter of the Android platform. He works at Novoda where he develops Android Apps of all sizes, flavours and colours."
+  thumbnailUrl: "VolkerLeck.png"
+  rockstar: true
+  # ribbon: 
+  #  - {abbr: "", title: "", url: ""}
+  social:
+    - {name: "google-plus", link: "https://plus.google.com/+VolkerLeck"}
+    - {name: "twitter", link: "https://twitter.com/devisnik"}
+    - {name: "github", link: "https://github.com/devisnik"}
+
+-
+  id: 018
+  name: "Wojtek"
+  surname: "Kalicinski"
+  title: "Android Developer Advocate @ Google"
+  company: "Google"
+  bio: "Helping developers leverage the power of Android Studio and Tools, as well as providing general developer outreach for the Android platform. Previously member of the Google Developer Experts program and co-founder and long time organiser at GDG Warsaw."
+  thumbnailUrl: "WojtekKalicinski.png"
+  rockstar: true
+  # ribbon: 
+  #  - {abbr: "", title: "", url: ""}
+  social:
+    - {name: "google-plus", link: "https://plus.google.com/+WojtekKalicinski"}
+    - {name: "twitter", link: "https://twitter.com/wkalic"}
+    - {name: "github", link: "https://github.com/wojtek-kalicinski"}
+  
+-
+  id: 019
+  name: "Katharine"
+  surname: "Jarmul"
+  title: "Founder"
+  company: "kjamistan"
+  bio: "Katharine Jarmul is a pythonista and open-source enthusiast who lives in Berlin. Via her company: kjamistan, she helps create business and data solutions for start ups. You can find her on twitter at @kjam."
+  thumbnailUrl: "KatharineJarmul.jpg"
+  rockstar: true
+  # ribbon: 
+  #  - {abbr: "", title: "", url: ""}
+  social:
+    - {name: "google-plus", link: "https://plus.google.com/108889369218177612541"}
+    - {name: "twitter", link: "https://twitter.com/kjam"}
+    - {name: "github", link: "https://github.com/kjam"}
+
+-
+  id: 020
+  name: "Shmuela"
+  surname: "Jacobs"
+  title: "senior front-end developer"
+  company: "500Tech"
+  bio: "Shmuela Jacobs is a senior front-end developer at 500Tech, a leading Web Development company. She received her M.Sc. in Information Management Engineering from the Technion, Israel Institute of Technology, where she had researched systems modeling languages in collaboration with IBM Research and Israel Aerospace Industries (IAI). This has been a career change for her, after receiving B.Sc. in Physics from the Hebrew University of Jerusalem, Israel. Shmuela has gained experience in several software development environments and languages (C++, JAVA, Python), as a researcher at the Technion and a software engineer at Intel’s Israel Development Center. At 500Tech she fulfills both her passions: developing AngularJS Web Applications and singing in a band. She currently resides in Tel Aviv with her husband Haggai, their deaf dog Ziggi, and their one-eyed cat Franco."
+  thumbnailUrl: "ShmuelaJacobs.JPG"
+  rockstar: true
+  # ribbon: 
+  #  - {abbr: "", title: "", url: ""}
+  social:
+    - {name: "google-plus", link: "https://plus.google.com/110275275695087393679"}
+
+-
+  id: 021
+  name: "Lewis"
+  surname: "Cowper"
+  title: "Junior Front End Dev"
+  company: "HitFox group"
+  bio: "Lewis is a Junior Front End Dev at HitFox group, in Berlin. He loves offline capable web apps, analysing processes, and modular design."
+  thumbnailUrl: "LewisCowper.jpg"
+  rockstar: true
+  # ribbon: 
+  #  - {abbr: "", title: "", url: ""}
+  social:
+    - {name: "twitter", link: "https://twitter.com/lewiscowper"}
+    - {name: "github", link: "https://github.com/lewiscowper"}
+
+-
+  id: 022
+  name: "Rowan"
+  surname: "Vasquez"
+  title: "Python Full-Stack Data Developer"
+  company: "Freelancer"
+  bio: "I am a Freelance Python Full-Stack Data Developer. In short, I solve data-related problems. I've worked for Twitter, the Inter-American Development Bank, and a number of startups in the data space in the past. I have a B.S. from MIT, and am passionate about quantitative investigative methods and data products. My work in the past has primarily focused in data-related applications, including data science work, ETL pipelines, end-to-end ETL applications, dashboard creation, custom interactive visualizations, predictive modeling, and full stack Python web dev work with Django and Flask. I'm also proficient with big data tools (Pig, Scalding, etc.) used within the Hadoop ecosystem to obtain valuable, revenue-related insights."
+  thumbnailUrl: "RowanVasquez.jpeg"
+  rockstar: true
+  # ribbon: 
+  #  - {abbr: "", title: "", url: ""}
+  social:
+    - {name: "twitter", link: "https://twitter.com/rowanrv"}
+
   
