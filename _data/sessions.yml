@@ -98,7 +98,10 @@
 -
   id: 305
   title: "Fireside chat with all speakers of the Cloud track"
-  description: ""
+  description: "Ask the speakers anything about their talks or related developments in their field."
+  speakers: [004,005,007,008,011,019]
+  subtype: discussion
+  language: en
 -
   id: 306
   title: "Wrap-Up"
