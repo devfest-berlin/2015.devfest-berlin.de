@@ -84,15 +84,24 @@
 -
   id: 303
   title: "Fireside chat with all speakers of the Android track"
-  description: ""
+  description: "Ask the speakers anything about their talks or related developments in their field."
+  speakers: [012,013,014,017,018]
+  subtype: discussion
+  language: en
 -
   id: 304
   title: "Fireside chat with all speakers of the Web track"
-  description: ""
+  description: "Ask the speakers anything about their talks or related developments in their field."
+  speakers: [009,010,020,021,022]
+  subtype: discussion
+  language: en
 -
   id: 305
   title: "Fireside chat with all speakers of the Cloud track"
-  description: ""
+  description: "Ask the speakers anything about their talks or related developments in their field."
+  speakers: [004,005,007,008,011,019]
+  subtype: discussion
+  language: en
 -
   id: 306
   title: "Wrap-Up"
