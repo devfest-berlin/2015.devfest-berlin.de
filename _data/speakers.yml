@@ -161,7 +161,7 @@
   name: "Igor"
   surname: "Filippov"
   title: "Software Developer"
-  company: ""
+  company: "&nbsp;"
   bio: "Software developer with experience in building mobile apps for millions of users. Interested in wide range in technologies: Node.js, Go, Machine Learning, Artificial Intelligence. Spent more than 5 years developing Android and iOS apps. Focused on architecture, test automation, agile. Built award winning apps: kaufda, retale, bonial, meinprospekt, wifarer, mspy and others."
   thumbnailUrl: "IgorFilippov.jpg"
   rockstar: true
