@@ -84,7 +84,10 @@
 -
   id: 303
   title: "Fireside chat with all speakers of the Android track"
-  description: ""
+  description: "Ask the speakers anything about their talks or related developments in their field."
+  speakers: [012,013,014,017,018]
+  subtype: discussion
+  language: en
 -
   id: 304
   title: "Fireside chat with all speakers of the Web track"
