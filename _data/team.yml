@@ -79,3 +79,15 @@
     - {name: "twitter", link: "https://twitter.com/A_SelimS"}
     - {name: "github", link: "https://github.com/aselims"}
     - {name: "linkedin", link: "https://de.linkedin.com/in/aselimsalman"}
+
+-
+  id: 7
+  name: "Natalie"
+  surname: "Pistunovich"
+  title: "GDG Berlin Golang, Women Tech Makers"
+  thumbnailUrl: natalie.jpg
+  team: true
+  social:
+    - {name: "google-plus", link: "https://plus.google.com/+NataliePistunovich"}
+    - {name: "github", link: "https://github.com/pisush"}
+    - {name: "linkedin", link: "https://de.linkedin.com/in/nataliepistunovich"}
