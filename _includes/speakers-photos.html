@@ -1,0 +1,22 @@
+<style type="text/css">
+	img.speakerpic {
+		width: 70px;
+		height: 70px;
+		float: left;
+		margin: 0; 
+	}
+
+	.clearer {
+		clear: both;
+		margin-bottom: 16px;
+	}
+</style>
+
+<div>
+	<a href="{{ site.baseurl | append: '/speakers'}}" title="See all speakers">
+		{% for speaker in site.data.speakers %}
+			<img src="{{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }}" alt="{{ speaker.name }} {{ speaker.surname }}" class="speakerpic" />
+		{% endfor %}
+	</a>
+</div>
+<div class="clearer">&nbsp;</div>
