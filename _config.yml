@@ -205,7 +205,7 @@ blogCommentsEnabled: false
 #discusShortName: "devfestBerlin"
 
 # Speakers List Block
-showSessions: false
+showSessions: true
 
 # Team Block
 teamBlockTitle: "About us"
