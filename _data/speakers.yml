@@ -308,4 +308,19 @@
   social:
     - {name: "twitter", link: "https://twitter.com/rowanrv"}
 
+-
+  id: 023
+  name: "Dirk"
+  surname: "Jäckel"
+  title: "Android Applications Developer"
+  company: ""
+  bio: "Dirk Jäckel is a co-host of the german Android developer podcast Pandroid and co-lead of the GDG Berlin Android. He is a passionate Android developer since 2009 when the first Android devices became available in Germany."
+  thumbnailUrl: "DirkJaeckel.png"
+  rockstar: false
+  # ribbon: 
+  #  - {abbr: "", title: "", url: ""}
+  social:
+    - {name: "twitter", link: "https://twitter.com/dirkjaeckel"}
+
+  
   

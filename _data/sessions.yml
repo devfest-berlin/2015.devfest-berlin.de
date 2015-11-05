@@ -50,7 +50,14 @@
   speakers: [006]
   language: en
   complexity: "Beginner" # Beginner / Intermediate / Expert
-
+-
+  id: 206
+  title: "Android for Beginners"
+  description: "Start programming for Android"
+  subtype: workshop
+  language: en
+  speakers: [023]
+  complexity: "Beginner"
 # 3xx conference day
 # -
 #   id: 
