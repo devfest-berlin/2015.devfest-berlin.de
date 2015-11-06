@@ -322,5 +322,16 @@
   social:
     - {name: "twitter", link: "https://twitter.com/dirkjaeckel"}
 
-  
-  
+  id: 024
+  name: "Florian"
+  surname: "Mierzejewski"
+  title: "Android Software Craftsman"
+  company: "Novoda"
+  bio: "Florian is a french Android developer since 2009. He is based in Berlin and recently joined Novoda where he converts caffeine into great Android apps."
+  thumbnailUrl: "FlorianMski.jpg"
+  rockstar: true
+  social: 
+    - {name: "twitter", link: "https://twitter.com/florianmski"}
+    - {name: "github", link: "https://github.com/florianmski"}
+    - {name: "google-plus", link: "https://plus.google.com/+FlorianMierzejewski"}
+

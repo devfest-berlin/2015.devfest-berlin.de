@@ -92,7 +92,7 @@
   id: 303
   title: "Fireside chat with all speakers of the Android track"
   description: "Ask the speakers anything about their talks or related developments in their field."
-  speakers: [012,013,014,017,018]
+  speakers: [012,013,014,017,018,024]
   subtype: discussion
   language: en
 -
@@ -243,7 +243,7 @@
   title: "Building Android Apps"
   description: "With the release of the new Gradle-based Build System, Android finally has a flexible and highly customizable build toolchain that allows for tweaks at all stages of development, from code generation to deployment at App stores. We assume that by now the community is familiar with the basic capabilities of the Android build tool. This talk aims to provide some more advanced tricks and techniques of how to extend and customise your build employing the wide and growing range of Gradle plugins."
   subtype: presentation
-  speakers: [017]
+  speakers: [017,024]
   language: en
   complexity: "Expert" # Beginner / Intermediate / Expert
   #video: ""
