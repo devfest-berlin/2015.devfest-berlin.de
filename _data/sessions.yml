@@ -37,10 +37,11 @@
   complexity: "Beginner"
 -
   id: 204
-  title: "Web workshop TBA"
-  description: "The workshop topic and requirements will be announced soon™."
-  place: ""
+  title: "Google Maps API Workshop"
+  description: "The Google Maps Team is stopping by along their #CodeTheRoad tour and will introduce you to the the Google Maps API in a hands-on session."
+  subtype: workshop
   language: en
+  complexity: "Beginner"
 -
   id: 205
   title: "Hands-on with Kubernetes"
