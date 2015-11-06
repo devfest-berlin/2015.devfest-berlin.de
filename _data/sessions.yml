@@ -52,8 +52,8 @@
   complexity: "Beginner" # Beginner / Intermediate / Expert
 -
   id: 206
-  title: "Android for Beginners"
-  description: "Start programming for Android"
+  title: "Android Development for Beginners"
+  description: "No prior Android development experience is necessary to attend this workshop. But you should have Android Studio up and running on your computer. You can get it from here: https://developer.android.com/sdk/index.html. We suggest that you look into the Training material provided by Google here: https://developer.android.com/training/index.html"
   subtype: workshop
   language: en
   speakers: [023]
