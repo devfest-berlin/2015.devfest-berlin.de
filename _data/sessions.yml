@@ -29,7 +29,7 @@
   description: "Learn what we have prepared for you, where the rooms are and what else is imporatant to know."
 -
   id: 203
-  title: "Beacons: Microlocation, Presence and Context"
+  title: "Beacons: Microlocation, Context and the PhysicalWeb"
   description: "An intro to Beacons with different use cases and Hands-on workshop communicating with estimote™ beacons."
   subtype: workshop
   language: en
