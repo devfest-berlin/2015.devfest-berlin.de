@@ -50,12 +50,10 @@ navigationLinks:
  - {permalink: "/team/", text: "Team"}
  - {permalink: "/code-of-conduct/", text: "Code of Conduct"}
 # - {permalink: "/hackathon/", text: "Hackathon"}
- - {permalink: "https://plus.google.com/+DevFestBerlin/", text: "Google+ Page"}
+ - {permalink: "https://plus.google.com/+DevFestBerlin", text: "Google+ Page"}
 bottomNavigationLinks:
- - {link: "https://conference.devfest-berlin.de/en/devfestberlin2015/cfp/session/new", text: "Become a speaker"}
  - {link: "/#tickets", text: "Buy a ticket"}
 rightNavigationButtons:
- - {link: "https://conference.devfest-berlin.de/en/devfestberlin2015/cfp/session/new", text: "Become a speaker"}
  - {link: "/#tickets", text: "Buy a ticket"}
 
 # Hero Block
@@ -65,7 +63,7 @@ eventDate: "13/14/15 November 2015"
 typeoutTextValues: '"Karlsruhe?", "Hamburg?", "Vienna?", "Malta?", "Zurich?", "Brussels?", "Berlin 2015!"'
 typeoutFallback: "Berlin 2015"
 heroButtons:
- - {link: "https://conference.devfest-berlin.de/en/devfestberlin2015/cfp/session/new", text: "Become a speaker"}
+ - {permalink: "/schedule", text: "See the schedule"} 
  - {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
@@ -80,7 +78,7 @@ statisticBlockImage: "statistic.jpg"
 statisticBlock:
  - {count: "250", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
  - {count: "36", specialCharacter: "+", info: "hours", detail: "of pure Google technologies"}
- - {count: "24", specialCharacter: "+", info: "speakers", detail: "from the local community and beyond"}
+ - {count: "18", specialCharacter: "+", info: "speakers", detail: "from the local community and beyond"}
  - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
 
 # Latest News Block
