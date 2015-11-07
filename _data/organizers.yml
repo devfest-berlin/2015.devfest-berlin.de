@@ -1,10 +1,6 @@
 - 
-  group: "Main organizer"
+  group: "Google Developer Groups of Berlin"
   elements: 
-    - {name: "GDG Lviv", description: "GDG Lviv - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg"}
-- 
-  group: "Co-organizers"
-  elements: 
-    - {name: "GDG Lviv", description: "GDG Kyiv - Open and volunteer geek community", link: "http://kyiv.gdg.org.ua", imageUrl: "gdg-kyiv.svg"}
-    - {name: "GDG Cherkassy", description: "GDG Cherkassy - Open and volunteer geek community", link: "http://cherkassy.gdg.org.ua", imageUrl: "gdg-cherkasy.svg"}
-    - {name: "GDG Dnipropetrovsk", description: "GDG Dnipropetrovsk - Open and volunteer geek community", link: "http://dnipro.gdg.org.ua", imageUrl: "gdg-dnipropetrovsk.svg"}
+    - {name: "GDG Berlin", description: "One of the first developer groups for everything Google tech - since 2008", link: "http://gdg-berlin.org", imageUrl: "gdg_berlin.png"}
+    - {name: "GDG Berlin Android", description: "/The/ monthly meetup for Android in Berlin. Est. 2009.", link: "http://www.meetup.com/GDG-Android-in-Berlin/", imageUrl: "gdg_berlin_android.png"}
+    - {name: "GDG Berlin Golang", description: "Meet other Go developers in Berlin, share your experience and learn something new.", link: "http://www.meetup.com/golang-users-berlin/", imageUrl: "gdg_berlin_golang.png"}
