@@ -6,5 +6,5 @@
 - 
   group: "With support of"
   elements: 
-    - {name: "Jetbrains", description: "World's Leading Vendor of Professional Development Tools", link: "https://www.jetbrains.com", imageUrl: "Jetbrains.svg", width: "120px"}
+    - {name: "Jetbrains", description: "World's Leading Vendor of Professional Development Tools", link: "https://www.jetbrains.com", imageUrl: "jetbrains.svg", width: "120px"}
     - {name: "GDG[x]", description: "GDG[x] - The open source movement from and for the Google Developer groups", link: "https://github.com/gdg-x", imageUrl: "gdg-x.svg", width: "120px"}
