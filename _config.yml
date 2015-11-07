@@ -63,7 +63,7 @@ eventDate: "13/14/15 November 2015"
 typeoutTextValues: '"Karlsruhe?", "Hamburg?", "Vienna?", "Malta?", "Zurich?", "Brussels?", "Berlin 2015!"'
 typeoutFallback: "Berlin 2015"
 heroButtons:
- - {link: "https://conference.devfest-berlin.de/en/devfestberlin2015/cfp/session/new", text: "Become a speaker"}
+ - {permalink: "/schedule", text: "See the schedule"} 
  - {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
