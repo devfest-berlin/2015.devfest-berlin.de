@@ -6,5 +6,5 @@
 - 
   group: "With support of"
   elements: 
-    - {name: "O'Reilly Media", description: "One of the best publishers for technical books and beyond, online and offline", link: "https://www.oreilly.com", imageUrl: "O_Reilly_Media_logo.svg", width: "120px"}
+    - {name: "Jetbrains", description: "World's Leading Vendor of Professional Development Tools", link: "https://www.jetbrains.com", imageUrl: "Jetbrains.svg", width: "120px"}
     - {name: "GDG[x]", description: "GDG[x] - The open source movement from and for the Google Developer groups", link: "https://github.com/gdg-x", imageUrl: "gdg-x.svg", width: "120px"}
