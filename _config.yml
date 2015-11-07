@@ -122,9 +122,9 @@ twitterHashTag: "devfestBerlin"
 twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
 # Partners Block
-organizersTitle: "Organizers"
+organizersTitle: "Organized by"
 partnersTitle: "Partners"
-partnersC4sponsorsButton: "Become a sponsor"
+partnersC4sponsorsButton: "Support our event"
 
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
