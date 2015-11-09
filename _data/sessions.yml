@@ -38,7 +38,7 @@
 -
   id: 204
   title: "Build a modern store locator"
-  description: "TStore locators are one of the most popular use cases of the Google Maps JavaScript API, and we’ll be building one – for 2015 and beyond, using all the features of the API to deliver the perfect user experience."
+  description: "Store locators are one of the most popular use cases of the Google Maps JavaScript API, and we’ll be building one – for 2015 and beyond, using all the features of the API to deliver the perfect user experience."
   subtype: workshop
   language: en
   speakers: [025]
