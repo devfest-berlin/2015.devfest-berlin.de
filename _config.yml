@@ -119,7 +119,7 @@ venueFeatures: ["3 rooms with top-notch equipment", "Café area for chats and ch
 tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "What's Up?"
 twitterHashTag: "devfestBerlin"
-twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
+twitterFeed: "https://conference.devfest-berlin.de/tweetledee/searchjson.php?c=10&cache_interval=600&q=%23devfestBerlin"
 
 # Partners Block
 organizersTitle: "Organized by"
