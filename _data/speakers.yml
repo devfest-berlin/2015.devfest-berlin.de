@@ -349,3 +349,16 @@
   social: 
     - {name: "google-plus", link: "https://plus.google.com/+EnochLau"}
 
+-
+  id: 026
+  name: "Tobias"
+  surname: "Preuss"
+  title: "Android Developer"
+  company: ""
+  bio: "Tobias is an active open source enthusiast. He lives in Berlin where he works on Android projects and uses other technologies when suitable. Make sure to checkout recent projects on GitHub."
+  thumbnailUrl: "TobiasPreuss.png"
+  rockstar: true
+  social:
+    - {name: "twitter", link: "https://twitter.com/tbsprs"}
+    - {name: "github", link: "https://github.com/johnjohndoe"}
+    - {name: "google-plus", link: "https://plus.google.com/+tobiaspreuss"}
