@@ -322,6 +322,7 @@
   social:
     - {name: "twitter", link: "https://twitter.com/dirkjaeckel"}
 
+-
   id: 024
   name: "Florian"
   surname: "Mierzejewski"
@@ -334,4 +335,17 @@
     - {name: "twitter", link: "https://twitter.com/florianmski"}
     - {name: "github", link: "https://github.com/florianmski"}
     - {name: "google-plus", link: "https://plus.google.com/+FlorianMierzejewski"}
+
+
+-
+  id: 025
+  name: "Enoch"
+  surname: "Lau"
+  title: "Engineering Lead Maps JavaScript API Team"
+  company: "Google"
+  bio: "Enoch is the engineering lead for the Google Maps JavaScript API, and he and his team are based in Google's Sydney office. He's been on the team for four and a half years, and prior to joining Google, he worked at the University of Sydney on an open-source GIS."
+  thumbnailUrl: "EnochLau.jpeg"
+  rockstar: true
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/+EnochLau"}
 

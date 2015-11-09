@@ -37,10 +37,11 @@
   complexity: "Beginner"
 -
   id: 204
-  title: "Google Maps API Workshop"
-  description: "The Google Maps Team is stopping by along their #CodeTheRoad tour and will introduce you to the the Google Maps API in a hands-on session."
+  title: "Build a modern store locator"
+  description: "Store locators are one of the most popular use cases of the Google Maps JavaScript API, and we’ll be building one – for 2015 and beyond, using all the features of the API to deliver the perfect user experience."
   subtype: workshop
   language: en
+  speakers: [025]
   complexity: "Beginner"
 -
   id: 205
@@ -306,10 +307,10 @@
   #presentation: ""
 -
   id: 337
-  title: "Google Maps API, Google"
-  description: "&lt;insert talk details here /&gt;"
+  title: "Sleep soundly with the Google Maps APIs"
+  description: "The Google Maps APIs are highly reliable services that you can use to build your location-based applications, but here are some special tips and tricks to make everything run even more smoothly."
   subtype: presentation
-  speakers: []
+  speakers: [025]
   language: en
   complexity: "Beginner" # Beginner / Intermediate / Expert
   #video: ""
