@@ -316,6 +316,17 @@
   #video: ""
   #presentation: ""
 
+-
+  id: 338
+  title: "Git Dance"
+  description: "I will try to explain Git to you, without computers ..."
+  subtype: presentation
+  speakers: [026]
+  language: en
+  complexity: "Beginner" # Beginner / Intermediate / Expert
+  #video: ""
+  #presentation: ""
+
 # 4xx hackathon day
 -
   id: 401
