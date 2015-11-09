@@ -64,7 +64,7 @@ typeoutTextValues: '"Karlsruhe?", "Hamburg?", "Vienna?", "Malta?", "Zurich?", "B
 typeoutFallback: "Berlin 2015"
 heroButtons:
  - {permalink: "/schedule", text: "See the schedule"} 
- - {permalink: "/#tickets", text: "Buy tickets"}
+ - {permalink: "/#tickets", text: "Redeem ticket code"}
 
 # About Block
 aboutTitle: "About DevFest Berlin"
