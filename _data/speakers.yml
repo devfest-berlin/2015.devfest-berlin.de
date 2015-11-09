@@ -362,3 +362,16 @@
     - {name: "twitter", link: "https://twitter.com/tbsprs"}
     - {name: "github", link: "https://github.com/johnjohndoe"}
     - {name: "google-plus", link: "https://plus.google.com/+tobiaspreuss"}
+-
+  id: 042
+  name: "cketti"
+  surname: ""
+  title: "Android Developer"
+  company: ""
+  bio: "GDG Berlin Android co-organizer. Open source enthusiast."
+  thumbnailUrl: "cketti.png"
+  social:
+    - {name: "github", link: "https://github.com/cketti"}
+    - {name: "twitter", link: "https://twitter.com/cketti"}
+    - {name: "google-plus", link: "https://plus.google.com/+cketti"}
+
