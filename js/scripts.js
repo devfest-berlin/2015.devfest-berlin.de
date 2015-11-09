@@ -232,7 +232,7 @@
 
         if (typeof twitterFeedUrl !== 'undefined') {
             $.getJSON(twitterFeedUrl, function(data) {
-                $.each(data, function(i, gist) {
+                $.each(data.statuses, function(i, gist) {
                     var tweetElement = '<div class="tweet animated fadeInUp hidden"><p class="tweet-text">' + linkify(gist.text) + '</p><p class="tweet-meta">by <a href="https://twitter.com/' + gist.user.screen_name + '" target="_blank">@' + gist.user.screen_name + '</a></p></div>';
                     $('#tweets').append(tweetElement);
                 });
