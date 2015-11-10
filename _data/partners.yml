@@ -8,3 +8,4 @@
   elements: 
     - {name: "Jetbrains", description: "World's Leading Vendor of Professional Development Tools", link: "https://www.jetbrains.com", imageUrl: "jetbrains.svg", width: "120px"}
     - {name: "GDG[x]", description: "GDG[x] - The open source movement from and for the Google Developer groups", link: "https://github.com/gdg-x", imageUrl: "gdg-x.svg", width: "120px"}
+    - {name: "500Tech", description: "Leading AngularJS Consultancy in Israel", link: "http://500tech.com/", imageUrl: "500tech.svg", width: "120px"}
