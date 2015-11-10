@@ -31,7 +31,7 @@
                             <ul class="slider">
                                 {% assign sessionsNumber = 0 %}
                                 {% if site.showSessions %} 
-                                    {% for session in site.data.sessions %} 
+                                    {% for session in site.data.sessions reversed %} 
                                         {% for session_speaker in session.speakers %} 
                                             {% if session_speaker == speaker.id %}
                                             {% assign sessionsNumber = sessionsNumber | plus: 1 %}
