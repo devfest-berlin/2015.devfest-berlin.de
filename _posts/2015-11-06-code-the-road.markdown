@@ -27,12 +27,9 @@ If you're asked for your favorite cookie please say "devfest" to let them know w
 
 ##### Google Maps @ DevFest Berlin
 
-Since the team is in town anyway they agreed to not only giving a talk on Google Maps APIs but instead Enoch will also give a workshop on the workshop day.
+The team offered to not only give a talk on Google Maps APIs but [Enoch](/speakers/#speakerDetail-21) will also have a workshop on the workshop day.
 
  - **Workshop**: [Build a modern store locator](/schedule/#session-204)
  - **Talk**: [Sleep soundly with the Google Maps APIs](/schedule/#session-337)
-
-We're happy to add Enoch to our list of speakers, looking forward to meet the team and excited to take a selfie with the Google Maps bus.
-
 
 <img class="img-responsive feature-image" src="{{ site.baseurl }}/img/posts/google_codetheroad.jpg" style="display:none">
