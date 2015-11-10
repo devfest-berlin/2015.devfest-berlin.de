@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Speakers information
-permalink: /speakers-information/
+permalink: /speakers-faq/
 isStaticPost: true
 ---
 
