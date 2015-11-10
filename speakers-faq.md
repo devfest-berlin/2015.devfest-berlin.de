@@ -60,4 +60,4 @@ If there are any further questions that we could help you out with, please let u
 Looking forward for your talk!
 
 
-<img class="img-responsive feature-image" src="{{ site.baseurl }}/img/posts/cod.jpg" style="display:none">
+<img class="img-responsive feature-image" src="{{ site.baseurl }}/img/posts/speakers-faq.jpg" style="display:none">
