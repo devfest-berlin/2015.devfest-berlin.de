@@ -18,11 +18,11 @@
     }
     - {
     	startTime: "15:00",
-    	endTime: "",
+    	endTime: "18:30",
     	sessionIds: [203, 204, 205]
     }
     - {
-        startTime: "&nbsp;",
+        startTime: "15:00",
         endTime: "18:30",
         sessionIds: [206, 404, 404]
     }
