@@ -75,13 +75,13 @@
         sessionIds: [329, 335, 323]
     }
     - {
-        startTime: "15:45",
-        endTime: "16:30",
+        startTime: "16:00",
+        endTime: "16:45",
         sessionIds: [328, 336, 322]
     }
     - {
-        startTime: "16:30",
-        endTime: "17:15",
+        startTime: "16:45",
+        endTime: "17:30",
         sessionIds: [102]
     }
     - {
