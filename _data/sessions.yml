@@ -264,12 +264,12 @@
 
 -
   id: 333
-  title: "Introduction to Cloud Data with Python"
-  description: "Ever wanted to work with your databases in the Cloud? With only a cursory knowledge of Python, learn how to import, manipulate and analyze your data easily using Jupyter notebooks and simple Python libraries."
+  title: "Introduction to DataLab: Jupyter meets BigQuery"
+  description: "Ever wanted to work with your notebooks in the Google Cloud? With only a cursory knowledge of Python data analysis, learn how to import, manipulate and analyze data easily using Jupyter notebooks."
   subtype: presentation
   speakers: [019]
   language: en
-  complexity: "Beginner" # Beginner / Intermediate / Expert
+  complexity: "Intermediate" # Beginner / Intermediate / Expert
   #video: ""
   #presentation: ""
 
