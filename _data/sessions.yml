@@ -1,13 +1,13 @@
 # 1xx general blocks for all days
 -
   id: 101
-  title: "Lunch Break"
+  title: "Lunch Break @ Casino"
   place: "Scout Casino"
   service: true
   description: "Make new friends while sharing a meal"
 -
   id: 102
-  title: "Coffee Break"
+  title: "Coffee Break @ Scout Café"
   place: "Scout Café"
   service: true
   description: "The best time to talk with speakers and attendees"
@@ -318,7 +318,7 @@
 
 -
   id: 338
-  title: "Git Dance"
+  title: "Git Dance @ Atrium"
   description: "I will try to explain Git to you, without computers ..."
   subtype: presentation
   speakers: [026]
