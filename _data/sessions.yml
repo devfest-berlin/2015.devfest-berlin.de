@@ -26,7 +26,7 @@
   place: "Atrium"
   language: en
   service: true
-  description: "Learn what we have prepared for you, where the rooms are and what else is imporatant to know."
+  description: "Learn what we have prepared for you, where the rooms are and what else is important to know."
 -
   id: 203
   title: "Beacons: Microlocation, Context and the Physical Web"
