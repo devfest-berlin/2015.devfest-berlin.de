@@ -52,9 +52,9 @@ navigationLinks:
 # - {permalink: "/hackathon/", text: "Hackathon"}
  - {permalink: "https://plus.google.com/+DevFestBerlin", text: "Google+ Page"}
 bottomNavigationLinks:
- - {link: "/#tickets", text: "Buy a ticket"}
+ - {link: "/#tickets", text: "Redeem ticket code"}
 rightNavigationButtons:
- - {link: "/#tickets", text: "Buy a ticket"}
+ - {link: "/#tickets", text: "Redeem ticket code"}
 
 # Hero Block
 heroImage: "hero.jpg"
