@@ -52,9 +52,9 @@ navigationLinks:
 # - {permalink: "/hackathon/", text: "Hackathon"}
  - {permalink: "https://plus.google.com/+DevFestBerlin", text: "Google+ Page"}
 bottomNavigationLinks:
- - {link: "/#tickets", text: "Redeem ticket code"}
+# - {link: "/#tickets", text: "Redeem ticket code"}
 rightNavigationButtons:
- - {link: "/#tickets", text: "Redeem ticket code"}
+# - {link: "/#tickets", text: "Redeem ticket code"}
 
 # Hero Block
 heroImage: "hero.jpg"
@@ -64,7 +64,7 @@ typeoutTextValues: '"Karlsruhe?", "Hamburg?", "Vienna?", "Malta?", "Zurich?", "B
 typeoutFallback: "Berlin 2015"
 heroButtons:
  - {permalink: "/schedule", text: "See the schedule"} 
- - {permalink: "/#tickets", text: "Redeem ticket code"}
+# - {permalink: "/#tickets", text: "Redeem ticket code"}
 
 # About Block
 aboutTitle: "About DevFest Berlin"
