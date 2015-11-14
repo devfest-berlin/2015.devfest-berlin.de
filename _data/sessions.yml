@@ -3,7 +3,7 @@
   id: 101
   title: "Lunch Break @ Casino"
   place: "Scout Casino"
-  service: true
+  service: true018
   description: "Make new friends while sharing a meal"
 -
   id: 102
@@ -94,7 +94,7 @@
   id: 303
   title: "Fireside chat with all speakers of the Android track"
   description: "Ask the speakers anything about their talks or related developments in their field."
-  speakers: [012,013,014,017,018,024]
+  speakers: [012,013,014,017,024]
   subtype: discussion
   language: en
 -
