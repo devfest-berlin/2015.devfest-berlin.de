@@ -101,7 +101,7 @@
   id: 304
   title: "Fireside chat with all speakers of the Web track"
   description: "Ask the speakers anything about their talks or related developments in their field."
-  speakers: [009,010,020,021,022]
+  speakers: [010,020,021]
   subtype: discussion
   language: en
 -
