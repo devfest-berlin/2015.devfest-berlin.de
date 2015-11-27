@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  ""
+title:  "DevFest Berlin 2015 in pictures"
 date:   2015-11-26 21:21:21
 isStaticPost: false
 ---
